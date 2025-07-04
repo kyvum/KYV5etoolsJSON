@@ -920,11 +920,11 @@
                 "{@i 3rd-level Chieftain feature}",
                 "You learn to craft {@item Totem|KyvumsShaman}s capable of channeling magic from powerful spirits",
                 "You can craft up to 2 totems during a long rest as you enter a meditative trance, or 1 during a short rest. Outside of rests, crafting takes 1 hour per totem.",
-                "Each totem weighs 6 lbs and costs 5 cp in materials.",
-                "At level 3 you can charge 1 totem at a time; at level 14, 2; and at level 18, 3. Maintaining charge requires a Magic Action each turn and {@status Concentration}. If concentration breaks, you must use both Magic Action and Bonus Action next turn to regain it or your totem is destroyed.",
-                "Charged totems share your hit points and AC; AoE damage hits both. A totem is destroyed if you take more than half your hit points in damage in one turn, if this damage would drop you to or below 0 HP, you drop to 1 instead and the totem is destroyed. This can only occur once per Long Rest.",
-                "Deployed Totems occupy a 5ft space or wielded",
-                "When wielded, a {@item Totem|KyvumsShaman} can be used as a two-handed weapon you are proficient with and can be used as a spellcasting focus."
+                "Each totem weighs 6 lbs and costs 5 cp in materials to craft.",
+                "At 3rd Level you can maintain charge on one totem at a time, this increases to two at 12th Level and three at 18th Level. Maintaining charge requires a Magic Action each turn and {@status Concentration}. If concentration breaks, you must use both Magic Action and Bonus Action next turn to regain it or your totem is destroyed.",
+                "Totems can be deployed to occupy a 5ft space or wielded, deployed totems automatically fail Dexterity saving throws",
+                "Deployed totems that are charged have their hit points linked to yours and have the same AC as you; if AoE damage hits both, you take damage for both. A totem is destroyed if you take more than half your hit points in damage in one turn, if the linked damage would drop you to or below 0 HP, you drop to 1 instead and the totem is destroyed. This can only occur once per Long Rest.",
+                "When wielded, a {@item Totem|KyvumsShaman} can be used as a two-handed weapon you are proficient with and can be used as a spellcasting focus. A wielded totem also does not take damage."
             ]
         },
         {
@@ -939,7 +939,7 @@
             "entries": [
                 "{@i 3rd-level Chieftain feature}",
                 "{@i {@b Totem Range:}} 60ft",
-                "Deploy a Totem of Consonance: Your Calls provide both their boon to allies and hindrance to enemies simultaneously."
+                "Charge a Totem of Consonance: Your Calls provide both their boon to allies and hindrance to enemies simultaneously."
             ]
         },
         {
@@ -973,7 +973,7 @@
                 "{@i 10th-level Chieftain feature}",
                 "{@i {@b Totem Radius:}} 60ft",
                 "{@i {@b Duration:}} 1 minute",
-                "Deploy a Totem of Flow: Enemies within the totem's radius must make a Constitution save each turn or take damage equal to your Wisdom modifier + proficiency bonus.",
+                "Charge a Totem of Flow: Enemies within the totem's radius must make a Constitution save each turn or take damage equal to your Wisdom modifier + proficiency bonus.",
                 "You can then grant that amount as temporary HP to an ally, you can do this an amount of times equal to your Proficiency Bonus per turn."
             ]
         },
@@ -989,7 +989,7 @@
             "entries": [
                 "{@i 18th-level Chieftain feature}",
                 "{@i {@b Totem Radius:}} 30ft",
-                "Deploy a Totem of Cycles: Each turn, choose a boon for an ally or a hindrance for a foe lasting until your next turn. Each effect can be used once every 3 turns.",
+                "Charge a Totem of Cycles: Each turn, choose a boon for an ally or a hindrance for a foe lasting until your next turn. Each effect can be used once every 3 turns.",
                 {
                     "type": "list",
                     "items": [
@@ -1021,7 +1021,7 @@
             "entries": [
                 "{@i 20th-level Chieftain feature}",
                 "{@i {@b Totem Radius:}} 60ft",
-                "Deploy the Chief’s Totem, you cannot have any other charged totems while the Chief's Totem is charged.",
+                "Charge the Chief’s Totem, you cannot have any other charged totems while the Chief's Totem is charged.",
                 "Allies within the radius of the totem gain a bonus to attack and damage rolls equal to your Wisdom modifier + proficiency bonus.",
                 "Once per turn, choose an ally to gain temporary HP equal to 10 + your Wisdom modifier + proficiency bonus; enemies adjacent to that ally must make a Wisdom save or become {@condition frightened} of them."
             ]
