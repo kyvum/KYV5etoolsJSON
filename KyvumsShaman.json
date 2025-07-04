@@ -2,7 +2,7 @@
     "_meta": {
         "dateAdded": 1756867200,
         "dateLastModified": 1756867200,
-        "_dateLastModifiedHash": "placeholde",
+        "_dateLastModifiedHash": "placeholder",
         "edition": "classic",
         "sources": [
             {
@@ -1442,15 +1442,17 @@
             "source": "KyvumsShaman",
             "page": 1,
             "type": "M|XPHB",
-            "rarity": "common",
+            "rarity": "none",
             "weight": 6,
-            "value": 0.05,
+            "value": 5,
             "weaponCategory": "simple",
             "dmgType": "B",
             "dmg1": "1d8",
+            "property": [
+                "2H|XPHB"
+            ],
             "entries": [
-                "A handcrafted totem used by shamans as a spellcasting focus.",
-                "You can wield the totem with two hands to make melee attacks dealing {@damage 1d8} bludgeoning damage."
+                "{@i {@b Two-Handed.}} A Two-Handed weapon requires two hands when you attack with it."
             ]
         }
     ],
