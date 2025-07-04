@@ -1436,6 +1436,24 @@
             ]
         }
     ],
+    "item": [
+        {
+            "name": "Totem",
+            "source": "KyvumsShaman",
+            "page": 1,
+            "type": "M|XPHB",
+            "rarity": "common",
+            "weight": 6,
+            "value": 0.05,
+            "weaponCategory": "simple",
+            "dmgType": "B",
+            "dmg1": "1d8",
+            "entries": [
+                "A handcrafted totem used by shamans as a spellcasting focus.",
+                "You can wield the totem with two hands to make melee attacks dealing {@damage 1d8} bludgeoning damage."
+            ]
+        }
+    ],
     "spell": [
         {
             "name": "Stormsurge",
