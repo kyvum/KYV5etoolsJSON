@@ -1450,6 +1450,9 @@
             "dmg1": "1d8",
             "property": [
                 "2H|XPHB"
+            ],
+            "entries": [
+                "If a wielded Totem is not charged it's damage die becomes a {@damage 1d4} and it also has the {@footnote Heavy|You have Disadvantage on attack rolls with a Heavy weapon if it's a Melee weapon and your Strength score isn't at least 13 or if it's a Ranged weapon and your Dexterity score isn't at least 13.} property."
             ]
         }
     ],
