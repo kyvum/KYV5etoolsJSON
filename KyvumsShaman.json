@@ -1,0 +1,1498 @@
+{
+    "_meta": {
+        "dateAdded": 1756867200,
+        "dateLastModified": 1756867200,
+        "_dateLastModifiedHash": "placeholde",
+        "edition": "classic",
+        "sources": [
+            {
+                "json": "KyvumsShaman",
+                "abbreviation": "KYVS",
+                "full": "Kyvum's Shaman",
+                "authors": [
+                    "Kyvum"
+                ],
+                "convertedBy": [
+                    "Kyvum"
+                ],
+                "version": "v1",
+                "color": "626cf3",
+                "url": "https://docs.google.com/document/d/178_k6xkV8jZIYn0o_R5iKVW3DBSC6DYdZfC3s27BtLA/",
+                "dateReleased": "2025-07-04"
+            }
+        ]
+    },
+    "class": [
+        {
+            "name": "Shaman",
+            "source": "KyvumsShaman",
+            "hd": {
+                "number": 1,
+                "faces": 8
+            },
+            "proficiency": [
+                "wis",
+                "dex"
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium"
+                ],
+                "weapons": [
+                    "simple"
+                ],
+                "tools": [
+                    "{@item Herbalism Kit|PHB}"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcana",
+                                "perception",
+                                "insight",
+                                "survival",
+                                "nature",
+                                "religion",
+                                "medicine",
+                                "animal handling"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) a {@item wooden staff|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+                    "(a) a {@item shortbow|phb} and {@item arrows (20)|phb|20 arrows} or (b) 5 {@item javelin|phb|javelins}",
+                    "(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
+                    "(a) {@item leather armor|phb} or (b) {@item hide armor|phb}"
+                ],
+                "goldAlternative": "{50|Starting Gold}",
+                "defaultData": [
+                    {
+                        "a": [
+                            "quarterstaff|phb"
+                        ],
+                        "b": [
+                            {
+                                "equipmentType": "weaponSimple"
+                            }
+                        ]
+                    },
+                    {
+                        "a": [
+                            "shortbow|phb",
+                            "arrows (20)|phb"
+                        ],
+                        "b": [
+                            {
+                                "item": "javelin|phb",
+                                "quantity": 5
+                            }
+                        ]
+                    },
+                    {
+                        "a": [
+                            "priest's pack|phb"
+                        ],
+                        "b": [
+                            "explorer's pack|phb"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "Leather armor|phb"
+                        ],
+                        "b": [
+                            "Hide Armor|phb"
+                        ]
+                    }
+                ]
+            },
+            "multiclassing": {
+                "requirements": {
+                    "wis": 13
+                },
+                "proficienciesGained": {
+                    "armor": [
+                        "light",
+                        "medium"
+                    ],
+                    "weapons": [
+                        "simple"
+                    ],
+                    "tools": [
+                        "{@item Herbalism Kit|PHB}"
+                    ],
+                    "skills": [
+                        {
+                            "choose": {
+                                "from": [
+                                    "arcana",
+                                    "perception",
+                                    "insight",
+                                    "survival",
+                                    "nature",
+                                    "religion",
+                                    "medicine",
+                                    "animal handling"
+                                ],
+                                "count": 1
+                            }
+                        }
+                    ]
+                }
+            },
+            "classTableGroups": [
+                {
+                    "title": "Spellcasting & The Call Progression",
+                    "colLabels": [
+                        "The Call",
+                        "Cantrips",
+                        "1st",
+                        "2nd",
+                        "3rd",
+                        "4th",
+                        "5th",
+                        "6th",
+                        "7th",
+                        "8th",
+                        "9th"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "2",
+                            "2",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "2",
+                            "3",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "2",
+                            "4",
+                            "2",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "2",
+                            "4",
+                            "3",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "3",
+                            "2",
+                            "4",
+                            "3",
+                            "2",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "3",
+                            "2",
+                            "4",
+                            "3",
+                            "3",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "3",
+                            "3",
+                            "4",
+                            "3",
+                            "3",
+                            "1",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "3",
+                            "3",
+                            "4",
+                            "3",
+                            "3",
+                            "2",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "4",
+                            "3",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "1",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "4",
+                            "3",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "4",
+                            "3",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "3",
+                            "1",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "4",
+                            "3",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "3",
+                            "1",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "5",
+                            "4",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "5",
+                            "4",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "5",
+                            "4",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "1",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "5",
+                            "4",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "1",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "6",
+                            "4",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "1",
+                            "1",
+                            "-"
+                        ],
+                        [
+                            "6",
+                            "4",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "1",
+                            "1",
+                            "-"
+                        ],
+                        [
+                            "6",
+                            "4",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "1",
+                            "1",
+                            "1"
+                        ],
+                        [
+                            "7",
+                            "4",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "1",
+                            "1",
+                            "1"
+                        ]
+                    ]
+                }
+            ],
+            "classFeatures": [
+                "Spellcasting|Shaman|KyvumsShaman|1",
+                "The Call|Shaman|KyvumsShaman|1",
+                "Call of the Tribe|Shaman|KyvumsShaman|1",
+                "Call of the Wind|Shaman|KyvumsShaman|2",
+                {
+                    "classFeature": "Subclass Feature|Shaman|KyvumsShaman|3",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Shaman|KyvumsShaman|4",
+                "Return of the Spirits|Shaman|KyvumsShaman|5",
+                {
+                    "classFeature": "Subclass Feature|Shaman|KyvumsShaman|6",
+                    "gainSubclassFeature": true
+                },
+                "Call of the Spirits|Shaman|KyvumsShaman|7",
+                "Ability Score Improvement|Shaman|KyvumsShaman|8",
+                {
+                    "classFeature": "Subclass Feature|Shaman|KyvumsShaman|10",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Shaman|KyvumsShaman|12",
+                "Empowered Calls|Shaman|KyvumsShaman|15",
+                "Ability Score Improvement|Shaman|KyvumsShaman|16",
+                {
+                    "classFeature": "Subclass Feature|Shaman|KyvumsShaman|18",
+                    "gainSubclassFeature": true
+                },
+                "Epic Boon|Shaman|KyvumsShaman|19",
+                "Ability Score Improvement|Shaman|KyvumsShaman|20"
+            ],
+            "spellcastingAbility": "wis",
+            "casterProgression": "full",
+            "preparedSpells": "true",
+            "spellsKnownProgression": [
+                3,
+                3,
+                4,
+                4,
+                5,
+                5,
+                6,
+                6,
+                7,
+                7,
+                8,
+                8,
+                9,
+                9,
+                10,
+                10,
+                11,
+                11,
+                12,
+                12
+            ],
+            "cantripProgression": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+            ],
+            "classSpells": [
+                "Stormsurge|KyvumsShaman",
+                "Guidance",
+                "Mending",
+                "Message",
+                "Thunderclap",
+                "Shocking Grasp",
+                "True Strike",
+                "Animal Friendship",
+                "Bane",
+                "Bless",
+                "Cure Wounds",
+                "Detect Magic",
+                "Detect Poison and Disease",
+                "Find Familiar",
+                "Healing Word",
+                "Heroism",
+                "Hex",
+                "Identify",
+                "Longstrider",
+                "Speak With Animals",
+                "Thunderwave",
+                "Aid",
+                "Augury",
+                "Animal Messenger",
+                "Beast Sense",
+                "Darkvision",
+                "Detect Thoughts",
+                "Enlarge/Reduce",
+                "Gentle Repose",
+                "Gust of Wind",
+                "Lesser Restoration",
+                "Misty Step",
+                "Protection From Poison",
+                "See Invisibility",
+                "Spider Climb",
+                "Summon Beast",
+                "Warding Bond",
+                "Blink",
+                "Call Lightning",
+                "Clairvoyance",
+                "Conjure Animals",
+                "Create Food and Water",
+                "Gaseous Form",
+                "Lightning Arrow",
+                "Lightning Bolt",
+                "Mass Healing Word",
+                "Nondetection",
+                "Protection From Energy",
+                "Remove Curse",
+                "Revivify",
+                "Sending",
+                "Sleet Storm",
+                "Wind Wall",
+                "Water Walk",
+                "Aura of Life",
+                "Aura of Purity",
+                "Death Ward",
+                "Conjure Minor Elementals",
+                "Divination",
+                "Ice Storm",
+                "Freedom of Movement",
+                "Summon Elemental",
+                "Dimension Door",
+                "Conjure Elemental",
+                "Steel Wind Strike",
+                "Swift Quiver",
+                "Scrying",
+                "Mass Cure Wounds",
+                "Greater Restoration",
+                "Reincarnate",
+                "Contagion",
+                "Chain Lightning",
+                "Heal",
+                "Wind Walk",
+                "True Seeing",
+                "Otto’s Irresistible Dance",
+                "Find the Path",
+                "Contingency",
+                "Etherealness",
+                "Power Word Fortify",
+                "Regenerate",
+                "Resurrection",
+                "Fire Storm",
+                "Animal Shapes",
+                "Control Weather",
+                "Antipathy/Sympathy",
+                "Wish",
+                "True Resurrection",
+                "Storm of Vengeance",
+                "Mass Heal",
+                "Foresight",
+                "Astral Projection",
+                "Power Word Heal"
+            ],
+            "optionalfeatureProgression": [
+                {
+                    "name": "The Call",
+                    "featureType": [
+                        "KYVS"
+                    ],
+                    "progression": {
+                        "1": 1,
+                        "2": 2,
+                        "5": 3,
+                        "9": 4,
+                        "13": 5,
+                        "17": 6,
+                        "20": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Spellcasting",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level feature}",
+                "You have learned to channel the energy of your spiritual guides and embrace the power of storms.",
+                "{@i {@b Cantrips:}} You know two cantrips at Level 1 selected from the spell list.",
+                "{@i {@b Spell Slots:}} The leveling table above shows your spell slots for Level 1+ spells, you regain spell slots on a Long Rest.",
+                "{@i {@b Prepared Spells of Level 1+:}} You prepare the list of Level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 spells from the Shaman spell list.",
+                "{@i {@b Changing Your Prepared Spells:}} When you finish a Long Rest, you can change your list of Prepared Spells, replacing any other Shaman spells for which you have spell slots.",
+                "{@i {@b The Call:}} Using a Call will take an action unless specified otherwise,  as well as consume a Call slot. You regain all your Call slots on a Long Rest or half with a minimum of 1 on a Short Rest.",
+                "{@i {@b Spellcasting Ability:}} Wisdom is your spellcasting ability for your Shaman spells.",
+                "{@i {@b Spellcasting Focus:}} You can use a Druidic Focus or Crafted Totem as a Spellcasting Focus for your Shaman spells."
+            ]
+        },
+        {
+            "name": "The Call",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level feature}",
+                "You can Call upon the spirits to issue boons or curses. Each Call takes an action unless specified otherwise.",
+                "You regain all expended uses of Calls when you finish a long rest or half as much rounded down on a short rest."
+            ]
+        },
+        {
+            "name": "Call of the Tribe",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level feature}",
+                "Channel ancestral spirits to bolster your allies or hinder your enemies.",
+                "{@i {@b Radius:}} 30ft",
+                "{@i {@b Duration:}} 1 minute",
+                "{@b Choose one effect:}",
+                "You give up to 5 allies including yourself temporary health equal to your proficiency bonus.",
+                "You force up to 3 enemies to roll a Wisdom saving throw against your Spellcaster DC, if they fail they will have their Armor Class reduced by half of your proficiency bonus rounded down."
+            ]
+        },
+        {
+            "name": "Call of the Wind",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 2,
+            "entries": [
+                "{@i 2nd-level feature}",
+                "Call forth the power of the wind to manifest itself on the battlefield.",
+                "{@i {@b Range:}} 30ft",
+                "{@i {@b Duration:}} 1 minute",
+                "{@i {@b Radius:}} 10ft Cube",
+                "{@b Choose a trajectory for powerful winds to beat down.}",
+                "All creatures Large or smaller facing against the wind will have their movement speed reduced by 5ft and will be unable to gain advantage on their melee attacks.",
+                "All creatures Large or smaller facing the same direction as the wind will have their movement speed increased by 5ft and cannot have disadvantage imposed on their melee attacks.",
+                "Non-magical projectiles will also have disadvantage when fired into the wind regardless of direction. The wind also can push any objects weighing less than 70lbs."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level feature}",
+                "You gain features from your chosen Shaman subclass."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 4,
+            "entries": [
+                "{@i 4th-level feature}",
+                "You gain the Ability Score Improvement feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 8, 12, and 16."
+            ]
+        },
+        {
+            "name": "Return of the Spirits",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 5,
+            "entries": [
+                "{@i 5th-level feature}",
+                "Once on each of your turns, if you have no uses of The Call left, you can give yourself one by expending a spell slot (no action required).",
+                "In addition, you can expend one use of The Call (no action required) to give yourself a level 1 spell slot, but you can’t do so again until you finish a Long Rest."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level feature}",
+                "You gain additional features from your subclass."
+            ]
+        },
+        {
+            "name": "Call of the Spirits",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 7,
+            "entries": [
+                "{@i 7th-level feature}",
+                "Call forth the power of powerful spirits to guide you and your allies or devastate your foes.",
+                "{@i {@b Range:}} 30ft",
+                "{@i {@b Duration:}} 1 minute",
+                "{@b Choose one:}",
+                "Up to 5 allies including yourself are granted the assistance of your spiritual guides, each ally will receive a bonus to their attack rolls equal to half of your proficiency bonus rounded down.",
+                "Up to 3 enemies to be hindered by the spirits, each enemy will have their attack rolls reduced by half your proficiency bonus rounded down and any spells they cast requiring saving throws will have their DC reduced by 1."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 8,
+            "entries": [
+                "{@i 8th-level feature}",
+                "You gain the Ability Score Improvement feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 8, 12, and 16."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level feature}",
+                "You gain additional features from your subclass."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 12,
+            "entries": [
+                "{@i 12th-level feature}",
+                "You gain the Ability Score Improvement feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 8, 12, and 16."
+            ]
+        },
+        {
+            "name": "Empowered Calls",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 15,
+            "entries": [
+                "{@i 15th-level feature}",
+                "The spirits reverberate the power of your Calls",
+                "Your Calls last twice as long."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 16,
+            "entries": [
+                "{@i 16th-level feature}",
+                "You gain the Ability Score Improvement feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 8, 12, and 16."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 18,
+            "entries": [
+                "{@i 18th-level feature}",
+                "You gain additional features from your subclass."
+            ]
+        },
+        {
+            "name": "Epic Boon",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 19,
+            "entries": [
+                "{@i 19th-level feature}",
+                "You gain an Epic Boon feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 20,
+            "entries": [
+                "{@i 20th-level feature}",
+                "You gain the Ability Score Improvement feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 8, 12, and 16."
+            ]
+        }
+    ],
+    "subclass": [
+        {
+            "name": "Chieftain",
+            "source": "KyvumsShaman",
+            "page": 2,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "shortName": "Chieftain",
+            "subclassFeatures": [
+                "Totemcraft|Shaman|KyvumsShaman|Chieftain|KyvumsShaman|3",
+                "Totem of Consonance|Shaman|KyvumsShaman|Chieftain|KyvumsShaman|3",
+                "Call of the Ancestors|Shaman|KyvumsShaman|Chieftain|KyvumsShaman|6",
+                "Totem of Flow|Shaman|KyvumsShaman|Chieftain|KyvumsShaman|10",
+                "Totem of Cycles|Shaman|KyvumsShaman|Chieftain|KyvumsShaman|18",
+                "Chief’s Totem|Shaman|KyvumsShaman|Chieftain|KyvumsShaman|20"
+            ]
+        },
+        {
+            "name": "Animist",
+            "source": "KyvumsShaman",
+            "page": 3,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "shortName": "Animist",
+            "subclassFeatures": [
+                "Spirit Guide|Shaman|KyvumsShaman|Animist|KyvumsShaman|3",
+                "Enhanced Guidance|Shaman|KyvumsShaman|Animist|KyvumsShaman|6",
+                "Call of the Wild|Shaman|KyvumsShaman|Animist|KyvumsShaman|10",
+                "Bestial Trance|Shaman|KyvumsShaman|Animist|KyvumsShaman|18",
+                "Spiritual Convergence|Shaman|KyvumsShaman|Animist|KyvumsShaman|20"
+            ]
+        },
+        {
+            "name": "Stormseer",
+            "source": "KyvumsShaman",
+            "page": 4,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "shortName": "Stormseer",
+            "subclassFeatures": [
+                "Stormsurge|Shaman|KyvumsShaman|Stormseer|KyvumsShaman|3",
+                "Power of Storms|Shaman|KyvumsShaman|Stormseer|KyvumsShaman|3",
+                "Call of the Storm|Shaman|KyvumsShaman|Stormseer|KyvumsShaman|6",
+                "Splinterstorm|Shaman|KyvumsShaman|Stormseer|KyvumsShaman|10",
+                "Eye of the Storm|Shaman|KyvumsShaman|Stormseer|KyvumsShaman|18",
+                "Windwalker|Shaman|KyvumsShaman|Stormseer|KyvumsShaman|20"
+            ],
+            "additionalSpells": [
+                {
+                    "known": {
+                        "3": [
+                            "gust of wind",
+                            "thunderwave"
+                        ],
+                        "5": [
+                            "sleet storm",
+                            "call lightning",
+                            "wind wall"
+                        ],
+                        "9": [
+                            "ice storm"
+                        ],
+                        "12": [
+                            "wind walk",
+                            "chain lightning"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Totemcraft",
+            "source": "KyvumsShaman",
+            "page": 1,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Chieftain",
+            "subclassSource": "KyvumsShaman",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Chieftain feature}",
+                "You learn to craft totems capable of channeling magic from powerful spirits",
+                "You can craft up to 2 totems during a long rest as you enter a meditative trance, or 1 during a short rest. Outside of rests, crafting takes 1 hour per totem.",
+                "Each totem weighs 6 lbs and costs 5 cp in materials.",
+                "At level 3 you can charge 1 totem at a time; at level 14, 2; and at level 18, 3. Maintaining charge requires a Magic Action each turn and {@status Concentration}. If concentration breaks, you must use both Magic Action and Bonus Action next turn to regain it or your totem is destroyed.",
+                "Charged totems share your hit points and AC; AoE damage hits both. A totem is destroyed if you take more than half your hit points in damage in one turn, if this damage would drop you to or below 0 HP, you drop to 1 instead and the totem is destroyed. This can only occur once per Long Rest.",
+                "Deployed Totems occupy a 5ft space or wielded",
+                "When wielded, a totem can be used as a two-handed weapon you are proficient with and can be used as a spellcasting focus."
+            ]
+        },
+        {
+            "name": "Totem of Consonance",
+            "source": "KyvumsShaman",
+            "page": 1,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Chieftain",
+            "subclassSource": "KyvumsShaman",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Chieftain feature}",
+                "{@i {@b Totem Range:}} 60ft",
+                "Deploy a Totem of Consonance: Your Calls provide both their boon to allies and hindrance to enemies simultaneously."
+            ]
+        },
+        {
+            "name": "Call of the Ancestors",
+            "source": "KyvumsShaman",
+            "page": 1,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Chieftain",
+            "subclassSource": "KyvumsShaman",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level Chieftain feature}",
+                "{@i {@b Range:}} 30ft",
+                "{@i {@b Duration:}} 1 minute",
+                "{@b Choose one:}",
+                "Confer a boon to an ally, enemies have disadvantage attacking them.",
+                "Hinder a foe, allies have advantage on attacks against them."
+            ]
+        },
+        {
+            "name": "Totem of Flow",
+            "source": "KyvumsShaman",
+            "page": 1,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Chieftain",
+            "subclassSource": "KyvumsShaman",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level Chieftain feature}",
+                "{@i {@b Totem Radius:}} 60ft",
+                "{@i {@b Duration:}} 1 minute",
+                "Deploy a Totem of Flow: Enemies within the totem's radius must make a Constitution save each turn or take damage equal to your Wisdom modifier + proficiency bonus.",
+                "You can then grant that amount as temporary HP to an ally, you can do this an amount of times equal to your Proficiency Bonus per turn."
+            ]
+        },
+        {
+            "name": "Totem of Cycles",
+            "source": "KyvumsShaman",
+            "page": 1,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Chieftain",
+            "subclassSource": "KyvumsShaman",
+            "level": 18,
+            "entries": [
+                "{@i 18th-level Chieftain feature}",
+                "{@i {@b Totem Radius:}} 30ft",
+                "Deploy a Totem of Cycles: Each turn, choose a boon for an ally or a hindrance for a foe lasting until your next turn. Each effect can be used once every 3 turns.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Boons:}",
+                        "Bonus to all Attack rolls equal to Shaman’s wisdom modifier.",
+                        "Bonus to Damage rolls equal to  Shaman’s wisdom modifier.",
+                        "Bonus to Armor Class equal to  Shaman’s wisdom modifier.",
+                        "Bonus to one Saving Throw of choice equal to half of Shaman’s proficiency bonus.",
+                        "Temporary Health equal to  Shaman’s wisdom modifier plus proficiency bonus.",
+                        "{@b Hindrances:}",
+                        "Reduction to all Attack rolls equal to Shaman’s wisdom modifier.",
+                        "Reduction to all Damage rolls equal to Shaman’s wisdom modifier.",
+                        "Reduction to Armor Class equal to Shaman’s wisdom modifier.",
+                        "Reduction to one Saving Throw of choice equal to half of Shaman’s proficiency bonus.",
+                        "Damage equal to Shaman’s wisdom modifier plus proficiency bonus."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chief’s Totem",
+            "source": "KyvumsShaman",
+            "page": 1,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Chieftain",
+            "subclassSource": "KyvumsShaman",
+            "level": 20,
+            "entries": [
+                "{@i 20th-level Chieftain feature}",
+                "{@i {@b Totem Radius:}} 60ft",
+                "Deploy the Chief’s Totem, you cannot have any other charged totems while the Chief's Totem is charged.",
+                "Allies within the radius of the totem gain a bonus to attack and damage rolls equal to your Wisdom modifier + proficiency bonus.",
+                "Once per turn, choose an ally to gain temporary HP equal to 10 + your Wisdom modifier + proficiency bonus; enemies adjacent to that ally must make a Wisdom save or become {@condition frightened} of them."
+            ]
+        },
+        {
+            "name": "Spirit Guide",
+            "source": "KyvumsShaman",
+            "page": 2,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Animist",
+            "subclassSource": "KyvumsShaman",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Animist feature}",
+                "Choose a permanent spirit animal guide when you gain this feature: Bear, Puma, Eagle, Wolf, or Owl. Each grants unique benefits and a skill in which you gain expertise:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "{@b Bear}",
+                            "entries": [
+                                "The Bear's spirit grants you a thickened hide and improved stamina. Your hit die becomes a d10 and you add 4 to your maximum hit points; at future levels, you receive 6 + your Constitution modifier for determining hit points.",
+                                "Expertise: Intimidation"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Puma}",
+                            "entries": [
+                                "The guidance of the Puma enhances your agility and martial ability in close combat. You gain proficiency with melee martial weapons and can learn one Weapon Mastery with a melee weapon, which you can change upon leveling up.",
+                                "Expertise: Stealth"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Eagle}",
+                            "entries": [
+                                "The Eagle's spirit improves your vision and ability with ranged weaponry. You gain proficiency with ranged martial weapons and can learn one Weapon Mastery with a ranged weapon, which you can change upon leveling up.",
+                                "Expertise: Perception"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Wolf}",
+                            "entries": [
+                                "The Wolf guide improves your groupthink, working tactically with your allies to win battles. When within 5 feet of an ally, you both gain +1 to your attack rolls. You can confer this bonus to multiple allies but do not gain multiple instances of the bonus.",
+                                "Expertise: Athletics"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Owl}",
+                            "entries": [
+                                "The wisdom of the Owl provides you with great foresight and improved ability in darkness. Within 60 feet, you can see in dim light as if it were bright light, and in darkness as if it were dim light.",
+                                "Expertise: Insight"
+                            ]
+                        }
+                    ]
+                },
+                "These benefits reflect your bond with your chosen spirit, cannot be changed and remain with you permanently."
+            ]
+        },
+        {
+            "name": "Enhanced Guidance",
+            "source": "KyvumsShaman",
+            "page": 2,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Animist",
+            "subclassSource": "KyvumsShaman",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level Animist feature}",
+                "Your connection to your spirit deepens, enhancing its power and allowing you to use your Calls as a bonus action. Additionally, your spirit grants the following upgrades:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "{@b Bear}",
+                            "entries": [
+                                "Gain resistance to bludgeoning, piercing, and slashing damage while you have an active Call.",
+                                "At 12th level, you also gain +1 AC."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Puma}",
+                            "entries": [
+                                "Gain the Extra Attack feature: you can attack twice instead of once whenever you take the Attack action on your turn.",
+                                "At 12th level, you can make two extra attacks with melee weapons, and your climb speed becomes equal to your walking speed."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Eagle}",
+                            "entries": [
+                                "Gain the Extra Attack feature: you can attack twice instead of once whenever you take the Attack action on your turn.",
+                                "At 12th level, you can make two extra attacks with ranged weapons, and your ranged attacks ignore up to half cover."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Wolf}",
+                            "entries": [
+                                "If an ally within 5 feet of you attacks a foe also within 5 feet of you, you can use your reaction to attack that target.",
+                                "At 12th level, you gain advantage on this reaction attack and confer advantage to the ally who made the attack on their next attack."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Owl}",
+                            "entries": [
+                                "Each turn you successfully hit an enemy or they fail a saving throw from one of your spells, you gain a stacking +1 bonus damage with your next spell or attack. This resets upon missing and stacks up to your Wisdom modifier.",
+                                "At 12th level, the bonus becomes +2 per stack and can stack up to double your Wisdom modifier."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Call of the Wild",
+            "source": "KyvumsShaman",
+            "page": 2,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Animist",
+            "subclassSource": "KyvumsShaman",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level Animist feature}",
+                "Your spirit animal fills you and your party with power.",
+                "{@i {@b Range:}} 30ft",
+                "{@i {@b Duration:}} 1 minute",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "{@b Bear}",
+                            "entries": [
+                                "Receive +1 AC."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Puma}",
+                            "entries": [
+                                "Gain a bonus to Dexterity skill checks and saving throws equal to your Wisdom modifier."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Eagle}",
+                            "entries": [
+                                "Your next attack deals {@damage 1d10} bonus weapon damage to the last target you struck with a ranged weapon attack."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Wolf}",
+                            "entries": [
+                                "You have advantage on weapon attacks."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Owl}",
+                            "entries": [
+                                "Gain 60-foot darkvision."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bestial Trance",
+            "source": "KyvumsShaman",
+            "page": 2,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Animist",
+            "subclassSource": "KyvumsShaman",
+            "level": 18,
+            "entries": [
+                "{@i 18th-level Animist feature}",
+                "Battle has become a trancelike state where your mind and body are supplemented by the guidance of your spirit animal.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "{@b Bear}",
+                            "entries": [
+                                "As a bonus action, you let loose a bestial roar. Make an Intimidation check; all enemies engaged with you who can hear must make a Wisdom saving throw against your roll or become {@condition frightened} of you."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Puma}",
+                            "entries": [
+                                "You can Disengage or Dash as a bonus action."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Eagle}",
+                            "entries": [
+                                "Gain advantage on ranged attacks made while you are at least 10 feet above your target."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Wolf}",
+                            "entries": [
+                                "When you use your reaction from Enhanced Guidance to attack and hit, the ally you assisted gains advantage on their next attack."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Owl}",
+                            "entries": [
+                                "Gain 30-foot Truesight. When you use Call of the Wild, allies affected also gain this Truesight."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Spiritual Convergence",
+            "source": "KyvumsShaman",
+            "page": 2,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Animist",
+            "subclassSource": "KyvumsShaman",
+            "level": 20,
+            "entries": [
+                "{@i 20th-level Animist feature}",
+                "Your spirit animal has become entwined with your spirit. You now embody the full extent of its power.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "{@b Bear}",
+                            "entries": [
+                                "Your maximum hit points increase by 21, your hit die becomes d12, and your AC bonus from Enhanced Guidance becomes +2."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Puma}",
+                            "entries": [
+                                "You deal an extra {@damage 1d10} weapon damage on the first attack you hit with each round. Your run speed increases by 10 feet."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Eagle}",
+                            "entries": [
+                                "Your long jump distance is tripled."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Wolf}",
+                            "entries": [
+                                "The attack roll bonus from your Spirit Guide feature increases to +3."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "{@b Owl}",
+                            "entries": [
+                                "You learn a foe’s weaknesses, resistances, and immunities when using the Spirit Guide feature. You can also cast {@spell detect thoughts} without expending a spell slot."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stormsurge",
+            "source": "KyvumsShaman",
+            "page": 3,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Stormseer",
+            "subclassSource": "KyvumsShaman",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Stormseer feature}",
+                "You learn the {@spell Stormsurge|KyvumsShaman} cantrip, which does not count against your known cantrips."
+            ]
+        },
+        {
+            "name": "Power of Storms",
+            "source": "KyvumsShaman",
+            "page": 3,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Stormseer",
+            "subclassSource": "KyvumsShaman",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Stormseer feature}",
+                "You gain additional spells at certain levels, which are always prepared and don’t count against your prepared spells:",
+                {
+                    "type": "table",
+                    "caption": "Stormseer Bonus Spells",
+                    "colLabels": [
+                        "Shaman Level",
+                        "Spells"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "{@spell gust of wind}, {@spell thunderwave}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell sleet storm}, {@spell call lightning}, {@spell wind wall}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell ice storm}"
+                        ],
+                        [
+                            "12th",
+                            "{@spell wind walk}, {@spell chain lightning}"
+                        ]
+                    ]
+                },
+                "Additionally, you gain expertise in the Survival skill."
+            ]
+        },
+        {
+            "name": "Call of the Storm",
+            "source": "KyvumsShaman",
+            "page": 3,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Stormseer",
+            "subclassSource": "KyvumsShaman",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level Stormseer feature}",
+                "As an action, you create a storm of wind, thunder or lightning on a space you can see.",
+                "Requires {@status Concentration}",
+                "{@i {@b Range:}} 60ft",
+                "Radius: 10ft sphere",
+                "{@i {@b Duration:}} 1 minute",
+                {
+                    "type": "list",
+                    "items": [
+                        "Hurricane: Push enemies 5ft counterclockwise each turn, if they collide with anything both take {@damage 1d8} bludgeoning damage. The Hurricane is difficult terrain. Increases to {@damage 2d8} at Level 12.",
+                        "Thunder: Deafening blasts echo throughout the storm dealing {@damage 1d6} thunder damage to all who begin their turn in the storm. Any who take damage must roll a Constitution save vs. your spellcaster DC or be {@condition deafened} for 1 minute. Increases to  {@damage 2d6} at Level 12.",
+                        "Lightning: Powerful blasts of lightning explode each turn in the storm. Anyone caught in the storm must make a Dexterity save vs. your spellcaster DC or take 2d6 damage. Increases to {@damage 4d6} at Level 12."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Splinterstorm",
+            "source": "KyvumsShaman",
+            "page": 3,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Stormseer",
+            "subclassSource": "KyvumsShaman",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level Stormseer feature}",
+                "When you hit a creature with {@spell Stormsurge|KyvumsShaman}, you can use a bonus action to target a second creature within 20 feet of the first, making another spell attack against them with Stormsurge.",
+                "Additionally, when you cast a spell that deals lightning, thunder, or wind damage, you can cast {@spell Stormsurge|KyvumsShaman} as a bonus action on the same turn."
+            ]
+        },
+        {
+            "name": "Eye of the Storm",
+            "source": "KyvumsShaman",
+            "page": 3,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Stormseer",
+            "subclassSource": "KyvumsShaman",
+            "level": 18,
+            "entries": [
+                "{@i 18th-level Stormseer feature}",
+                "You gain immunity to damage from your own lightning, thunder, and wind spells.",
+                "While you are inside a natural Storm or magical Storm of a spell that you have casted, you can redirect the damage or effect to a creature of your choice within the area instead of yourself, also your Splinterstorm can now splinter an additional time."
+            ]
+        },
+        {
+            "name": "Windwalker",
+            "source": "KyvumsShaman",
+            "page": 3,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Stormseer",
+            "subclassSource": "KyvumsShaman",
+            "level": 20,
+            "entries": [
+                "{@i 20th-level Stormseer feature}",
+                "You gain a flying speed of 60 feet, and you become immune to lightning and thunder damage.",
+                "Additionally, while you are inside a natural Storm or magical Storm of a spell that you have casted, the damage die for your {@spell Stormsurge|KyvumsShaman} increases from a d10 to a d12."
+            ]
+        }
+    ],
+    "spell": [
+        {
+            "name": "Stormsurge",
+            "source": "KyvumsShaman",
+            "page": 4,
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Shaman",
+                        "source": "KyvumsShaman"
+                    }
+                ]
+            },
+            "entries": [
+                "Make a ranged spell attack; on a hit, the target takes {@damage 1d10} lightning, thunder, or bludgeoning damage of your choice. Choose the damage type before the attack roll."
+            ],
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "damageInflict": [
+                "bludgeoning",
+                "lightning",
+                "thunder"
+            ],
+            "spellAttack": [
+                "R"
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cantrip Upgrade",
+                    "entries": [
+                        "The damage increases by {@dice 1d10} when you reach levels 5 ({@dice 2d10}), 11 ({@dice 3d10}), and 17 ({@dice 4d10})."
+                    ]
+                }
+            ]
+        }
+    ]
+}
