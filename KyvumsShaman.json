@@ -2,7 +2,7 @@
     "_meta": {
         "dateAdded": 1756867200,
         "dateLastModified": 1756867200,
-        "_dateLastModifiedHash": "placeholder",
+        "_dateLastModifiedHash": "placeholde",
         "edition": "classic",
         "sources": [
             {
@@ -918,13 +918,13 @@
             "level": 3,
             "entries": [
                 "{@i 3rd-level Chieftain feature}",
-                "You learn to craft totems capable of channeling magic from powerful spirits",
+                "You learn to craft {@item Totem|KyvumsShaman}s capable of channeling magic from powerful spirits",
                 "You can craft up to 2 totems during a long rest as you enter a meditative trance, or 1 during a short rest. Outside of rests, crafting takes 1 hour per totem.",
                 "Each totem weighs 6 lbs and costs 5 cp in materials.",
                 "At level 3 you can charge 1 totem at a time; at level 14, 2; and at level 18, 3. Maintaining charge requires a Magic Action each turn and {@status Concentration}. If concentration breaks, you must use both Magic Action and Bonus Action next turn to regain it or your totem is destroyed.",
                 "Charged totems share your hit points and AC; AoE damage hits both. A totem is destroyed if you take more than half your hit points in damage in one turn, if this damage would drop you to or below 0 HP, you drop to 1 instead and the totem is destroyed. This can only occur once per Long Rest.",
                 "Deployed Totems occupy a 5ft space or wielded",
-                "When wielded, a totem can be used as a two-handed weapon you are proficient with and can be used as a spellcasting focus."
+                "When wielded, a {@item Totem|KyvumsShaman} can be used as a two-handed weapon you are proficient with and can be used as a spellcasting focus."
             ]
         },
         {
@@ -1450,9 +1450,6 @@
             "dmg1": "1d8",
             "property": [
                 "2H|XPHB"
-            ],
-            "entries": [
-                "{@i {@b Two-Handed.}} A Two-Handed weapon requires two hands when you attack with it."
             ]
         }
     ],
