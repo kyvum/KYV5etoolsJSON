@@ -1391,7 +1391,7 @@
                 "As an action, you create a storm of wind, thunder or lightning on a space you can see.",
                 "Requires {@status Concentration}",
                 "{@i {@b Range:}} 60ft",
-                "Radius: 10ft sphere",
+                "{@i {@b Radius:}} 10ft sphere",
                 "{@i {@b Duration:}} 1 minute",
                 {
                     "type": "list",
