@@ -646,7 +646,7 @@
             "level": 1,
             "entries": [
                 "{@i 1st-level feature}",
-                "You can Call upon the spirits to issue boons or curses. Each Call takes an action unless specified otherwise.",
+                "You can Call upon the spirits to issue boons or hindrances. Each Call takes an action unless specified otherwise.",
                 "You regain all expended uses of Calls when you finish a long rest or half as much rounded down on a short rest."
             ]
         },
