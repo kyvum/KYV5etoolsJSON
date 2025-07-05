@@ -455,8 +455,7 @@
                     "classFeature": "Subclass Feature|Shaman|KyvumsShaman|18",
                     "gainSubclassFeature": true
                 },
-                "Epic Boon|Shaman|KyvumsShaman|19",
-                "Ability Score Improvement|Shaman|KyvumsShaman|20"
+                "Epic Boon|Shaman|KyvumsShaman|19"
             ],
             "spellcastingAbility": "wis",
             "casterProgression": "full",
@@ -821,17 +820,6 @@
             "entries": [
                 "{@i 19th-level feature}",
                 "You gain an Epic Boon feat or another {@5etools feat|feats.html} of your choice for which you qualify."
-            ]
-        },
-        {
-            "name": "Ability Score Improvement",
-            "source": "KyvumsShaman",
-            "className": "Shaman",
-            "classSource": "KyvumsShaman",
-            "level": 20,
-            "entries": [
-                "{@i 20th-level feature}",
-                "You gain the Ability Score Improvement feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 8, 12, and 16."
             ]
         }
     ],
