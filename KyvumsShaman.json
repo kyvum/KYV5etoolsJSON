@@ -753,7 +753,7 @@
             "level": 8,
             "entries": [
                 "{@i 8th-level feature}",
-                "You gain the Ability Score Improvement feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 8, 12, and 16."
+                "You gain the Ability Score Improvement feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 12 and 16."
             ]
         },
         {
@@ -775,7 +775,7 @@
             "level": 12,
             "entries": [
                 "{@i 12th-level feature}",
-                "You gain the Ability Score Improvement feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 8, 12, and 16."
+                "You gain the Ability Score Improvement feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman level 16."
             ]
         },
         {
