@@ -17,7 +17,7 @@
                 ],
                 "version": "v1",
                 "color": "626cf3",
-                "url": "https://docs.google.com/document/d/178_k6xkV8jZIYn0o_R5iKVW3DBSC6DYdZfC3s27BtLA/",
+                "url": "none",
                 "dateReleased": "2025-07-04"
             }
         ]
@@ -1127,7 +1127,7 @@
                             "name": "{@b Puma}",
                             "entries": [
                                 "Gain the Extra Attack feature: you can attack twice instead of once whenever you take the Attack action on your turn.",
-                                "At 12th level, you can make two extra attacks with melee weapons, and your climb speed becomes equal to your walking speed."
+                                "At 12th level, your climb speed becomes equal to your walking speed."
                             ]
                         },
                         {
@@ -1135,7 +1135,7 @@
                             "name": "{@b Eagle}",
                             "entries": [
                                 "Gain the Extra Attack feature: you can attack twice instead of once whenever you take the Attack action on your turn.",
-                                "At 12th level, you can make two extra attacks with ranged weapons, and your ranged attacks ignore up to half cover."
+                                "At 12th level, your ranged attacks ignore up to half cover."
                             ]
                         },
                         {
@@ -1301,7 +1301,7 @@
                             "type": "entries",
                             "name": "{@b Eagle}",
                             "entries": [
-                                "Your long jump distance is tripled."
+                                "Your long jump distance is tripled, your jump height is doubled."
                             ]
                         },
                         {
