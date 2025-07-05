@@ -993,22 +993,30 @@
                 {
                     "type": "list",
                     "items": [
-                        "{@b Boons:}",
-                        "Bonus to all Attack rolls equal to Shaman’s wisdom modifier.",
-                        "Bonus to Damage rolls equal to  Shaman’s wisdom modifier.",
-                        "Bonus to Armor Class equal to  Shaman’s wisdom modifier.",
-                        "Bonus to one Saving Throw of choice equal to half of Shaman’s proficiency bonus.",
-                        "Temporary Health equal to  Shaman’s wisdom modifier plus proficiency bonus.",
-                        "{@b Hindrances:}",
-                        "Reduction to all Attack rolls equal to Shaman’s wisdom modifier.",
-                        "Reduction to all Damage rolls equal to Shaman’s wisdom modifier.",
-                        "Reduction to Armor Class equal to Shaman’s wisdom modifier.",
-                        "Reduction to one Saving Throw of choice equal to half of Shaman’s proficiency bonus.",
-                        "Damage equal to Shaman’s wisdom modifier plus proficiency bonus."
+                        {
+                            "type": "entries",
+                            "name": "Boons",
+                            "entries": [
+                                "Bonus to all Attack rolls equal to Shaman’s wisdom modifier.",
+                                "Bonus to Damage rolls equal to Shaman’s wisdom modifier.",
+                                "Bonus to Armor Class equal to Shaman’s wisdom modifier.",
+                                "Bonus to one Saving Throw of choice equal to half of Shaman’s proficiency bonus.",
+                                "Temporary Health equal to Shaman’s wisdom modifier plus proficiency bonus."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Hindrances",
+                            "entries": [
+                                "Reduction to all Attack rolls equal to Shaman’s wisdom modifier.",
+                                "Reduction to all Damage rolls equal to Shaman’s wisdom modifier.",
+                                "Reduction to Armor Class equal to Shaman’s wisdom modifier.",
+                                "Reduction to one Saving Throw of choice equal to half of Shaman’s proficiency bonus.",
+                                "Damage equal to Shaman’s wisdom modifier plus proficiency bonus."
+                            ]
+                        }
                     ]
-                }
-            ]
-        },
+                },
         {
             "name": "Chief’s Totem",
             "source": "KyvumsShaman",
