@@ -973,7 +973,7 @@
                 "{@i 10th-level Chieftain feature}",
                 "{@i {@b Totem Radius:}} 60ft",
                 "{@i {@b Duration:}} 1 minute",
-                "Charge a Totem of Flow: Enemies within the totem's radius must make a Constitution save each turn or take damage equal to your Wisdom modifier + proficiency bonus.",
+                "Charge a Totem of Flow: Enemies within the totem's radius must make a Constitution save against your Shaman Spellcaster DC. each turn or take damage equal to your Wisdom modifier + proficiency bonus.",
                 "You can then grant that amount as temporary HP to an ally, you can do this an amount of times equal to your Proficiency Bonus per turn."
             ]
         },
