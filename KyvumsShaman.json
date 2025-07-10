@@ -71,7 +71,7 @@
                     "(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
                     "(a) {@item leather armor|phb} or (b) {@item hide armor|phb}"
                 ],
-                "goldAlternative": "{50|Starting Gold}",
+                "goldAlternative": "50 GP",
                 "defaultData": [
                     {
                         "a": [
@@ -149,7 +149,7 @@
             },
             "classTableGroups": [
                 {
-                    "title": "Spellcasting & The Call Progression",
+                    "title": "Spellcasting &{@classFeature The Call|Shaman|KyvumsShaman|1|KyvumsShaman|The Call}Progression",
                     "colLabels": [
                         "The Call",
                         "Cantrips",
@@ -632,11 +632,11 @@
             "entries": [
                 "{@i 1st-level feature}",
                 "You have learned to channel the energy of your spiritual guides and embrace the power of storms.",
-                "{@i {@b Cantrips:}} You know two cantrips at Level 1 selected from the spell list.",
-                "{@i {@b Spell Slots:}} The leveling table above shows your spell slots for Level 1+ spells, you regain spell slots on a Long Rest.",
-                "{@i {@b Prepared Spells of Level 1+:}} You prepare the list of Level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 spells from the Shaman spell list.",
-                "{@i {@b Changing Your Prepared Spells:}} When you finish a Long Rest, you can change your list of Prepared Spells, replacing any other Shaman spells for which you have spell slots.",
-                "{@i {@b The Call:}} Using a Call will take an action unless specified otherwise,  as well as consume a Call slot. You regain all your Call slots on a Long Rest or half with a minimum of 1 on a Short Rest.",
+                "{@i {@b Cantrips:}} You know two {@variantrule Cantrip|XPHB|Cantrips} at Level 1 selected from the {@filter Shaman spell list|spells|level=0|class=Shaman (KYVS)}.",
+                "{@i {@b Spell Slots:}} The leveling table above shows your spell slots for Level 1+ spells, you regain spell slots on a {@variantrule Long Rest|XPHB}.",
+                "{@i {@b Prepared Spells of Level 1+:}} You prepare the list of Level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 spells from the {@filter Shaman spell list|spells|level=1|class=Shaman (KYVS)}.",
+                "{@i {@b Changing Your Prepared Spells:}} When you finish a {@variantrule Long Rest|XPHB}, you can change your list of Prepared Spells, replacing any other Shaman spells for which you have spell slots.",
+                "{@i {@b The Call:}} Using a Call will require an {@variantrule Action|XPHB} unless specified otherwise,  as well as consume a Call slot. You regain all your Call slots on a {@variantrule Long Rest|XPHB} or half with a minimum of 1 on a {@variantrule Short Rest|XPHB}.",
                 "{@i {@b Spellcasting Ability:}} Wisdom is your spellcasting ability for your Shaman spells.",
                 "{@i {@b Spellcasting Focus:}} You can use a Druidic Focus or Crafted Totem as a Spellcasting Focus for your Shaman spells."
             ]
@@ -649,8 +649,8 @@
             "level": 1,
             "entries": [
                 "{@i 1st-level feature}",
-                "You can Call upon the spirits to issue boons or hindrances. Each Call takes an action unless specified otherwise.",
-                "You regain all expended uses of Calls when you finish a long rest or half as much rounded down on a short rest."
+                "You can Call upon the spirits to issue boons or hindrances. Each Call takes an {@variantrule Action|XPHB} unless specified otherwise.",
+                "You regain all expended uses of Calls when you finish a {@variantrule Long Rest|XPHB} or half as much rounded down on a {@variantrule Short Rest|XPHB}."
             ]
         },
         {
@@ -665,8 +665,8 @@
                 "{@i {@b Radius:}} 30ft",
                 "{@i {@b Duration:}} 1 minute",
                 "{@b Choose one effect:}",
-                "You give up to 5 allies including yourself temporary health equal to your proficiency bonus.",
-                "You force up to 3 enemies to roll a Wisdom saving throw against your Spellcaster DC, if they fail they will have their Armor Class reduced by half of your proficiency bonus rounded down."
+                "You give up to 5 allies including yourself {@variantrule Temporary Hit Points|XPHB} equal to your proficiency bonus.",
+                "You force up to 3 enemies to roll a Wisdom {@variantrule Saving Throw|XPHB} against your Spellcaster DC, if they fail they will have their {@variantrule Armor Class|XPHB} reduced by half of your proficiency bonus rounded down."
             ]
         },
         {
@@ -682,9 +682,9 @@
                 "{@i {@b Duration:}} 1 minute",
                 "{@i {@b Radius:}} 10ft Cube",
                 "{@b Choose a trajectory for powerful winds to beat down.}",
-                "All creatures Large or smaller facing against the wind will have their movement speed reduced by 5ft and will be unable to gain advantage on their melee attacks.",
-                "All creatures Large or smaller facing the same direction as the wind will have their movement speed increased by 5ft and cannot have disadvantage imposed on their melee attacks.",
-                "Non-magical projectiles will also have disadvantage when fired into the wind regardless of direction. The wind also can push any objects weighing less than 70lbs."
+                "All creatures Large or smaller facing against the wind will have their movement speed reduced by 5ft and will be unable to gain {@variantrule Advantage|XPHB} on their melee attacks.",
+                "All creatures Large or smaller facing the same direction as the wind will have their movement speed increased by 5ft and cannot have {@variantrule Disadvantage|XPHB} imposed on their melee attacks.",
+                "Non-magical projectiles will also have {@variantrule Disadvantage|XPHB} when fired into the wind regardless of direction. The wind also can push any objects weighing less than 70lbs."
             ]
         },
         {
@@ -706,7 +706,7 @@
             "level": 4,
             "entries": [
                 "{@i 4th-level feature}",
-                "You gain the Ability Score Improvement feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 8, 12, and 16."
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 8, 12, and 16."
             ]
         },
         {
@@ -717,8 +717,8 @@
             "level": 5,
             "entries": [
                 "{@i 5th-level feature}",
-                "Once on each of your turns, if you have no uses of The Call left, you can give yourself one by expending a spell slot (no action required).",
-                "In addition, you can expend one use of The Call (no action required) to give yourself a level 1 spell slot, but you can’t do so again until you finish a Long Rest."
+                "Once on each of your turns, if you have no uses of {@classFeature The Call|Shaman|KyvumsShaman|1|KyvumsShaman|The Call} left, you can give yourself one by expending a spell slot (no {@variantrule Action|XPHB} required).",
+                "In addition, you can expend one use of{@classFeature The Call|Shaman|KyvumsShaman|1|KyvumsShaman|The Call}(no {@variantrule Action|XPHB} required) to give yourself a level 1 spell slot, but you can’t do so again until you finish a {@variantrule Long Rest|XPHB}."
             ]
         },
         {
@@ -744,8 +744,8 @@
                 "{@i {@b Range:}} 30ft",
                 "{@i {@b Duration:}} 1 minute",
                 "{@b Choose one:}",
-                "Up to 5 allies including yourself are granted the assistance of your spiritual guides, each ally will receive a bonus to their attack rolls equal to half of your proficiency bonus rounded down.",
-                "Up to 3 enemies to be hindered by the spirits, each enemy will have their attack rolls reduced by half your proficiency bonus rounded down and any spells they cast requiring saving throws will have their DC reduced by 1."
+                "Up to 5 allies including yourself are granted the assistance of your spiritual guides, each ally will receive a bonus to their {@variantrule Attack Roll|XPHB} equal to half of your proficiency bonus rounded down.",
+                "Up to 3 enemies to be hindered by the spirits, each enemy will have their {@variantrule Attack Roll|XPHB} reduced by half your proficiency bonus rounded down and any spells they cast requiring {@variantrule Saving Throw|XPHB|Saving Throws} will have their DC reduced by 1."
             ]
         },
         {
@@ -756,7 +756,7 @@
             "level": 8,
             "entries": [
                 "{@i 8th-level feature}",
-                "You gain the Ability Score Improvement feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 12 and 16."
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 12 and 16."
             ]
         },
         {
@@ -778,7 +778,7 @@
             "level": 12,
             "entries": [
                 "{@i 12th-level feature}",
-                "You gain the Ability Score Improvement feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman level 16."
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman level 16."
             ]
         },
         {
@@ -801,7 +801,7 @@
             "level": 16,
             "entries": [
                 "{@i 16th-level feature}",
-                "You gain the Ability Score Improvement feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 8, 12, and 16."
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 8, 12, and 16."
             ]
         },
         {
@@ -921,13 +921,13 @@
             "level": 3,
             "entries": [
                 "{@i 3rd-level Chieftain feature}",
-                "You learn to craft {@item Totem|KyvumsShaman}s capable of channeling magic from powerful spirits",
-                "You can craft up to 2 totems during a long rest as you enter a meditative trance, or 1 during a short rest. Outside of rests, crafting takes 1 hour per totem.",
-                "Each totem weighs 6 lbs and costs 5 cp in materials to craft.",
-                "At 3rd Level you can maintain charge on one totem at a time, this increases to two at 12th Level and three at 18th Level. Maintaining charge requires a Magic Action each turn and {@status Concentration}. If concentration breaks, you must use both Magic Action and Bonus Action next turn to regain it or your totem is destroyed.",
-                "Totems can be deployed to occupy a 5ft space or wielded, deployed totems automatically fail Dexterity saving throws",
-                "Deployed totems that are charged have their hit points linked to yours and have the same AC as you; if AoE damage hits both, you take damage for both. A totem is destroyed if you take more than half your hit points in damage in one turn, if the linked damage would drop you to or below 0 HP, you drop to 1 instead and the totem is destroyed. This can only occur once per Long Rest.",
-                "When wielded, a {@item Totem|KyvumsShaman} can be used as a two-handed weapon you are proficient with and can be used as a spellcasting focus. A wielded totem also does not take damage."
+                "You learn to craft {@item Totem|KyvumsShaman|Totems} capable of channeling magic from powerful spirits",
+                "You can craft up to 2 {@item Totem|KyvumsShaman|Totems} during a {@variantrule Long Rest|XPHB} as you enter a meditative trance, or 1 during a {@variantrule Short Rest|XPHB}. Outside of rests, crafting takes 1 hour per {@item Totem|KyvumsShaman}.",
+                "Each {@item Totem|KyvumsShaman} weighs 6 lbs and costs 5 cp in materials to craft.",
+                "At 3rd Level you can maintain charge on one Totem at a time, this increases to two at 12th Level and three at 18th Level. Maintaining charge requires a {@action Magic|XPHB} Action each turn and {@status Concentration}. If concentration breaks, you must use both {@action Magic|XPHB} Action and {@variantrule Bonus Action|XPHB} next turn to regain it or your Totem is destroyed.",
+                "Totems can be deployed to occupy a 5ft space or wielded, deployed {@item Totem|KyvumsShaman|Totems} automatically fail Dexterity {@variantrule Saving Throw|XPHB|Saving Throws}",
+                "Deployed Totems that are charged have their hit points linked to yours and have the same {@variantrule Armor Class|XPHB} as you; if {@variantrule Area of Effect|XPHB} damage hits both, you take damage for both. A Totem is destroyed if you take more than half your hit points in damage in one turn, if the linked damage would drop you to or below 0 HP, you drop to 1 instead and the Totem is destroyed. This can only occur once per {@variantrule Long Rest|XPHB}.",
+                "When wielded, a {@item Totem|KyvumsShaman} can be used as a two-handed weapon you are proficient with and can be used as a spellcasting focus. A wielded {@item Totem|KyvumsShaman} also does not take damage."
             ]
         },
         {
@@ -959,8 +959,8 @@
                 "{@i {@b Range:}} 30ft",
                 "{@i {@b Duration:}} 1 minute",
                 "{@b Choose one:}",
-                "Confer a boon to an ally, enemies have disadvantage attacking them.",
-                "Hinder a foe, allies have advantage on attacks against them."
+                "Confer a boon to an ally, enemies have {@variantrule Disadvantage|XPHB} attacking them.",
+                "Hinder a foe, allies have {@variantrule Advantage|XPHB} on attacks against them."
             ]
         },
         {
@@ -977,7 +977,7 @@
                 "{@i {@b Totem Radius:}} 60ft",
                 "{@i {@b Duration:}} 1 minute",
                 "Charge a Totem of Flow: Enemies within the totem's radius must make a Constitution save against your Shaman Spellcaster DC. each turn or take damage equal to your Wisdom modifier + proficiency bonus.",
-                "You can then grant that amount as temporary HP to an ally, you can do this an amount of times equal to your Proficiency Bonus per turn."
+                "You can then grant that amount as {@variantrule Temporary Hit Points|XPHB} to an ally, you can do this an amount of times equal to your Proficiency Bonus per turn."
             ]
         },
         {
@@ -1000,21 +1000,21 @@
                             "type": "entries",
                             "name": "Boons",
                             "entries": [
-                                "Bonus to all Attack rolls equal to Shaman’s wisdom modifier.",
+                                "Bonus to all {@variantrule Attack Roll|XPHB} equal to Shaman’s wisdom modifier.",
                                 "Bonus to Damage rolls equal to Shaman’s wisdom modifier.",
-                                "Bonus to Armor Class equal to Shaman’s wisdom modifier.",
-                                "Bonus to one Saving Throw of choice equal to half of Shaman’s proficiency bonus.",
-                                "Temporary Health equal to Shaman’s wisdom modifier plus proficiency bonus."
+                                "Bonus to {@variantrule Armor Class|XPHB} equal to Shaman’s wisdom modifier.",
+                                "Bonus to one {@variantrule Saving Throw|XPHB} of choice equal to half of Shaman’s proficiency bonus.",
+                                "{@variantrule Temporary Hit Points|XPHB} equal to Shaman’s wisdom modifier plus proficiency bonus."
                             ]
                         },
                         {
                             "type": "entries",
                             "name": "Hindrances",
                             "entries": [
-                                "Reduction to all Attack rolls equal to Shaman’s wisdom modifier.",
+                                "Reduction to all {@variantrule Attack Roll|XPHB} equal to Shaman’s wisdom modifier.",
                                 "Reduction to all Damage rolls equal to Shaman’s wisdom modifier.",
-                                "Reduction to Armor Class equal to Shaman’s wisdom modifier.",
-                                "Reduction to one Saving Throw of choice equal to half of Shaman’s proficiency bonus.",
+                                "Reduction to {@variantrule Armor Class|XPHB} equal to Shaman’s wisdom modifier.",
+                                "Reduction to one {@variantrule Saving Throw|XPHB} of choice equal to half of Shaman’s proficiency bonus.",
                                 "Damage equal to Shaman’s wisdom modifier plus proficiency bonus."
                             ]
                         }
@@ -1036,7 +1036,7 @@
                 "{@i {@b Totem Radius:}} 60ft",
                 "Charge the Chief’s Totem, you cannot have any other charged totems while the Chief's Totem is charged.",
                 "Allies within the radius of the totem gain a bonus to attack and damage rolls equal to your Wisdom modifier + proficiency bonus.",
-                "Once per turn, choose an ally to gain temporary HP equal to 10 + your Wisdom modifier + proficiency bonus; enemies adjacent to that ally must make a Wisdom save or become {@condition frightened} of them."
+                "Once per turn, choose an ally to gain {@variantrule Temporary Hit Points|XPHB} equal to 10 + your Wisdom modifier + proficiency bonus; enemies adjacent to that ally must make a Wisdom save or become {@condition frightened} of them."
             ]
         },
         {
@@ -1066,7 +1066,7 @@
                             "type": "entries",
                             "name": "{@b Puma}",
                             "entries": [
-                                "The guidance of the Puma enhances your agility and martial ability in close combat. You gain proficiency with melee martial weapons and can learn one Weapon Mastery with a melee weapon, which you can change upon leveling up.",
+                                "The guidance of the Puma enhances your agility and martial ability in close combat. You gain proficiency with melee martial weapons and can learn one of the {@variantrule weapon mastery properties|XPHB} with a melee weapon, which you can change upon leveling up.",
                                 "Expertise: Stealth"
                             ]
                         },
@@ -1074,7 +1074,7 @@
                             "type": "entries",
                             "name": "{@b Eagle}",
                             "entries": [
-                                "The Eagle's spirit improves your vision and ability with ranged weaponry. You gain proficiency with ranged martial weapons and can learn one Weapon Mastery with a ranged weapon, which you can change upon leveling up.",
+                                "The Eagle's spirit improves your vision and ability with ranged weaponry. You gain proficiency with ranged martial weapons and can learn one of the {@variantrule weapon mastery properties|XPHB} with a ranged weapon, which you can change upon leveling up.",
                                 "Expertise: Perception"
                             ]
                         },
@@ -1082,7 +1082,7 @@
                             "type": "entries",
                             "name": "{@b Wolf}",
                             "entries": [
-                                "The Wolf guide improves your groupthink, working tactically with your allies to win battles. When within 5 feet of an ally, you both gain +1 to your attack rolls. You can confer this bonus to multiple allies but do not gain multiple instances of the bonus.",
+                                "The Wolf guide improves your groupthink, working tactically with your allies to win battles. When within 5 feet of an ally, you both gain +1 to your {@variantrule Attack Roll|XPHB}. You can confer this bonus to multiple allies but do not gain multiple instances of the bonus.",
                                 "Expertise: Athletics"
                             ]
                         },
@@ -1090,7 +1090,7 @@
                             "type": "entries",
                             "name": "{@b Owl}",
                             "entries": [
-                                "The wisdom of the Owl provides you with great foresight and improved ability in darkness. Within 60 feet, you can see in dim light as if it were bright light, and in darkness as if it were dim light.",
+                                "The wisdom of the Owl provides you with great foresight and improved ability in darkness. You gain 60 feet of {@sense Darkvision|XPHB}.",
                                 "Expertise: Insight"
                             ]
                         }
@@ -1110,7 +1110,7 @@
             "level": 6,
             "entries": [
                 "{@i 6th-level Animist feature}",
-                "Your connection to your spirit deepens, enhancing its power and allowing you to use your Calls as a bonus action. Additionally, your spirit grants the following upgrades:",
+                "Your connection to your spirit deepens, enhancing its power and allowing you to use your Calls as a {@variantrule Bonus Action|XPHB}. Additionally, your spirit grants the following upgrades:",
                 {
                     "type": "list",
                     "items": [
@@ -1126,7 +1126,7 @@
                             "type": "entries",
                             "name": "{@b Puma}",
                             "entries": [
-                                "Gain the Extra Attack feature: you can attack twice instead of once whenever you take the Attack action on your turn.",
+                                "Gain the Extra Attack feature: you can attack twice instead of once whenever you take the {@action Attack|XPHB} Action on your turn.",
                                 "At 12th level, your climb speed becomes equal to your walking speed."
                             ]
                         },
@@ -1134,7 +1134,7 @@
                             "type": "entries",
                             "name": "{@b Eagle}",
                             "entries": [
-                                "Gain the Extra Attack feature: you can attack twice instead of once whenever you take the Attack action on your turn.",
+                                "Gain the Extra Attack feature: you can attack twice instead of once whenever you take the {@action Attack|XPHB} Action on your turn.",
                                 "At 12th level, your ranged attacks ignore up to half cover."
                             ]
                         },
@@ -1142,15 +1142,15 @@
                             "type": "entries",
                             "name": "{@b Wolf}",
                             "entries": [
-                                "If an ally within 5 feet of you attacks a foe also within 5 feet of you, you can use your reaction to attack that target.",
-                                "At 12th level, you gain advantage on this reaction attack and confer advantage to the ally who made the attack on their next attack."
+                                "If an ally within 5 feet of you attacks a foe also within 5 feet of you, you can use your {@variantrule Reaction|XPHB} to attack that target.",
+                                "At 12th level, you gain {@variantrule Advantage|XPHB} on this {@variantrule Reaction|XPHB} attack and confer {@variantrule Advantage|XPHB} to the ally who made the attack on their next attack."
                             ]
                         },
                         {
                             "type": "entries",
                             "name": "{@b Owl}",
                             "entries": [
-                                "Each turn you successfully hit an enemy or they fail a saving throw from one of your spells, you gain a stacking +1 bonus damage with your next spell or attack. This resets upon missing and stacks up to your Wisdom modifier.",
+                                "Each turn you successfully hit an enemy or they fail a {@variantrule Saving Throw|XPHB} from one of your spells, you gain a stacking +1 bonus damage with your next spell or attack. This resets upon missing and stacks up to your Wisdom modifier.",
                                 "At 12th level, the bonus becomes +2 per stack and can stack up to double your Wisdom modifier."
                             ]
                         }
@@ -1186,7 +1186,7 @@
                             "type": "entries",
                             "name": "{@b Puma}",
                             "entries": [
-                                "Gain a bonus to Dexterity skill checks and saving throws equal to your Wisdom modifier."
+                                "Gain a bonus to Dexterity skill checks and {@variantrule Saving Throw|XPHB|Saving Throws} equal to your Wisdom modifier."
                             ]
                         },
                         {
@@ -1200,14 +1200,14 @@
                             "type": "entries",
                             "name": "{@b Wolf}",
                             "entries": [
-                                "You have advantage on weapon attacks."
+                                "You have {@variantrule Advantage|XPHB} on weapon attacks."
                             ]
                         },
                         {
                             "type": "entries",
                             "name": "{@b Owl}",
                             "entries": [
-                                "Gain 60-foot darkvision."
+                                "Gain 60 feet of {@sense Darkvision|XPHB}. This is cumulative for you with the {@sense Darkvision|XPHB} gained from the Spirit Guide feature."
                             ]
                         }
                     ]
@@ -1233,35 +1233,35 @@
                             "type": "entries",
                             "name": "{@b Bear}",
                             "entries": [
-                                "As a bonus action, you let loose a bestial roar. Make an Intimidation check; all enemies engaged with you who can hear must make a Wisdom saving throw against your roll or become {@condition frightened} of you."
+                                "As a {@variantrule Bonus Action|XPHB}, you let loose a bestial roar. Make an {@skill Intimidation|XPHB} check; all enemies engaged with you who can hear must make a Wisdom {@variantrule Saving Throw|XPHB} against your roll or become {@condition frightened} of you."
                             ]
                         },
                         {
                             "type": "entries",
                             "name": "{@b Puma}",
                             "entries": [
-                                "You can Disengage or Dash as a bonus action."
+                                "You can Disengage or Dash as a {@variantrule Bonus Action|XPHB}."
                             ]
                         },
                         {
                             "type": "entries",
                             "name": "{@b Eagle}",
                             "entries": [
-                                "Gain advantage on ranged attacks made while you are at least 10 feet above your target."
+                                "Gain {@variantrule Advantage|XPHB} on ranged attacks made while you are at least 10 feet above your target."
                             ]
                         },
                         {
                             "type": "entries",
                             "name": "{@b Wolf}",
                             "entries": [
-                                "When you use your reaction from Enhanced Guidance to attack and hit, the ally you assisted gains advantage on their next attack."
+                                "When you use your {@variantrule Reaction|XPHB} from {@subclassFeature Enhanced Guidance|Shaman|KyvumsShaman|Animist|KyvumsShaman|6|KyvumsShaman|Enhanced Guidance} to attack and hit, the ally you assisted gains {@variantrule Advantage|XPHB} on their next attack."
                             ]
                         },
                         {
                             "type": "entries",
                             "name": "{@b Owl}",
                             "entries": [
-                                "Gain 30-foot Truesight. When you use Call of the Wild, allies affected also gain this Truesight."
+                                "Gain 30 feet of {@sense Truesight|XPHB}. When you use {@subclassFeature Call of the Wild|Shaman|KyvumsShaman|Animist|KyvumsShaman|10|KyvumsShaman|Call of the Wild}, allies affected also gain this {@sense Truesight|XPHB}."
                             ]
                         }
                     ]
@@ -1287,7 +1287,7 @@
                             "type": "entries",
                             "name": "{@b Bear}",
                             "entries": [
-                                "Your maximum hit points increase by 21, your hit die becomes d12, and your AC bonus from Enhanced Guidance becomes +2."
+                                "Your maximum hit points increase by 21, your hit die becomes d12, and your {@variantrule {@variantrule Armor Class|XPHB}|XPHB} bonus from {@subclassFeature Enhanced Guidance|Shaman|KyvumsShaman|Animist|KyvumsShaman|6|KyvumsShaman|Enhanced Guidance} becomes +2."
                             ]
                         },
                         {
@@ -1308,7 +1308,7 @@
                             "type": "entries",
                             "name": "{@b Wolf}",
                             "entries": [
-                                "The attack roll bonus from your Spirit Guide feature increases to +3."
+                                "The {@variantrule Attack Roll|XPHB} bonus from your Spirit Guide feature increases to +3."
                             ]
                         },
                         {
@@ -1333,7 +1333,7 @@
             "level": 3,
             "entries": [
                 "{@i 3rd-level Stormseer feature}",
-                "You learn the {@spell Stormsurge|KyvumsShaman} cantrip, which does not count against your known cantrips."
+                "You learn the {@spell Stormsurge|KyvumsShaman} {@variantrule Cantrip|XPHB}, which does not count against your known {@variantrule Cantrip|XPHB|Cantrips}."
             ]
         },
         {
@@ -1414,8 +1414,8 @@
             "level": 10,
             "entries": [
                 "{@i 10th-level Stormseer feature}",
-                "When you hit a creature with {@spell Stormsurge|KyvumsShaman}, you can use a bonus action to target a second creature within 20 feet of the first, making another spell attack against them with Stormsurge.",
-                "Additionally, when you cast a spell that deals lightning, thunder, or wind damage, you can cast {@spell Stormsurge|KyvumsShaman} as a bonus action on the same turn."
+                "When you hit a creature with {@spell Stormsurge|KyvumsShaman}, you can use a {@variantrule Bonus Action|XPHB} to target a second creature within 20 feet of the first, making another spell attack against them with Stormsurge.",
+                "Additionally, when you cast a spell that deals lightning, thunder, or wind damage, you can cast {@spell Stormsurge|KyvumsShaman} as a {@variantrule Bonus Action|XPHB} on the same turn."
             ]
         },
         {
@@ -1465,7 +1465,7 @@
                 "2H|XPHB"
             ],
             "entries": [
-                "If a wielded Totem is not charged it's damage die becomes a {@damage 1d4} and it also has the {@footnote Heavy|You have Disadvantage on attack rolls with a Heavy weapon if it's a Melee weapon and your Strength score isn't at least 13 or if it's a Ranged weapon and your Dexterity score isn't at least 13.} property."
+                "If a wielded Totem is not charged it's damage die becomes a {@damage 1d4} and it also has the {@footnote Heavy|You have {@variantrule Disadvantage|XPHB} on {@variantrule Attack Roll|XPHB} with a Heavy weapon if it's a Melee weapon and your Strength score isn't at least 13 or if it's a Ranged weapon and your Dexterity score isn't at least 13.} property."
             ]
         }
     ],
@@ -1503,7 +1503,7 @@
                 ]
             },
             "entries": [
-                "Make a ranged spell attack; on a hit, the target takes {@damage 1d10} lightning, thunder, or bludgeoning damage of your choice. Choose the damage type before the attack roll."
+                "Make a ranged spell attack; on a hit, the target takes {@damage 1d10} lightning, thunder, or bludgeoning damage of your choice. Choose the damage type before the {@variantrule Attack Roll|XPHB} ."
             ],
             "components": {
                 "v": true,
