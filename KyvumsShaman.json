@@ -376,13 +376,37 @@
             "entries": [
                 "{@i 1st-level feature}",
                 "You have learned to channel the energy of your spiritual guides and embrace the power of storms.",
-                "{@i {@b Cantrips:}} You know two {@variantrule Cantrip|XPHB|Cantrips} at Level 1 selected from the {@filter Shaman spell list|spells|level=0|class=Shaman (KYVS)}.",
+                "{@i {@b Cantrips:}} You know one {@variantrule Cantrip|XPHB|Cantrip} at Level 1 selected from the {@filter Shaman spell list|spells|level=0|class=Shaman (KYVS)}.",
                 "{@i {@b Spell Slots:}} The leveling table above shows your spell slots for Level 1+ spells, you regain spell slots on a {@variantrule Long Rest|XPHB}.",
                 "{@i {@b Prepared Spells of Level 1+:}} You prepare the list of Level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 spells from the {@filter Shaman spell list|spells|level=1|class=Shaman (KYVS)}.",
                 "{@i {@b Changing Your Prepared Spells:}} When you finish a {@variantrule Long Rest|XPHB}, you can change your list of Prepared Spells, replacing any other Shaman spells for which you have spell slots.",
                 "{@i {@b The Call:}} Using a Call will require an {@variantrule Action|XPHB} unless specified otherwise,  as well as consume a Call slot. You regain all your Call slots on a {@variantrule Long Rest|XPHB} or half with a minimum of 1 on a {@variantrule Short Rest|XPHB}.",
                 "{@i {@b Spellcasting Ability:}} Wisdom is your spellcasting ability for your Shaman spells.",
-                "{@i {@b Spellcasting Focus:}} You can use a Druidic Focus or Crafted Totem as a Spellcasting Focus for your Shaman spells."
+                "{@i {@b Spellcasting Focus:}} You can use a Druidic Focus or Crafted Totem as a Spellcasting Focus for your Shaman spells.",
+                {
+                    "type": "table",
+                    "caption": "Shaman Spellcasting Slots",
+                    "colLabels": [
+                        "Level",
+                        "Cantrips",
+                        "Prepared Spells",
+                        "1st"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "2",
+                            "2",
+                            "2"
+                        ],
+                        [
+                            "2",
+                            "2",
+                            "3",
+                            "3"
+                        ]
+                    ]
+                }
             ]
         },
         {
