@@ -512,8 +512,8 @@
                 "{@i {@b Range:}} 30ft",
                 "{@i {@b Duration:}} 1 minute",
                 "{@b Choose one:}",
-                "Up to 5 allies including yourself are granted the assistance of your spiritual guides, each ally will receive a bonus to their {@variantrule Attack Roll|XPHB} equal to half of your proficiency bonus rounded down.",
-                "Up to 3 enemies to be hindered by the spirits, each enemy will have their {@variantrule Attack Roll|XPHB} reduced by half your proficiency bonus rounded down and any spells they cast requiring {@variantrule Saving Throw|XPHB|Saving Throws} will have their DC reduced by 1."
+                "Up to 5 allies including yourself are granted the assistance of your spiritual guides, each ally will receive a bonus to their {@variantrule Attack Roll|XPHB} by {@dice 1d4}.",
+                "Up to 3 enemies to be hindered by the spirits, each enemy will have their {@variantrule Attack Roll|XPHB} reduced by {@dice 1d4}."
             ]
         },
         {
