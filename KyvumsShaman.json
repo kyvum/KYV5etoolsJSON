@@ -431,7 +431,7 @@
                 "Spellcasting|Shaman|KyvumsShaman|1",
                 "The Call|Shaman|KyvumsShaman|1",
                 "Call of the Tribe|Shaman|KyvumsShaman|1",
-                "Call of the Wind|Shaman|KyvumsShaman|2",
+                "Call of the Wind|Shaman|KyvumsShaman|1",
                 {
                     "classFeature": "Subclass Feature|Shaman|KyvumsShaman|3",
                     "gainSubclassFeature": true
@@ -462,7 +462,7 @@
                 }
             ],
             "spellcastingAbility": "wis",
-            "casterProgression": "full",
+            "casterProgression": "1/2",
             "preparedSpells": "true",
             "spellsKnownProgression": [
                 3,
@@ -674,7 +674,7 @@
             "source": "KyvumsShaman",
             "className": "Shaman",
             "classSource": "KyvumsShaman",
-            "level": 2,
+            "level": 1,
             "entries": [
                 "{@i 2nd-level feature}",
                 "Call forth the power of the wind to manifest itself on the battlefield.",
@@ -718,7 +718,7 @@
             "entries": [
                 "{@i 5th-level feature}",
                 "Once on each of your turns, if you have no uses of {@classFeature The Call|Shaman|KyvumsShaman|1|KyvumsShaman|The Call} left, you can give yourself one by expending a spell slot (no {@variantrule Action|XPHB} required).",
-                "In addition, you can expend one use of{@classFeature The Call|Shaman|KyvumsShaman|1|KyvumsShaman|The Call}(no {@variantrule Action|XPHB} required) to give yourself a level 1 spell slot, but you can’t do so again until you finish a {@variantrule Long Rest|XPHB}."
+                "In addition, you can expend one use of {@classFeature The Call|Shaman|KyvumsShaman|1|KyvumsShaman|The Call} (no {@variantrule Action|XPHB} required) to give yourself a level 1 spell slot, but you can’t do so again until you finish a {@variantrule Long Rest|XPHB}."
             ]
         },
         {
@@ -1050,7 +1050,7 @@
             "level": 3,
             "entries": [
                 "{@i 3rd-level Animist feature}",
-                "Choose a permanent spirit animal guide when you gain this feature: Bear, Puma, Eagle, Wolf, or Owl. Each grants unique benefits and a skill in which you gain expertise:",
+                "Choose a permanent spirit animal guide when you gain this feature: Bear, Puma, Eagle, Wolf, or Owl. Each grants unique benefits and a skill in which you gain proficiency, if you already have proficiency in that skill choose another from the Shaman proficiency list:",
                 {
                     "type": "list",
                     "items": [
@@ -1059,7 +1059,7 @@
                             "name": "{@b Bear}",
                             "entries": [
                                 "The Bear's spirit grants you a thickened hide and improved stamina. Your hit die becomes a d10 and you add 4 to your maximum hit points; at future levels, you receive 6 + your Constitution modifier for determining hit points.",
-                                "Expertise: Intimidation"
+                                "Proficiency: Intimidation"
                             ]
                         },
                         {
@@ -1067,7 +1067,7 @@
                             "name": "{@b Puma}",
                             "entries": [
                                 "The guidance of the Puma enhances your agility and martial ability in close combat. You gain proficiency with melee martial weapons and can learn one of the {@variantrule weapon mastery properties|XPHB} with a melee weapon, which you can change upon leveling up.",
-                                "Expertise: Stealth"
+                                "Proficiency: Stealth"
                             ]
                         },
                         {
@@ -1075,7 +1075,7 @@
                             "name": "{@b Eagle}",
                             "entries": [
                                 "The Eagle's spirit improves your vision and ability with ranged weaponry. You gain proficiency with ranged martial weapons and can learn one of the {@variantrule weapon mastery properties|XPHB} with a ranged weapon, which you can change upon leveling up.",
-                                "Expertise: Perception"
+                                "Proficiency: Perception"
                             ]
                         },
                         {
@@ -1083,7 +1083,7 @@
                             "name": "{@b Wolf}",
                             "entries": [
                                 "The Wolf guide improves your groupthink, working tactically with your allies to win battles. When within 5 feet of an ally, you both gain +1 to your {@variantrule Attack Roll|XPHB}. You can confer this bonus to multiple allies but do not gain multiple instances of the bonus.",
-                                "Expertise: Athletics"
+                                "Proficiency: Athletics"
                             ]
                         },
                         {
@@ -1287,7 +1287,7 @@
                             "type": "entries",
                             "name": "{@b Bear}",
                             "entries": [
-                                "Your maximum hit points increase by 21, your hit die becomes d12, and your {@variantrule {@variantrule Armor Class|XPHB}|XPHB} bonus from {@subclassFeature Enhanced Guidance|Shaman|KyvumsShaman|Animist|KyvumsShaman|6|KyvumsShaman|Enhanced Guidance} becomes +2."
+                                "Your maximum hit points increase by 21, your hit die becomes d12, and your {@variantrule Armor Class|XPHB} bonus from {@subclassFeature Enhanced Guidance|Shaman|KyvumsShaman|Animist|KyvumsShaman|6|KyvumsShaman|Enhanced Guidance} becomes +2."
                             ]
                         },
                         {
