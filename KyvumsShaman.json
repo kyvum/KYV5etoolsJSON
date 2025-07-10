@@ -1091,7 +1091,7 @@
                             "name": "{@b Owl}",
                             "entries": [
                                 "The wisdom of the Owl provides you with great foresight and improved ability in darkness. You gain 60 feet of {@sense Darkvision|XPHB}.",
-                                "Expertise: Insight"
+                                "Proficiency: Insight"
                             ]
                         }
                     ]
@@ -1374,7 +1374,7 @@
                         ]
                     ]
                 },
-                "Additionally, you gain expertise in the Survival skill."
+                "Additionally, you gain proficiency in the Survival skill, if you already have proficiency in Survival choose a different proficiency from the Shaman proficiency list."
             ]
         },
         {
