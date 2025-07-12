@@ -334,7 +334,7 @@
             "entries": [
                 "{@i 1st-level feature}",
                 "Even those who dabble in undeath need a companion.",
-                "You learn the {@spell Find Familiar|XPHB} which you are able to cast without Material requirements.",
+                "You learn the {@spell Find Familiar|XPHB} spell which you are able to cast without Material requirements.",
                 "This does not count against your prepared spells.",
                 "The only familiar you can find however is a {@creature Crawling Claw|XMM}"
             ]
@@ -367,6 +367,7 @@
                 "{@i {@b Duration:}} 1 minute",
                 "{@i {@b Material:}} 1 {@item Bone|KyvumsNecromancer|Bone}",
                 "You can perform a dark ritual for 1 minute to absorb the remaining life force from a creature's remains.",
+                "The corpse must be from a creature that was living and thus cannot be a Construct or Undead.",
                 "At the end of it, you regain expended Necromancer spell slots but no more than a number equal to half your maximum (round up).",
                 "Once you use this feature, you can't do so again until you finish a Long Rest."
             ]
