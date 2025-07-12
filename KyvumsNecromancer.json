@@ -561,7 +561,7 @@
                 {
                     "title": "Active Bones",
                     "colLabels": [
-                        "Feature Unlocked"
+                        "Limit"
                     ],
                     "rows": [
                         [
@@ -645,7 +645,7 @@
                 {
                     "title": "Curses & Hexes",
                     "colLabels": [
-                        "Feature Unlocked"
+                        "Slots"
                     ],
                     "rows": [
                         [
@@ -729,7 +729,7 @@
                 {
                     "title": "Forbidden Magicks",
                     "colLabels": [
-                        "Feature Unlocked"
+                        "Slots"
                     ],
                     "rows": [
                         [
