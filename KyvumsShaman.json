@@ -382,7 +382,7 @@
                 "{@i {@b Changing Your Prepared Spells:}} When you finish a {@variantrule Long Rest|XPHB}, you can change your list of Prepared Spells, replacing any other Shaman spells for which you have spell slots.",
                 "{@i {@b The Call:}} Using a Call will require an {@variantrule Action|XPHB} unless specified otherwise,  as well as consume a Call slot. You regain all your Call slots on a {@variantrule Long Rest|XPHB} or half with a minimum of 1 on a {@variantrule Short Rest|XPHB}.",
                 "{@i {@b Spellcasting Ability:}} Wisdom is your spellcasting ability for your Shaman spells.",
-                "{@i {@b Spellcasting Focus:}} You can use a Druidic Focus or Crafted Totem as a Spellcasting Focus for your Shaman spells.",
+                "{@i {@b Spellcasting Focus:}} You can use a {@item Druidic Focus|XPHB} or Crafted {@item Totem|KyvumsShaman} as a Spellcasting Focus for your Shaman spells.",
                 {
                     "type": "table",
                     "caption": "Shaman Spellcasting Slots",
@@ -1496,7 +1496,7 @@
                     "items": [
                         {
                             "type": "entries",
-                            "name": "{@b Bear}",
+                            "name": "Bear",
                             "entries": [
                                 "The Bear's spirit grants you a thickened hide and improved stamina. Your hit die becomes a d10 and you add 4 to your maximum hit points; at future levels, you receive 6 + your Constitution modifier for determining hit points.",
                                 "Proficiency: Intimidation"
@@ -1504,7 +1504,7 @@
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Puma}",
+                            "name": "Puma",
                             "entries": [
                                 "The guidance of the Puma enhances your agility and martial ability in close combat. You gain proficiency with melee martial weapons and can learn one of the {@variantrule weapon mastery properties|XPHB} with a melee weapon, which you can change upon leveling up.",
                                 "Proficiency: Stealth"
@@ -1512,7 +1512,7 @@
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Eagle}",
+                            "name": "Eagle",
                             "entries": [
                                 "The Eagle's spirit improves your vision and ability with ranged weaponry. You gain proficiency with ranged martial weapons and can learn one of the {@variantrule weapon mastery properties|XPHB} with a ranged weapon, which you can change upon leveling up.",
                                 "Proficiency: Perception"
@@ -1520,7 +1520,7 @@
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Wolf}",
+                            "name": "Wolf",
                             "entries": [
                                 "The Wolf guide improves your groupthink, working tactically with your allies to win battles. When within 5 feet of an ally, you both gain +1 to your {@variantrule Attack Roll|XPHB}. You can confer this bonus to multiple allies but do not gain multiple instances of the bonus.",
                                 "Proficiency: Athletics"
@@ -1528,7 +1528,7 @@
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Owl}",
+                            "name": "Owl",
                             "entries": [
                                 "The wisdom of the Owl provides you with great foresight and improved ability in darkness. You gain 60 feet of {@sense Darkvision|XPHB}.",
                                 "Proficiency: Insight"
@@ -1556,15 +1556,16 @@
                     "items": [
                         {
                             "type": "entries",
-                            "name": "{@b Bear}",
+                            "name": "Bear",
                             "entries": [
-                                "Gain resistance to bludgeoning, piercing, and slashing damage while you have an active Call.",
-                                "At 12th level, you also gain +1 AC."
+                                "Gain an amount of {@variantrule Temporary Hit Points|XPHB} equal to two times your Shaman level while you have an active Call.",
+                                "These {@variantrule Temporary Hit Points|XPHB} are restored at the start of each of your turns.",
+                                "At 12th level, you also gain +1 {@variantrule Armor Class|XPHB}."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Puma}",
+                            "name": "Puma",
                             "entries": [
                                 "Gain the Extra Attack feature: you can attack twice instead of once whenever you take the {@action Attack|XPHB} Action on your turn.",
                                 "At 12th level, your climb speed becomes equal to your walking speed."
@@ -1572,7 +1573,7 @@
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Eagle}",
+                            "name": "Eagle",
                             "entries": [
                                 "Gain the Extra Attack feature: you can attack twice instead of once whenever you take the {@action Attack|XPHB} Action on your turn.",
                                 "At 12th level, your ranged attacks ignore up to half cover."
@@ -1580,7 +1581,7 @@
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Wolf}",
+                            "name": "Wolf",
                             "entries": [
                                 "If an ally within 5 feet of you attacks a foe also within 5 feet of you, you can use your {@variantrule Reaction|XPHB} to attack that target.",
                                 "At 12th level, you gain {@variantrule Advantage|XPHB} on this {@variantrule Reaction|XPHB} attack and confer {@variantrule Advantage|XPHB} to the ally who made the attack on their next attack."
@@ -1588,7 +1589,7 @@
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Owl}",
+                            "name": "Owl",
                             "entries": [
                                 "Each turn you successfully hit an enemy or they fail a {@variantrule Saving Throw|XPHB} from one of your spells, you gain a stacking +1 bonus damage with your next spell or attack. This resets upon missing and stacks up to your Wisdom modifier.",
                                 "At 12th level, the bonus becomes +2 per stack and can stack up to double your Wisdom modifier."
@@ -1617,35 +1618,35 @@
                     "items": [
                         {
                             "type": "entries",
-                            "name": "{@b Bear}",
+                            "name": "Bear",
                             "entries": [
-                                "Receive +1 AC."
+                                "Receive +1 {@variantrule Armor Class|XPHB}."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Puma}",
+                            "name": "Puma",
                             "entries": [
                                 "Gain a bonus to Dexterity skill checks and {@variantrule Saving Throw|XPHB|Saving Throws} equal to your Wisdom modifier."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Eagle}",
+                            "name": "Eagle",
                             "entries": [
-                                "Your next attack deals {@damage 1d10} bonus weapon damage to the last target you struck with a ranged weapon attack."
+                                "Your next attack deals {@damage 1d8} bonus weapon damage to the last target you struck with a ranged weapon attack."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Wolf}",
+                            "name": "Wolf",
                             "entries": [
                                 "You have {@variantrule Advantage|XPHB} on weapon attacks."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Owl}",
+                            "name": "Owl",
                             "entries": [
                                 "Gain 60 feet of {@sense Darkvision|XPHB}. This is cumulative for you with the {@sense Darkvision|XPHB} gained from the Spirit Guide feature."
                             ]
@@ -1671,35 +1672,35 @@
                     "items": [
                         {
                             "type": "entries",
-                            "name": "{@b Bear}",
+                            "name": "Bear",
                             "entries": [
                                 "As a {@variantrule Bonus Action|XPHB}, you let loose a bestial roar. Make an {@skill Intimidation|XPHB} check; all enemies engaged with you who can hear must make a Wisdom {@variantrule Saving Throw|XPHB} against your roll or become {@condition frightened} of you."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Puma}",
+                            "name": "Puma",
                             "entries": [
                                 "You can Disengage or Dash as a {@variantrule Bonus Action|XPHB}."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Eagle}",
+                            "name": "Eagle",
                             "entries": [
                                 "Gain {@variantrule Advantage|XPHB} on ranged attacks made while you are at least 10 feet above your target."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Wolf}",
+                            "name": "Wolf",
                             "entries": [
                                 "When you use your {@variantrule Reaction|XPHB} from {@subclassFeature Enhanced Guidance|Shaman|KyvumsShaman|Animist|KyvumsShaman|6|KyvumsShaman|Enhanced Guidance} to attack and hit, the ally you assisted gains {@variantrule Advantage|XPHB} on their next attack."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Owl}",
+                            "name": "Owl",
                             "entries": [
                                 "Gain 30 feet of {@sense Truesight|XPHB}. When you use {@subclassFeature Call of the Wild|Shaman|KyvumsShaman|Animist|KyvumsShaman|10|KyvumsShaman|Call of the Wild}, allies affected also gain this {@sense Truesight|XPHB}."
                             ]
@@ -1725,35 +1726,35 @@
                     "items": [
                         {
                             "type": "entries",
-                            "name": "{@b Bear}",
+                            "name": "Bear",
                             "entries": [
                                 "Your maximum hit points increase by 21, your hit die becomes d12, and your {@variantrule Armor Class|XPHB} bonus from {@subclassFeature Enhanced Guidance|Shaman|KyvumsShaman|Animist|KyvumsShaman|6|KyvumsShaman|Enhanced Guidance} becomes +2."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Puma}",
+                            "name": "Puma",
                             "entries": [
                                 "You deal an extra {@damage 1d10} weapon damage on the first attack you hit with each round. Your run speed increases by 10 feet."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Eagle}",
+                            "name": "Eagle",
                             "entries": [
                                 "Your long jump distance is tripled, your jump height is doubled."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Wolf}",
+                            "name": "Wolf",
                             "entries": [
                                 "The {@variantrule Attack Roll|XPHB} bonus from your Spirit Guide feature increases to +3."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Owl}",
+                            "name": "Owl",
                             "entries": [
                                 "You learn a foe’s weaknesses, resistances, and immunities when using the Spirit Guide feature. You can also cast {@spell detect thoughts} without expending a spell slot."
                             ]
@@ -1773,7 +1774,7 @@
             "level": 3,
             "entries": [
                 "{@i 3rd-level Stormseer feature}",
-                "You learn the {@spell Stormsurge|KyvumsShaman} {@variantrule Cantrip|XPHB}, which does not count against your known {@variantrule Cantrip|XPHB|Cantrips}."
+                "You learn the {@spell Stormsurge|KyvumsShaman|Stormsurge Cantrip}, which does not count against your known {@variantrule Cantrip|XPHB|Cantrips}."
             ]
         },
         {
