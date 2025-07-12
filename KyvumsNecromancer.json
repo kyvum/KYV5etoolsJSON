@@ -309,13 +309,18 @@
                     "classFeature": "Subclass Feature|Necromancer|KyvumsNecromancer|10",
                     "gainSubclassFeature": true
                 },
+                "Essence Rip|Necromancer|KyvumsNecromancer|11",
                 "Ability Score Improvement|Necromancer|KyvumsNecromancer|12",
-                "Essence Rip|Necromancer|KyvumsNecromancer|14",
+                "Necromantic Knowledge|Necromancer|KyvumsNecromancer|13",
                 {
                     "classFeature": "Subclass Feature|Necromancer|KyvumsNecromancer|14",
                     "gainSubclassFeature": true
                 },
-                "Ability Score Improvement|Necromancer|KyvumsNecromancer|16"
+                "Soul Recovery|Necromancer|KyvumsNecromancer|15",
+                "Ability Score Improvement|Necromancer|KyvumsNecromancer|16",
+                "Undeath's Discovery|Necromancer|KyvumsNecromancer|17",
+                "Epic Boon|Necromancer|KyvumsNecromancer|19",
+                "Master of Necromancy|Necromancer|KyvumsNecromancer|20"
             ]
         }
     ],
