@@ -426,7 +426,8 @@
                 "{@i 9th-level feature}",
                 "You are able to use the remaining life force from a freshly deceased corpse to form a link of vitality with your {@creature Crawling Claw|XMM} from the {@spell Find Familiar|XPHB} spell.",
                 "The corpse must be from a creature that was living and thus cannot be a Construct or Undead.",
-                "Your {@creature Crawling Claw|XMM} Familiar's hit points are now linked with yours and it can never take above it's maximum hit points in damage.",
+                "Your {@creature Crawling Claw|XMM} Familiar's hit points are now linked with yours causing you to take hit point damage in place of it.",
+                "The {@creature Crawling Claw|XMM} can never take above it's maximum hit points in damage.",
                 "Additionally, your {@creature Crawling Claw|XMM} Familiar's damage is increased by an amount equal to your Intelligence modifier."
             ]
         },
