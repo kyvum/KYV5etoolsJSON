@@ -1,0 +1,1343 @@
+{
+    "_meta": {
+        "dateAdded": 1757000000,
+        "dateLastModified": 1757000000,
+        "_dateLastModifiedHash": "placeholde",
+        "edition": "classic",
+        "sources": [
+            {
+                "json": "KyvumsNecromancer",
+                "abbreviation": "KYVN",
+                "full": "Kyvum's Necromancer",
+                "authors": [
+                    "Kyvum"
+                ],
+                "convertedBy": [
+                    "Kyvum"
+                ],
+                "version": "v1",
+                "color": "FFD700",
+                "url": "none",
+                "dateReleased": "2025-07-05"
+            }
+        ]
+    },
+    "class": [
+        {
+            "name": "Necromancer",
+            "source": "KyvumsNecromancer",
+            "hd": {
+                "number": 1,
+                "faces": 6
+            },
+            "proficiency": [
+                "int",
+                "con"
+            ],
+            "spellcastingAbility": "int",
+            "casterProgression": "pact",
+            "preparedSpells": "true",
+            "classSpells": [
+                "chill touch",
+                "mending",
+                "mind sliver",
+                "mage hand",
+                "toll the dead",
+                "inflict wounds",
+                "detect evil and good",
+                "detect magic",
+                "bane",
+                "false life",
+                "mage armor",
+                "witch bolt",
+                "unseen servant",
+                "tasha's hideous laughter",
+                "ray of sickness",
+                "wrathful smite",
+                "gentle repose",
+                "darkness",
+                "darkvision",
+                "crown of madness",
+                "levitate",
+                "silence",
+                "enthrall",
+                "ray of enfeeblement",
+                "feign death",
+                "animate dead",
+                "bestow curse",
+                "counterspell",
+                "fly",
+                "fear",
+                "gaseous form",
+                "revivify",
+                "remove curse",
+                "slow",
+                "magic circle",
+                "speak with dead",
+                "summon undead",
+                "vampiric touch",
+                "blight",
+                "arcane eye",
+                "banishment",
+                "death ward",
+                "confusion",
+                "dimension door",
+                "Mordenkainen's Faithful Hound",
+                "stoneskin",
+                "phantasmal killer",
+                "Mordenkainen's Private Sanctum",
+                "contagion",
+                "raise dead",
+                "antilife shell",
+                "scrying",
+                "dispel evil and good"
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light"
+                ],
+                "weapons": [
+                    "simple"
+                ],
+                "tools": [],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcana",
+                                "history",
+                                "intimidation",
+                                "religion",
+                                "deception",
+                                "investigation",
+                                "medicine",
+                                "nature"
+                            ],
+                            "count": 4
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) {@item Studded Leather Armor|xphb} or (b) {@item Leather Armor|xphb}, {@item Light Crossbow|xphb} with 20 {@item bolt|xphb|Bolts} and a {@item Crossbow Bolt Case|xphb}.",
+                    "any {@filter Simple Weapon|items|type=simple weapon}",
+                    "(a) a {@item Scholar's Pack|xphb} or (b) an {@item Explorer's Pack|xphb} or (c) a {@item Priest's Pack|xphb}"
+                ],
+                "goldAlternative": "100 GP"
+            },
+            "multiclassing": {
+                "requirements": {
+                    "int": 13
+                },
+                "proficienciesGained": {
+                    "armor": [
+                        "light"
+                    ],
+                    "weapons": [
+                        "simple"
+                    ],
+                    "skills": [
+                        {
+                            "choose": {
+                                "from": [
+                                    "arcana",
+                                    "history",
+                                    "intimidation",
+                                    "religion",
+                                    "deception",
+                                    "investigation",
+                                    "medicine",
+                                    "nature"
+                                ],
+                                "count": 2
+                            }
+                        }
+                    ]
+                }
+            },
+            "classTableGroups": [
+                {
+                    "title": "Necromancer Spellcasting",
+                    "colLabels": [
+                        "Cantrips",
+                        "Prepared Spells",
+                        "Spell Slots",
+                        "Slot Level"
+                    ],
+                    "rows": [
+                        [
+                            "2",
+                            "2",
+                            "1",
+                            "1"
+                        ],
+                        [
+                            "2",
+                            "2",
+                            "2",
+                            "1"
+                        ],
+                        [
+                            "2",
+                            "3",
+                            "2",
+                            "2"
+                        ],
+                        [
+                            "3",
+                            "4",
+                            "2",
+                            "2"
+                        ],
+                        [
+                            "3",
+                            "5",
+                            "2",
+                            "3"
+                        ],
+                        [
+                            "3",
+                            "6",
+                            "2",
+                            "3"
+                        ],
+                        [
+                            "3",
+                            "7",
+                            "2",
+                            "4"
+                        ],
+                        [
+                            "3",
+                            "8",
+                            "2",
+                            "4"
+                        ],
+                        [
+                            "3",
+                            "9",
+                            "2",
+                            "5"
+                        ],
+                        [
+                            "3",
+                            "10",
+                            "2",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "11",
+                            "3",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "12",
+                            "3",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "12",
+                            "3",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "13",
+                            "3",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "13",
+                            "3",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "14",
+                            "4",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "14",
+                            "4",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "15",
+                            "4",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "15",
+                            "4",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "15",
+                            "4",
+                            "5"
+                        ]
+                    ]
+                }
+            ],
+            "classFeatures": [
+                "Death's Companion|Necromancer|KyvumsNecromancer|1",
+                "Spellcasting|Necromancer|KyvumsNecromancer|1",
+                "Absorb Death|Necromancer|KyvumsNecromancer|2",
+                {
+                    "classFeature": "Subclass Feature|Necromancer|KyvumsNecromancer|3",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Necromancer|KyvumsNecromancer|4",
+                {
+                    "classFeature": "Subclass Feature|Necromancer|KyvumsNecromancer|6",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Necromancer|KyvumsNecromancer|8",
+                "Soul Link|Necromancer|KyvumsNecromancer|9",
+                {
+                    "classFeature": "Subclass Feature|Necromancer|KyvumsNecromancer|10",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Necromancer|KyvumsNecromancer|12",
+                "Essence Rip|Necromancer|KyvumsNecromancer|14",
+                {
+                    "classFeature": "Subclass Feature|Necromancer|KyvumsNecromancer|14",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Necromancer|KyvumsNecromancer|16"
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Death's Companion",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level feature}",
+                "Even those who dabble in undeath need a companion.",
+                "You learn the {@spell Find Familiar|XPHB} which you are able to cast without Material requirements.",
+                "This does not count against your prepared spells.",
+                "The only familiar you can find however is a {@creature Crawling Claw|XMM}"
+            ]
+        },
+        {
+            "name": "Spellcasting",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level feature}",
+                "You have learned to channel the energy of your spiritual guides and embrace the power of storms.",
+                "{@i {@b Cantrips:}} You know two {@variantrule Cantrip|XPHB|Cantrips} at Level 1 selected from the {@filter Necromancer spell list|spells|level=0|class=Necromancer (KYVN)}.",
+                "{@i {@b Spell Slots:}} The leveling table above shows your spell slots for Level 1+ spells, you regain spell slots on a {@variantrule Long Rest|XPHB}.",
+                "{@i {@b Prepared Spells of Level 1+:}} You prepare the list of Level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 spells from the {@filter Necromancer spell list|spells|level=1|class=Necromancer (KYVN)}.",
+                "{@i {@b Changing Your Prepared Spells:}} When you finish a {@variantrule Long Rest|XPHB}, you can change your list of Prepared Spells, replacing any other Necromancer spells for which you have spell slots.",
+                "{@i {@b Spellcasting Ability:}} Intelligence is your spellcasting ability for your Necromancer spells.",
+                "{@i {@b Spellcasting Focus:}} You can use an {@item Arcane Focus|XPHB} for your Necromancer spells."
+            ]
+        },
+        {
+            "name": "Absorb Death",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 2,
+            "entries": [
+                "{@i 2nd-level feature}",
+                "{@i {@b Duration:}} 1 minute",
+                "{@i {@b Material:}} 1 {@item Bone|KyvumsNecromancer|Bone}",
+                "You can perform a dark ritual for 1 minute to absorb the remaining life force from a creature's remains.",
+                "At the end of it, you regain expended Necromancer spell slots but no more than a number equal to half your maximum (round up).",
+                "Once you use this feature, you can't do so again until you finish a Long Rest."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level feature}",
+                "You gain features from your chosen Necromancer subclass."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 4,
+            "entries": [
+                "{@i 4th-level feature}",
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Necromancer levels 8, 12, and 16."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level feature}",
+                "You gain features from your chosen Necromancer subclass."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 8,
+            "entries": [
+                "{@i 4th-level feature}",
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Necromancer levels 8, 12, and 16."
+            ]
+        },
+        {
+            "name": "Soul Link",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 9,
+            "entries": [
+                "{@i 9th-level feature}",
+                "You are able to use the remaining life force from a freshly deceased corpse to form a link of vitality with your {@creature Crawling Claw|XMM} from the {@spell Find Familiar|XPHB} spell.",
+                "The corpse must be from a creature that was living and thus cannot be a Construct or Undead.",
+                "Your {@creature Crawling Claw|XMM} Familiar's hit points are now linked with yours and it can never take above it's maximum hit points in damage.",
+                "Additionally, your {@creature Crawling Claw|XMM} Familiar's damage is increased by an amount equal to your Intelligence modifier."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level feature}",
+                "You gain features from your chosen Necromancer subclass."
+            ]
+        },
+        {
+            "name": "Essence Rip",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 11,
+            "entries": [
+                "{@i 11th-level feature}",
+                "Necromantic spells that you cast drain the very essence of a living creature's being.",
+                "Your Necromancy spells that deal damage to the living deal additional damage equal to your Intelligence modifier."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 12,
+            "entries": [
+                "{@i 4th-level feature}",
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Necromancer levels 8, 12, and 16."
+            ]
+        },
+        {
+            "name": "Necromantic Knowledge",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 13,
+            "entries": [
+                "{@i 13th-level feature}",
+                "Your study of the Necromantic arts has led to a fruitful discovery.",
+                "You can learn two Necromancy spells of your choice from any spellbook of 7th Level or lower.",
+                "You are able to change the spell choice upon leveling up.",
+                "You are able to cast one of these spells once without expending a spell slot per {@variantrule Long Rest|XPHB}."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 14,
+            "entries": [
+                "{@i 14th-level feature}",
+                "You gain features from your chosen Necromancer subclass."
+            ]
+        },
+        {
+            "name": "Soul Recovery",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 15,
+            "entries": [
+                "{@i 14th-level feature}",
+                "Using the corpse of a recently living creature, you are able to restore one use of your spell from {@classFeature Necromantic Knowledge|Necromancer|KyvumsNecromancer|13|KyvumsNecromancer|Necromantic Knowledge}.",
+                "The corpse must be from a creature that was living and thus cannot be a Construct or Undead.",
+                "You are also only able to do this twice per {@variantrule Long Rest|XPHB}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 16,
+            "entries": [
+                "{@i 4th-level feature}",
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Necromancer levels 8, 12, and 16."
+            ]
+        },
+        {
+            "name": "Undeath's Discovery",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 17,
+            "entries": [
+                "{@i 17th-level feature}",
+                "You have further unraveled the mysteries of undeath.",
+                "The spells from your {@classFeature Necromantic Knowledge|Necromancer|KyvumsNecromancer|13|KyvumsNecromancer|Necromantic Knowledge} feature can now be of 9th Level or lower."
+            ]
+        },
+        {
+            "name": "Epic Boon",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 19,
+            "entries": [
+                "{@i 19th-level feature}",
+                "You gain an Epic Boon feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+            ]
+        },
+        {
+            "name": "Master of Necromancy",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 20,
+            "entries": [
+                "{@i 20th-level feature}",
+                "You are now able to learn a third spell from the {@classFeature Necromantic Knowledge|Necromancer|KyvumsNecromancer|13|KyvumsNecromancer|Necromantic Knowledge} feature.",
+                "Additionally you can use the {@classFeature Soul Recovery|Necromancer|KyvumsNecromancer|15|KyvumsNecromancer|Soul Recovery} feature a third time before needing a {@variantrule Long Rest|XPHB}."
+            ]
+        }
+    ],
+    "subclass": [
+        {
+            "name": "Reanimation",
+            "shortName": "Reanimation",
+            "source": "KyvumsNecromancer",
+            "page": 2,
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassTableGroups": [
+                {
+                    "title": "Active Bones",
+                    "colLabels": [
+                        "Feature Unlocked"
+                    ],
+                    "rows": [
+                        [
+                            "-"
+                        ],
+                        [
+                            "-"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "10"
+                        ],
+                        [
+                            "10"
+                        ],
+                        [
+                            "12"
+                        ],
+                        [
+                            "12"
+                        ],
+                        [
+                            "12"
+                        ],
+                        [
+                            "14"
+                        ]
+                    ]
+                }
+            ],
+            "subclassFeatures": [
+                "Bodies and Bones|Necromancer|KyvumsNecromancer|Reanimation|KyvumsNecromancer|3",
+                "Flesh on Bone|Necromancer|KyvumsNecromancer|Reanimation|KyvumsNecromancer|6",
+                "Armor of Bone|Necromancer|KyvumsNecromancer|Reanimation|KyvumsNecromancer|10",
+                "Muscle and Mass|Necromancer|KyvumsNecromancer|Reanimation|KyvumsNecromancer|14"
+            ]
+        },
+        {
+            "name": "Cursing",
+            "shortName": "Cursing",
+            "source": "KyvumsNecromancer",
+            "page": 2,
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassTableGroups": [
+                {
+                    "title": "Curses & Hexes",
+                    "colLabels": [
+                        "Feature Unlocked"
+                    ],
+                    "rows": [
+                        [
+                            "-"
+                        ],
+                        [
+                            "-"
+                        ],
+                        [
+                            "2"
+                        ],
+                        [
+                            "2"
+                        ],
+                        [
+                            "3"
+                        ],
+                        [
+                            "3"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "7"
+                        ],
+                        [
+                            "7"
+                        ],
+                        [
+                            "8"
+                        ],
+                        [
+                            "8"
+                        ]
+                    ]
+                }
+            ],
+            "subclassFeatures": [
+                "Hexmaster|Necromancer|KyvumsNecromancer|Cursing|KyvumsNecromancer|3",
+                "Cursemaster|Necromancer|KyvumsNecromancer|Cursing|KyvumsNecromancer|6",
+                "Plague Spreader|Necromancer|KyvumsNecromancer|Cursing|KyvumsNecromancer|10",
+                "Deathbringer|Necromancer|KyvumsNecromancer|Cursing|KyvumsNecromancer|14"
+            ]
+        },
+        {
+            "name": "Reaping",
+            "shortName": "Reaping",
+            "source": "KyvumsNecromancer",
+            "page": 2,
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassTableGroups": [
+                {
+                    "title": "Forbidden Magicks",
+                    "colLabels": [
+                        "Feature Unlocked"
+                    ],
+                    "rows": [
+                        [
+                            "-"
+                        ],
+                        [
+                            "-"
+                        ],
+                        [
+                            "2"
+                        ],
+                        [
+                            "2"
+                        ],
+                        [
+                            "3"
+                        ],
+                        [
+                            "3"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "7"
+                        ],
+                        [
+                            "7"
+                        ],
+                        [
+                            "8"
+                        ],
+                        [
+                            "8"
+                        ]
+                    ]
+                }
+            ],
+            "subclassFeatures": [
+                "Soulrend|Necromancer|KyvumsNecromancer|Reaping|KyvumsNecromancer|3",
+                "Forbidden Wrath|Necromancer|KyvumsNecromancer|Reaping|KyvumsNecromancer|6",
+                "Drain and Wither|Necromancer|KyvumsNecromancer|Reaping|KyvumsNecromancer|10",
+                "Creeping Darkness|Necromancer|KyvumsNecromancer|Reaping|KyvumsNecromancer|14"
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Bodies and Bones",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Reanimation",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Reanimation feature}",
+                "You learn the {@spell Reanimate Bones|KyvumsNecromancer} spell. You can cast this spell once per {@variantrule Long Rest} or use any Spell Slot.",
+                "Upon defeating an enemy that has bones, spend 10 minutes and roll {@dice 1d6} + your Intelligence modifier, you collect that many {@item Bone|KyvumsNecromancer|Bones} from the corpse.",
+                "You control an amount or size of creatures dependent on the amount of bones used as per the Class Progression Table."
+            ]
+        },
+        {
+            "name": "Flesh on Bone",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Reanimation",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level Reanimation feature}",
+                "You learn the art of moulding, binding and animating flesh to bone.",
+                "Using the corpse of a creature that has flesh, you are able to bind the flesh to one of your controlled Reanimated Bones.",
+                "This process will take you 10 minutes.",
+                "A Reanimated Bone that has this effect applied will receive an additional 1 hitpoint per size category per Necromancer Level."
+            ]
+        },
+        {
+            "name": "Armor of Bone",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Reanimation",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level Reanimation feature}",
+                "You learn to animate bone as if it were a moving carapace to protect yourself or one of your animated creatures.",
+                "Requires {@status Concentration}.",
+                "{@i {@b Range:}} 60ft.",
+                "{@i {@b Duration:}} 8 hours",
+                "You can have up to 8 Bones worth of Armor of Bone active at any time.",
+                "The Armor of Bone will be destroyed if the creature it's protecting dies, you lose {@status Concentration}, it's duration expires or move out of range of the Armor of Bone.",
+                "If destroyed, none of the bones are salvageable.",
+                "Depending on how many bones you animate you can create carapace of different strengths:",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@i {@b 2 Bones:}} Armor equivalent to {@item Ring Mail|XPHB}",
+                        "{@i {@b 4 Bones:}} Armor equivalent to {@item Chain Shirt|XPHB}",
+                        "{@i {@b 6 Bones:}} Armor equivalent to {@item Chain Mail|XPHB}",
+                        "{@i {@b 8 Bones:}} Armor equivalent to {@item Splint Armor|XPHB}"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Muscle and Mass",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Reanimation",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 14,
+            "entries": [
+                "{@i 14th-level Reanimation feature}",
+                "When binding Flesh to Bone as per the {@subclassFeature Flesh on Bone|Necromancer|KyvumsNecromancer|Reanimation|KyvumsNecromancer|6|KyvumsNecromancer|Flesh on Bone} feature you are now able to also bind muscle to one of your reanimations.",
+                "This grants the reanimation a bonus additional 5 feet of movement.",
+                "Additionally the creature now gains 2 hitpoints per size category per Necromancer level instead of 1."
+            ]
+        },
+        {
+            "name": "Hexmaster",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Cursing",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Curses feature}",
+                "You are able to cast the {@spell Hex|XPHB} spell once without expending a spell slot, this is recharged upon a {@variantrule Long Rest|XPHB}.",
+                "This does not count against your prepared spells.",
+                "At Higher Levels you are able to cast {@spell Hex|XPHB} multiple times before requiring a {@variantrule Long Rest|XPHB} as per the Hexes and Curses column in the Class Progression Table.",
+                "{@i {@b Harrowing:}} Additionally the {@spell Hex|XPHB} spell's damage die becomes a {@dice 1d8} and can be triggered by anyone attacking the target. However it can now only be triggered once per turn.",
+                "This damage increases by {@dice 1d8} for each spell slot above level 1."
+            ]
+        },
+        {
+            "name": "Cursemaster",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Cursing",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level Curses feature}",
+                "You are able to cast the {@spell Bestow Curse|XPHB} spell once without expending a spell slot, this is recharged upon a {@variantrule Long Rest|XPHB}.",
+                "This does not count against your prepared spells.",
+                "At Higher Levels you are able to cast {@spell Bestow Curse|XPHB} multiple times before requiring a {@variantrule Long Rest|XPHB} as per the Class Progression Table.",
+                "Your {@spell Bestow Curse|XPHB} spell always applies it's damage element as well as one of the other options of your choice.",
+                "Additionally {@spell Bestow Curse|XPHB} gains the benefits of {@i {@b Harrowing}} from your {@subclassFeature Hexmaster|Necromancer|KyvumsNecromancer|Cursing|KyvumsNecromancer|3|KyvumsNecromancer|Hexmaster} feature with a damage die of {@dice 1d10}."
+            ]
+        },
+        {
+            "name": "Plague Spreader",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Cursing",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level Curses feature}",
+                "Your hexes spread to enemies near the afflicted liked a plague.",
+                "If a creature afflicted by either of your {@spell Hex|XPHB} or {@spell Bestow Curse|XPHB} spells ends it's turn within 5ft of a creature it considers an ally, that creature is also afflicted by the spell.",
+                "A maximum of three creatures can be afflicted by either of your {@spell Hex|XPHB} or {@spell Bestow Curse|XPHB} spell at any time."
+            ]
+        },
+        {
+            "name": "Deathbringer",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Cursing",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 14,
+            "entries": [
+                "{@i 14th-level Curses feature}",
+                "Creatures afflicted by your {@spell Hex|XPHB} or {@spell Bestow Curse|XPHB} spells are with intense pain as their bodies begin to erode.",
+                "At the beginning of each of their turns, any creature affected by one of these spells must make a Constitution {@variantrule Saving Throw|XPHB} or take damage equal to that of the Hex or Curse."
+            ]
+        },
+        {
+            "name": "Soulrend",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Reaping",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Reaper feature}",
+                "Your attacks siphon the soul of your enemies when charged with Necromantic energies.",
+                "You know the {@spell Chill Touch|XPHB} cantrip, this does not count against your known cantrips.",
+                "You can now channel {@spell Chill Touch|XPHB} through your weapon, when you successfully hit a target with {@spell Chill Touch|XPHB} you additionally deal your weapon's damage.",
+                "If your {@spell Chill Touch|XPHB} slays an enemy, gain {@variantrule Temporary Hit Points|XPHB} equal to the amount of damage dealt by the {@spell Chill Touch|XPHB}. The {@variantrule Temporary Hit Points|XPHB} last permanently until lost through damage.",
+                "You gain proficiency with {@filter Medium Armor|items|type=Medium Armor} and all {@filter Reach Weapons|items|property=Reach} and do not incur disadvantage when using {@spell Chill Touch|XPHB} with Heavy weapons that also have the Reach property."
+            ]
+        },
+        {
+            "name": "Forbidden Wrath",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Reaping",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level Reaper feature}",
+                "You are able to cast the {@spell Wrathful Smite|XPHB} spell once without expending a spell slot, this is recharged upon a {@variantrule Long Rest|XPHB}.",
+                "This does not count against your prepared spells.",
+                "At Higher Levels you are able to cast {@spell Wrathful Smite|XPHB} multiple times before requiring a {@variantrule Long Rest|XPHB} as per the Forbidden Magicks on the Class Progression Table.",
+                "If you cast {@spell Wrathful Smite|XPHB} after hitting an enemy with your {@subclassFeature Soulrend|Necromancer|KyvumsNecromancer|Reaping|KyvumsNecromancer|3|KyvumsNecromancer|Soulrend} and it dies, you still gain the {@variantrule Temporary Hit Points|XPHB}."
+            ]
+        },
+        {
+            "name": "Drain and Wither",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Reaping",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level Reaper feature}",
+                "You are able to cast the {@spell Vampiric Touch|XPHB} spell once without expending a spell slot, this is recharged upon a {@variantrule Long Rest|XPHB}.",
+                "This does not count against your prepared spells.",
+                "At Higher Levels you are able to cast {@spell Vampiric Touch|XPHB} multiple times before requiring a {@variantrule Long Rest|XPHB} as per the Forbidden Magicks on the Class Progression Table.",
+                "Enemies slain by your {@spell Vampiric Touch|XPHB} can be used in place of {@spell Chill Touch|XPHB} for your {@subclassFeature Soulrend|Necromancer|KyvumsNecromancer|Reaping|KyvumsNecromancer|3|KyvumsNecromancer|Soulrend} feature."
+            ]
+        },
+        {
+            "name": "Creeping Darkness",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Reaping",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 14,
+            "entries": [
+                "{@i 14th-level Reaper feature}",
+                "You gain 60 feet of {@sense Darkvision|XPHB}.",
+                "In Darkness you have {@variantrule Advantage|XPHB} on your melee attacks."
+            ]
+        }
+    ],
+    "item": [
+        {
+            "name": "Bone",
+            "source": "KyvumsNecromancer",
+            "page": 1,
+            "type": "TG|XPHB",
+            "rarity": "none",
+            "weight": 1,
+            "value": 1,
+            "entries": [
+                "A bone harvested from a corpse."
+            ]
+        }
+    ],
+    "spell": [
+        {
+            "name": "Reanimate Bones",
+            "source": "KyvumsNecromancer",
+            "page": 4,
+            "level": 1,
+            "school": "N",
+            "time": [
+                {
+                    "number": 10,
+                    "unit": "minute",
+                    "condition": "ritual"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "duration": [
+                {
+                    "type": "permanent"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Necromancer",
+                        "source": "KyvumsNecromancer"
+                    }
+                ]
+            },
+            "entries": [
+                "You reanimate the bones of the dead to do your bidding as per the Reanimated Bones stat blocks.",
+                "The reanimated bones take the form of a creature of your choice depending on how many bones were used in the ritual.",
+                "If two bones are used, the creature must be {@creature Reanimated Bones: Small|KyvumsNecromancer|small} in size.",
+                "If four bones are used, the creature must be {@creature Reanimated Bones: Medium|KyvumsNecromancer|medium} in size.",
+                "If six bones are used, the creature must be {@creature Reanimated Bones: Large|KyvumsNecromancer|large} in size.",
+                "If eight bones are used, the creature must be {@creature Reanimated Bones: Huge|KyvumsNecromancer|huge} in size."
+            ],
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "Bones"
+            }
+        }
+    ],
+    "monster": [
+        {
+            "name": "Reanimated Bones: Small",
+            "source": "KyvumsNecromancer",
+            "size": [
+                "S"
+            ],
+            "type": "undead",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 10,
+                    "from": [
+                        "natural"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "3 + 2 times your Necromancer level.",
+                "average": 3
+            },
+            "speed": {
+                "walk": 20
+            },
+            "str": 12,
+            "dex": 10,
+            "con": 0,
+            "int": 6,
+            "wis": 8,
+            "cha": 0,
+            "cr": "0",
+            "immune": [
+                "necrotic",
+                "poison"
+            ],
+            "languages": [
+                "—"
+            ],
+            "trait": [
+                {
+                    "name": "Opposable Thumbs",
+                    "entries": [
+                        "All creatures you create have Opposable Thumbs and are able to wield Simple Weapons."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Unarmed Attack",
+                    "entries": [
+                        "Melee Weapon Attack: Bonus equals your Spell Attack Modifier, reach 5 ft.",
+                        "On Hit Damage: {@damage 1d4 + 2} plus your Intelligence modifier Bludgeoning, Piercing, or Slashing damage (your choice, depending on the form of the bones)."
+                    ]
+                },
+                {
+                    "name": "Armed Attack",
+                    "entries": [
+                        "Weapon Attack: Bonus equals your Spell Attack Modifier.",
+                        "On Hit Damage: Equal to the Weapon's Damage plus your Intelligence modifier, damage type depends on weapon."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Reanimated Bones: Medium",
+            "source": "KyvumsNecromancer",
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 11,
+                    "from": [
+                        "natural"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "8 + 2 times your Necromancer level.",
+                "average": 8
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 14,
+            "dex": 12,
+            "con": 0,
+            "int": 6,
+            "wis": 10,
+            "cha": 0,
+            "cr": "0",
+            "immune": [
+                "necrotic",
+                "poison"
+            ],
+            "languages": [
+                "—"
+            ],
+            "trait": [
+                {
+                    "name": "Opposable Thumbs",
+                    "entries": [
+                        "All creatures you create have Opposable Thumbs and are able to wield Simple Weapons."
+                    ]
+                },
+                {
+                    "name": "Structured Body",
+                    "entries": [
+                        "All of your medium reanimated creations are created with a structured body, they are capable of wearing light armor."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Unarmed Attack",
+                    "entries": [
+                        "Melee Weapon Attack: Bonus equals your Spell Attack Modifier, reach 5 ft.",
+                        "On Hit Damage: {@damage 1d6 + 2} plus your Intelligence modifier Bludgeoning, Piercing, or Slashing damage (your choice, depending on the form of the bones)."
+                    ]
+                },
+                {
+                    "name": "Armed Attack",
+                    "entries": [
+                        "Weapon Attack: Bonus equals your Spell Attack Modifier.",
+                        "On Hit Damage: Equal to the Weapon's Damage plus your Intelligence modifier, damage type depends on weapon."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Reanimated Bones: Large",
+            "source": "KyvumsNecromancer",
+            "size": [
+                "L"
+            ],
+            "type": "undead",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "natural"
+                    ],
+                    "condition": "plus your Intelligence modifier"
+                }
+            ],
+            "hp": {
+                "formula": "10  + 4 times your Necromancer level.",
+                "average": 10
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 14,
+            "con": 0,
+            "int": 6,
+            "wis": 12,
+            "cha": 0,
+            "cr": "0",
+            "immune": [
+                "necrotic",
+                "poison"
+            ],
+            "languages": [
+                "—"
+            ],
+            "trait": [
+                {
+                    "name": "Opposable Thumbs",
+                    "entries": [
+                        "All creatures you create have Opposable Thumbs and are able to wield Simple Weapons."
+                    ]
+                },
+                {
+                    "name": "Structured and Solid Body",
+                    "entries": [
+                        "Your large reanimated creations are not only structured but solid also, they are capable of wearing medium armor."
+                    ]
+                },
+                {
+                    "name": "Unarmed Attack",
+                    "entries": [
+                        "Melee Weapon Attack: Bonus equals your Spell Attack Modifier, reach 5 ft.",
+                        "On Hit Damage: {@damage 1d8 + 2} plus your Intelligence modifier Bludgeoning, Piercing, or Slashing damage (your choice, depending on the form of the bones)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Armed Attack",
+                    "entries": [
+                        "Weapon Attack: Bonus equals your Spell Attack Modifier.",
+                        "On Hit Damage: Equal to the Weapon's Damage plus your Intelligence modifier, damage type depends on weapon."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Reanimated Bones: Huge",
+            "source": "KyvumsNecromancer",
+            "size": [
+                "H"
+            ],
+            "type": "undead",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "natural"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "12 + 6 times your Necromancer level.",
+                "average": 12
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 18,
+            "dex": 14,
+            "con": 0,
+            "int": 6,
+            "wis": 14,
+            "cha": 0,
+            "cr": "0",
+            "immune": [
+                "necrotic",
+                "poison"
+            ],
+            "languages": [
+                "—"
+            ],
+            "trait": [
+                {
+                    "name": "Opposable Thumbs",
+                    "entries": [
+                        "All of your reanimated creations have Opposable Thumbs and are able to wield Simple Weapons."
+                    ]
+                },
+                {
+                    "name": "Structured and Sturdy Body",
+                    "entries": [
+                        "Your huge reanimated creations are not only structured but sturdy also, they are capable of wearing heavy armor.",
+                        "Due to it's size, the armor must be custom ordered and the cost is four times the normal cost, and it weighs twice as much."
+                    ]
+                },
+                {
+                    "name": "Unarmed Attack",
+                    "entries": [
+                        "Melee Weapon Attack: Bonus equals your Spell Attack Modifier, reach 5 ft.",
+                        "On Hit Damage: {@damage 1d10 + 2} plus your Intelligence modifier Bludgeoning, Piercing, or Slashing damage (your choice, depending on the form of the bones)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Armed Attack",
+                    "entries": [
+                        "Weapon Attack: Bonus equals your Spell Attack Modifier.",
+                        "On Hit Damage: Equal to the Weapon's Damage plus your Intelligence modifier, damage type depends on weapon."
+                    ]
+                }
+            ]
+        }
+    ]
+}
