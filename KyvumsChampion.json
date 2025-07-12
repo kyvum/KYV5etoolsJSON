@@ -238,21 +238,21 @@
                     "items": [
                         {
                             "type": "entries",
-                            "name": "{@b Deities}",
+                            "name": "Deities",
                             "entries": [
                                 "You are the Champion of a powerful Deity whose power you can channel to aid your allies or harm your foes."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Townships}",
+                            "name": "Townships",
                             "entries": [
                                 "You are a Champion of the people, you bring great morale to your party and provide boons to your allies in battle "
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Crowns}",
+                            "name": "Crowns",
                             "entries": [
                                 "You are a Champion of someone you deem a worthy leader, becoming their personal guard and assisting them with their cause."
                             ]
@@ -470,8 +470,7 @@
                         "2nd",
                         "3rd",
                         "4th",
-                        "5th",
-                        "6th"
+                        "5th"
                     ],
                     "rows": [
                         [
@@ -1031,7 +1030,7 @@
                     "items": [
                         {
                             "type": "entries",
-                            "name": "{@b Offensive Command}",
+                            "name": "Offensive Command",
                             "entries": [
                                 "If you shout an offensive command, for example telling your allies to focus a target:",
                                 "All attacks against that target gain {@variantrule Advantage|XPHB} until your next turn."
@@ -1039,17 +1038,17 @@
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Tactical Command}",
+                            "name": "Defensive Command",
                             "entries": [
-                                "If you shout a tactical command, for example telling your allies to reposition or hold their position:",
+                                "If you shout a defensive command, for example telling your allies to guard a target or hold a position:",
                                 "All allies receive +1 {@variantrule Armor Class|XPHB} until your next turn."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "{@b Defensive Command}",
+                            "name": "Movement Command",
                             "entries": [
-                                "If you shout a defensive command, for example telling your allies to protect a target or retreat:",
+                                "If you shout a movement command, for example telling your allies to rush to a target or retreat:",
                                 "All allies gain 5ft movement until your next turn."
                             ]
                         }
