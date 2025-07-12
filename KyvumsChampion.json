@@ -280,7 +280,7 @@
             "level": 2,
             "entries": [
                 "{@i 2nd-level feature}",
-                "You gain a {@feat Fighting Style|FS} feat of your choice."
+                "You gain a {@filter Fighting Style|feats|category=FS} feat of your choice."
             ]
         },
         {
