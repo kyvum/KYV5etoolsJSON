@@ -231,7 +231,7 @@
                 "{@i 1st-level feature}",
                 "You bear the symbol of a cause for which you Champion, be it a Deity, your hometown or a monarch you wear the symbol with pride.",
                 "Perhaps you wish to destroy the evil that plagued your home, to spread the will of your God, or you are a valiant defender of those who rule or who you believe should.",
-                "You are able to cast the {@spell Compelled Duel} spell once per {@variantrule Long Rest|XPHB}. Your Spellcasting ability for this spell is Charisma.",
+                "You are able to cast the {@spell Compelled Duel} spell a number of times equal to your Proficiency Bonus per {@variantrule Long Rest|XPHB}. Your Spellcasting ability for this spell is Charisma.",
                 "At 1st level, you may choose your focus as a Champion: Deities, Townships, or Crowns. The subclass you choose grants you unique abilities at higher levels.",
                 {
                     "type": "list",
@@ -1101,7 +1101,7 @@
                 "{@i 1st-level Crowns feature}",
                 "You are able to designate one ally as your ward, devoting yourself to their cause and vowing to defend them at all costs.",
                 "You are only able to designate a new ward if; the previous one dies, there is a strong moral disagreement, upon leveling up.",
-                "You gain the {@feat Protection|XPHB} Fighting Style, additionally you can use the {@feat Interception|XPHB} Fighting Style when defending your Ward."
+                "Choose one of either the {@feat Protection|XPHB} Fighting Style or {@feat Interception|XPHB} Fighting Style to learn."
             ]
         },
         {
@@ -1115,7 +1115,7 @@
             "level": 3,
             "entries": [
                 "{@i 3rd-level Crowns feature}",
-                "When within 5ft of your ward you are able to use the {@action Help|XPHB} action as a {@variantrule Bonus Action|XPHB} when assisting them."
+                "You are able to use the {@action Help|XPHB} action as a {@variantrule Bonus Action|XPHB} when assisting your Ward."
             ]
         },
         {
@@ -1129,7 +1129,7 @@
             "level": 7,
             "entries": [
                 "{@i 7th-level Crowns feature}",
-                "If your Ward is below maximum hitpoints and you are within 60ft of them, you gain 10ft movement.",
+                "If your Ward is below maximum hitpoints and you are within 60ft of them, you gain 10ft of movement.",
                 "Additionally, you have {@variantrule Advantage|XPHB} on attacks against any creature that damaged your Ward in the last round."
             ]
         },
@@ -1144,9 +1144,9 @@
             "level": 14,
             "entries": [
                 "{@i 14th-level Crowns feature}",
-                "If your Ward is below half hitpoints and you are within 5ft of them, you are able to use your {@variantrule Reaction|XPHB} to throw yourself in the way of all incoming attacks against them.",
+                "If your Ward is below half hitpoints and you are within 5ft of them, you are able to use your {@variantrule Reaction|XPHB} to defend them with your body.",
                 "Using your {@variantrule Reaction|XPHB}, you now occupy the same space as your Ward intercepting attacks made against them. You receive a -2 penalty to your {@variantrule Armor Class|XPHB} while doing this.",
-                "You also will take full damage from {@variantrule Area of Effect|XPHB} damage that would hit you, and half of which would affect your Ward, they receive the other half."
+                "You also will take full damage from {@variantrule Area of Effect|XPHB} damage that would hit you, and half of which would affect your Ward - they receive the other half."
             ]
         },
         {
@@ -1161,7 +1161,7 @@
             "entries": [
                 "{@i 20th-level Crowns feature}",
                 "You become the ultimate bulwark, capable of shielding your Ward from all harm.",
-                "When you are within 5ft of your Ward they always have the benefit as if you were using both {@feat Protection|XPHB} and {@feat Interception|XPHB} to guard them, so long as you meet the requirements to do so.",
+                "When you are within 5ft of your Ward they always have the benefit of your Fighting Style choice from {@subclassFeature Royal Guardian|Champion|KyvumsChampion|Crowns|KyvumsChampion|1|KyvumsChampion|Royal Guardian} so long as you meet the requirements to do so.",
                 "Additionally, when using the {@subclassFeature Stalwart Defender|Champion|KyvumsChampion|Crowns|KyvumsChampion|14|KyvumsChampion|Stalwart Defender} feature you no longer receive a penalty to your {@variantrule Armor Class|XPHB} and your ward no longer receives damage from {@variantrule Area of Effect|XPHB} effects."
             ]
         }
