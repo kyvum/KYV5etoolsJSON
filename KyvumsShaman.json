@@ -418,7 +418,27 @@
             "entries": [
                 "{@i 1st-level feature}",
                 "You can Call upon the spirits to issue boons or hindrances. Each Call takes an {@variantrule Action|XPHB} unless specified otherwise.",
-                "You regain all expended uses of Calls when you finish a {@variantrule Long Rest|XPHB} or half as much rounded down on a {@variantrule Short Rest|XPHB}."
+                "You regain all expended uses of Calls when you finish a {@variantrule Long Rest|XPHB} or half as much rounded down on a {@variantrule Short Rest|XPHB}.",
+                                {
+                    "type": "table",
+                    "caption": "The Call",
+                    "colLabels": [
+                        "Level",
+                        "Name"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "1",
+                            "7"
+                        ],
+                        [
+                            "Call of the Tribe",
+                            "Call of the Wind",
+                            "Call of the Spirits"
+                        ]
+                    ]
+                }
             ]
         },
         {
