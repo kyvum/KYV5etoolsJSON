@@ -893,7 +893,7 @@
                 "You are able to cast the {@spell Hex|XPHB} spell once without expending a spell slot, this is recharged upon a {@variantrule Long Rest|XPHB}.",
                 "This does not count against your prepared spells.",
                 "At Higher Levels you are able to cast {@spell Hex|XPHB} multiple times before requiring a {@variantrule Long Rest|XPHB} as per the Hexes and Curses column in the Class Progression Table.",
-                "{@i {@b Harrowing:}} Additionally the {@spell Hex|XPHB} spell's damage die becomes a {@dice 1d8} and can be triggered by anyone attacking the target. However it can now only be triggered once per turn.",
+                "{@i {@b Harrowing:}} Additionally the {@spell Hex|XPHB} spell's damage die becomes a {@dice 1d8} and can be triggered by anyone attacking the target. However it can now only be triggered {@b once per turn}.",
                 "This damage increases by {@dice 1d8} for each spell slot above level 1."
             ]
         },

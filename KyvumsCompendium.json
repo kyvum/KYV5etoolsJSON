@@ -1019,8 +1019,8 @@
             "classSource": "KyvumsChampion",
             "level": 11,
             "entries": [
-                "You are a hero of your cause, willing and ready to defend it at all times.",
-                "You can attack three times instead of once whenever you take the {@action Attack} action on your turn.",
+                "You are a hero of your cause, willing to push the limits of your strength to ensure it.",
+                "You can attack three times instead of twice whenever you make an {@classFeature Extra Attack|Champion|KyvumsChampion|5|KyvumsChampion|Extra Attack} on your turn.",
                 "You are able to do this an amount of times equal to your Proficiency Bonus. This is restored upon a {@variantrule Long Rest|XPHB}, or an amount equal to half rounded down on a {@variantrule Short Rest|XPHB}."
             ]
         },
@@ -1398,7 +1398,7 @@
             "entries": [
                 "{@i 1st-level feature}",
                 "You can Call upon the spirits to issue boons or hindrances. Each Call takes an {@variantrule Action|XPHB} unless specified otherwise.",
-                "You regain all expended uses of Calls when you finish a {@variantrule Long Rest|XPHB} or half as much rounded down on a {@variantrule Short Rest|XPHB}.",
+                "You regain all expended uses of Calls when you finish a {@variantrule Long Rest|XPHB}.",
                                 {
                     "type": "table",
                     "caption": "The Call",
@@ -1507,7 +1507,8 @@
             "entries": [
                 "{@i 5th-level feature}",
                 "Once on each of your turns, if you have no uses of {@classFeature The Call|Shaman|KyvumsShaman|1|KyvumsShaman|The Call} left, you can give yourself one by expending a spell slot (no {@variantrule Action|XPHB} required).",
-                "In addition, you can expend one use of {@classFeature The Call|Shaman|KyvumsShaman|1|KyvumsShaman|The Call} (no {@variantrule Action|XPHB} required) to give yourself a level 1 spell slot, but you can’t do so again until you finish a {@variantrule Long Rest|XPHB}."
+                "In addition, you can expend one use of {@classFeature The Call|Shaman|KyvumsShaman|1|KyvumsShaman|The Call} (no {@variantrule Action|XPHB} required) to give yourself a level 1 spell slot, but you can’t do so again until you finish a {@variantrule Long Rest|XPHB}.",
+                "Additionally you now regain half of your Call charges rounded down on a {@variantrule Short Rest|XPHB}"
             ]
         },
         {
@@ -3169,7 +3170,7 @@
                     "rows": [
                         [
                             "1",
-                            "{@subclassFeature Guiding Shout|Champion|KyvumsChampion|Townships|KyvumsChampion|1|KyvumsChampion|Guiding Voice}"
+                            "{@subclassFeature Guiding Voice|Champion|KyvumsChampion|Townships|KyvumsChampion|1|KyvumsChampion|Guiding Shout}"
                         ],
                         [
                             "3",
@@ -3198,7 +3199,7 @@
                 "{@i {@b Duration:}} 1 minute",
                 "{@i {@b Allies must be able to hear you to receive these effects.}}",
                 "You shout inspirational words, perhaps meaningful to only your allies raising their morale.",
-                "Each ally who hears you gains {@variantrule Temporary Hit Points|XPHB} equal your Champion level multipled by your Charisma modifier."
+                "Each ally who hears you gains {@variantrule Temporary Hit Points|XPHB} equal your Champion level multiplied by your Charisma modifier."
             ]
         },
         {
@@ -3214,36 +3215,7 @@
                 "{@i 7th-level Townships feature}",
                 "{@i {@b Radius:}} 120ft",
                 "{@i {@b Allies must be able to hear you to receive these effects.}}",
-                "You shout a short tactical command at your allies, rallying them together to fight cohesively.",
-                {
-                    "type": "list",
-                    "items": [
-                        {
-                            "type": "entries",
-                            "name": "Offensive Command",
-                            "entries": [
-                                "If you shout an offensive command, for example telling your allies to focus a target:",
-                                "All attacks against that target gain {@variantrule Advantage|XPHB} until your next turn."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Defensive Command",
-                            "entries": [
-                                "If you shout a defensive command, for example telling your allies to guard a target or hold a position:",
-                                "All allies receive +1 {@variantrule Armor Class|XPHB} until your next turn."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Movement Command",
-                            "entries": [
-                                "If you shout a movement command, for example telling your allies to rush to a target or retreat:",
-                                "All allies gain 5ft movement until your next turn."
-                            ]
-                        }
-                    ]
-                }
+                "You rally your allies together allowing them to {@variantrule Disengage|XPHB} and move up to half of their movement towards you as a {@variantrule Reaction|XPHB}."
             ]
         },
         {
@@ -3259,7 +3231,7 @@
                 "{@i 14th-level Townships feature}",
                 "You are hardened by battle and a will to protect your companions. You are able to put your fears aside to stay standing in the frontlines.",
                 "You are immune to the effects of the {@condition Frightened} condition.",
-                "Any ally who witnesses a creature attempt to {@condition Frightened|XPHB|Frighten} you will gain {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} against the {@condition Frightened|XPHB} condition as well as the effects of {@subclassFeature Bolster The Ranks|Champion|KyvumsChampion|Townships|KyvumsChampion|1|KyvumsChampion|Bolster The Ranks}."
+                "Any ally who witnesses a creature attempt to {@condition Frightened|XPHB|Frighten} you will gain {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} against the {@condition Frightened|XPHB} condition as well as the effects of {@subclassFeature Bolster The Ranks|Champion|KyvumsChampion|Townships|KyvumsChampion|3|KyvumsChampion|Bolster The Ranks}."
             ]
         },
         {
@@ -3443,7 +3415,7 @@
                 "You are able to cast the {@spell Hex|XPHB} spell once without expending a spell slot, this is recharged upon a {@variantrule Long Rest|XPHB}.",
                 "This does not count against your prepared spells.",
                 "At Higher Levels you are able to cast {@spell Hex|XPHB} multiple times before requiring a {@variantrule Long Rest|XPHB} as per the Hexes and Curses column in the Class Progression Table.",
-                "{@i {@b Harrowing:}} Additionally the {@spell Hex|XPHB} spell's damage die becomes a {@dice 1d8} and can be triggered by anyone attacking the target. However it can now only be triggered once per turn.",
+                "{@i {@b Harrowing:}} Additionally the {@spell Hex|XPHB} spell's damage die becomes a {@dice 1d8} and can be triggered by anyone attacking the target. However it can now only be triggered {@b once per turn}.",
                 "This damage increases by {@dice 1d8} for each spell slot above level 1."
             ]
         },

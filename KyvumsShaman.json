@@ -418,7 +418,7 @@
             "entries": [
                 "{@i 1st-level feature}",
                 "You can Call upon the spirits to issue boons or hindrances. Each Call takes an {@variantrule Action|XPHB} unless specified otherwise.",
-                "You regain all expended uses of Calls when you finish a {@variantrule Long Rest|XPHB} or half as much rounded down on a {@variantrule Short Rest|XPHB}.",
+                "You regain all expended uses of Calls when you finish a {@variantrule Long Rest|XPHB}.",
                                 {
                     "type": "table",
                     "caption": "The Call",
@@ -527,7 +527,8 @@
             "entries": [
                 "{@i 5th-level feature}",
                 "Once on each of your turns, if you have no uses of {@classFeature The Call|Shaman|KyvumsShaman|1|KyvumsShaman|The Call} left, you can give yourself one by expending a spell slot (no {@variantrule Action|XPHB} required).",
-                "In addition, you can expend one use of {@classFeature The Call|Shaman|KyvumsShaman|1|KyvumsShaman|The Call} (no {@variantrule Action|XPHB} required) to give yourself a level 1 spell slot, but you can’t do so again until you finish a {@variantrule Long Rest|XPHB}."
+                "In addition, you can expend one use of {@classFeature The Call|Shaman|KyvumsShaman|1|KyvumsShaman|The Call} (no {@variantrule Action|XPHB} required) to give yourself a level 1 spell slot, but you can’t do so again until you finish a {@variantrule Long Rest|XPHB}.",
+                "Additionally you now regain half of your Call charges rounded down on a {@variantrule Short Rest|XPHB}"
             ]
         },
         {
