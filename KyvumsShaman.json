@@ -429,13 +429,15 @@
                     "rows": [
                         [
                             "1",
-                            "1",
-                            "7"
+                            "{@classFeature Call of the Tribe|Shaman|KyvumsShaman|1|KyvumsShaman|Call of the Tribe}"
                         ],
                         [
-                            "Call of the Tribe",
-                            "Call of the Wind",
-                            "Call of the Spirits"
+                            "1",
+                            "{@classFeature Call of the Wind|Shaman|KyvumsShaman|1|KyvumsShaman|Call of the Wind}"
+                        ],
+                        [
+                            "7",
+                            "{@classFeature Call of the Spirits|Shaman|KyvumsShaman|7|KyvumsShaman|Call of the Spirits}"
                         ]
                     ]
                 }
