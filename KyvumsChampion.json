@@ -990,7 +990,25 @@
                 "{@i 1st-level Townships feature}",
                 "Gain access to Shouts, commands that are used to assist your allies in combat.",
                 "You gain an amount of Shout uses per day as per the Class Progression table, these uses are restored fully on a {@variantrule Long Rest|XPHB} or half rounded down with a minimum of 1 on a {@variantrule Short Rest|XPHB}.",
-                "{@b Guiding Shout:} You can use the {@action Help|XPHB} action as a {@variantrule Bonus Action|XPHB} and can directly use it to assist an ally within 20ft of you on their next {@variantrule Attack Roll|XPHB}."
+                "{@b Guiding Shout:} You can use the {@action Help|XPHB} action as a {@variantrule Bonus Action|XPHB} and can directly use it to assist an ally within 20ft of you on their next {@variantrule Attack Roll|XPHB}.",
+                                            {
+                    "type": "table",
+                    "caption": "Shouts",
+                    "colLabels": [
+                        "Level",
+                        "Name"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "{@subclassFeature Bolster The Ranks|Champion|KyvumsChampion|Townships|KyvumsChampion|1|KyvumsChampion|Bolster The Ranks}"
+                        ],
+                        [
+                            "7",
+                            "{@subclassFeature Rallying Cry|Champion|KyvumsChampion|Townships|KyvumsChampion|7|KyvumsChampion|Rallying Cry}"
+                        ]
+                    ]
+                }
             ]
         },
         {
@@ -1069,7 +1087,7 @@
                 "{@i 14th-level Townships feature}",
                 "You are hardened by battle and a will to protect your companions. You are able to put your fears aside to stay standing in the frontlines.",
                 "You are immune to the effects of the {@condition Frightened} condition.",
-                "Any ally who witnesses a creature attempt to {@condition Frightened|XPHB|Frighten} you will gain {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} against the {@condition Frightened|XPHB} condition as well as the effects of {@subclassFeature Bolster The Ranks|Champion|KyvumsChampion|Townships|KyvumsChampion|3|KyvumsChampion|Bolster The Ranks}."
+                "Any ally who witnesses a creature attempt to {@condition Frightened|XPHB|Frighten} you will gain {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} against the {@condition Frightened|XPHB} condition as well as the effects of {@subclassFeature Bolster The Ranks|Champion|KyvumsChampion|Townships|KyvumsChampion|1|KyvumsChampion|Bolster The Ranks}."
             ]
         },
         {
