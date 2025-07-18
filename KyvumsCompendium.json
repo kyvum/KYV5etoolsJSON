@@ -1,0 +1,4499 @@
+{
+    "_meta": {
+        "dateAdded": 1757000000,
+        "dateLastModified": 1757000000,
+        "_dateLastModifiedHash": "placeholde",
+        "edition": "classic",
+        "sources": [
+            {
+                "json": "KyvumsChampion",
+                "abbreviation": "KYVC",
+                "full": "Kyvum's Champion",
+                "authors": [
+                    "Kyvum"
+                ],
+                "convertedBy": [
+                    "Kyvum"
+                ],
+                "version": "v1",
+                "color": "FFD700",
+                "url": "none",
+                "dateReleased": "2025-07-05"
+            },
+            {
+                "json": "KyvumsNecromancer",
+                "abbreviation": "KYVN",
+                "full": "Kyvum's Necromancer",
+                "authors": [
+                    "Kyvum"
+                ],
+                "convertedBy": [
+                    "Kyvum"
+                ],
+                "version": "v1",
+                "color": "FFD700",
+                "url": "none",
+                "dateReleased": "2025-07-05"
+            },
+            {
+                "json": "KyvumsShaman",
+                "abbreviation": "KYVS",
+                "full": "Kyvum's Shaman",
+                "authors": [
+                    "Kyvum"
+                ],
+                "convertedBy": [
+                    "Kyvum"
+                ],
+                "version": "v1",
+                "color": "626cf3",
+                "url": "none",
+                "dateReleased": "2025-07-04"
+            }
+        ]
+    },
+    "class": [
+        {
+            "name": "Champion",
+            "source": "KyvumsChampion",
+            "hd": {
+                "number": 1,
+                "faces": 10
+            },
+            "proficiency": [
+                "str",
+                "cha"
+            ],
+            "spellcastingAbility": "cha",
+            "casterProgression": "1/3",
+            "preparedSpells": "true",
+            "subclassTitle": "Deities",
+            "cantripProgression": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+            ],
+            "spellsKnownProgression": [
+                1,
+                1,
+                2,
+                2,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                6,
+                6,
+                7,
+                7,
+                7,
+                8,
+                8,
+                9
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium",
+                    "heavy",
+                    "shield"
+                ],
+                "weapons": [
+                    "simple",
+                    "martial"
+                ],
+                "tools": [],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "athletics",
+                                "intimidation",
+                                "insight",
+                                "perception",
+                                "persuasion"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) {@item chain mail|phb} or (b) {@item scale mail|phb} and {@item shield|phb}",
+                    "(a) any {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield|phb} or (b) two {@filter martial weapon|items|source=phb|category=basic|type=martial weapon}",
+                    "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb} or (c) a {@item priest's pack|phb}"
+                ],
+                "goldAlternative": "150 GP",
+                "defaultData": [
+                    {
+                        "a": [
+                            "chain mail|phb"
+                        ],
+                        "b": [
+                            "scale mail|phb",
+                            "shield|phb"
+                        ]
+                    },
+                    {
+                        "a": [
+                            {
+                                "equipmentType": "weaponMartial"
+                            },
+                            "shield|phb"
+                        ],
+                        "b": [
+                            {
+                                "equipmentType": "weaponMartial"
+                            }
+                        ]
+                    },
+                    {
+                        "a": [
+                            "dungeoneer's pack|phb"
+                        ],
+                        "b": [
+                            "explorer's pack|phb"
+                        ],
+                        "c": [
+                            "priest's pack|phb"
+                        ]
+                    }
+                ]
+            },
+            "multiclassing": {
+                "requirements": {
+                    "cha": 13
+                },
+                "proficienciesGained": {
+                    "armor": [
+                        "light",
+                        "medium",
+                        "heavy",
+                        "shield"
+                    ],
+                    "weapons": [
+                        "simple",
+                        "martial"
+                    ],
+                    "skills": [
+                        {
+                            "choose": {
+                                "from": [
+                                    "athletics",
+                                    "intimidation",
+                                    "insight",
+                                    "perception",
+                                    "persuasion"
+                                ],
+                                "count": 2
+                            }
+                        }
+                    ]
+                }
+            },
+            "classFeatures": [
+                "Champion's Symbol|Champion|KyvumsChampion|1",
+                "Weapon Mastery|Champion|KyvumsChampion|1",
+                {
+                    "classFeature": "Subclass Feature|Champion|KyvumsChampion|1",
+                    "gainSubclassFeature": true
+                },
+                "Fighting Style|Champion|KyvumsChampion|2",
+                {
+                    "classFeature": "Subclass Feature|Champion|KyvumsChampion|3",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Champion|KyvumsChampion|4",
+                "Extra Attack|Champion|KyvumsChampion|5",
+                {
+                    "classFeature": "Subclass Feature|Champion|KyvumsChampion|7",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Champion|KyvumsChampion|8",
+                "Glory and Honor|Champion|KyvumsChampion|10",
+                "Heroic Strength|Champion|KyvumsChampion|11",
+                "Ability Score Improvement|Champion|KyvumsChampion|12",
+                {
+                    "classFeature": "Subclass Feature|Champion|KyvumsChampion|14",
+                    "gainSubclassFeature": true
+                },
+                "Will of the Champion|Champion|KyvumsChampion|15",
+                "Ability Score Improvement|Champion|KyvumsChampion|16",
+                "Epic Boon|Champion|KyvumsChampion|19",
+                {
+                    "classFeature": "Subclass Feature|Champion|KyvumsChampion|20",
+                    "gainSubclassFeature": true
+                }
+            ]
+        },
+        {
+            "name": "Necromancer",
+            "source": "KyvumsNecromancer",
+            "hd": {
+                "number": 1,
+                "faces": 6
+            },
+            "proficiency": [
+                "int",
+                "con"
+            ],
+            "spellcastingAbility": "int",
+            "casterProgression": "pact",
+            "preparedSpells": "true",
+            "classSpells": [
+                "chill touch",
+                "mending",
+                "mind sliver",
+                "mage hand",
+                "toll the dead",
+                "inflict wounds",
+                "detect evil and good",
+                "detect magic",
+                "bane",
+                "false life",
+                "mage armor",
+                "witch bolt",
+                "unseen servant",
+                "tasha's hideous laughter",
+                "ray of sickness",
+                "wrathful smite",
+                "gentle repose",
+                "darkness",
+                "darkvision",
+                "crown of madness",
+                "levitate",
+                "silence",
+                "enthrall",
+                "ray of enfeeblement",
+                "feign death",
+                "animate dead",
+                "bestow curse",
+                "counterspell",
+                "fly",
+                "fear",
+                "gaseous form",
+                "revivify",
+                "remove curse",
+                "slow",
+                "magic circle",
+                "speak with dead",
+                "summon undead",
+                "vampiric touch",
+                "blight",
+                "arcane eye",
+                "banishment",
+                "death ward",
+                "confusion",
+                "dimension door",
+                "Mordenkainen's Faithful Hound",
+                "stoneskin",
+                "phantasmal killer",
+                "Mordenkainen's Private Sanctum",
+                "contagion",
+                "raise dead",
+                "antilife shell",
+                "scrying",
+                "dispel evil and good"
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light"
+                ],
+                "weapons": [
+                    "simple"
+                ],
+                "tools": [],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcana",
+                                "history",
+                                "intimidation",
+                                "religion",
+                                "deception",
+                                "investigation",
+                                "medicine",
+                                "nature"
+                            ],
+                            "count": 4
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) {@item Studded Leather Armor|xphb} or (b) {@item Leather Armor|xphb}, {@item Light Crossbow|xphb} with 20 {@item bolt|xphb|Bolts} and a {@item Crossbow Bolt Case|xphb}.",
+                    "any {@filter Simple Weapon|items|type=simple weapon}",
+                    "(a) a {@item Scholar's Pack|xphb} or (b) an {@item Explorer's Pack|xphb} or (c) a {@item Priest's Pack|xphb}"
+                ],
+                "goldAlternative": "100 GP"
+            },
+            "multiclassing": {
+                "requirements": {
+                    "int": 13
+                },
+                "proficienciesGained": {
+                    "armor": [
+                        "light"
+                    ],
+                    "weapons": [
+                        "simple"
+                    ],
+                    "skills": [
+                        {
+                            "choose": {
+                                "from": [
+                                    "arcana",
+                                    "history",
+                                    "intimidation",
+                                    "religion",
+                                    "deception",
+                                    "investigation",
+                                    "medicine",
+                                    "nature"
+                                ],
+                                "count": 2
+                            }
+                        }
+                    ]
+                }
+            },
+            "classTableGroups": [
+                {
+                    "title": "Necromancer Spellcasting",
+                    "colLabels": [
+                        "Cantrips",
+                        "Prepared Spells",
+                        "Spell Slots",
+                        "Slot Level"
+                    ],
+                    "rows": [
+                        [
+                            "2",
+                            "2",
+                            "1",
+                            "1"
+                        ],
+                        [
+                            "2",
+                            "2",
+                            "2",
+                            "1"
+                        ],
+                        [
+                            "2",
+                            "3",
+                            "2",
+                            "2"
+                        ],
+                        [
+                            "3",
+                            "4",
+                            "2",
+                            "2"
+                        ],
+                        [
+                            "3",
+                            "5",
+                            "2",
+                            "3"
+                        ],
+                        [
+                            "3",
+                            "6",
+                            "2",
+                            "3"
+                        ],
+                        [
+                            "3",
+                            "7",
+                            "2",
+                            "4"
+                        ],
+                        [
+                            "3",
+                            "8",
+                            "2",
+                            "4"
+                        ],
+                        [
+                            "3",
+                            "9",
+                            "2",
+                            "5"
+                        ],
+                        [
+                            "3",
+                            "10",
+                            "2",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "11",
+                            "3",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "12",
+                            "3",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "12",
+                            "3",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "13",
+                            "3",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "13",
+                            "3",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "14",
+                            "4",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "14",
+                            "4",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "15",
+                            "4",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "15",
+                            "4",
+                            "5"
+                        ],
+                        [
+                            "4",
+                            "15",
+                            "4",
+                            "5"
+                        ]
+                    ]
+                }
+            ],
+            "classFeatures": [
+                "Death's Companion|Necromancer|KyvumsNecromancer|1",
+                "Spellcasting|Necromancer|KyvumsNecromancer|1",
+                "Absorb Death|Necromancer|KyvumsNecromancer|2",
+                {
+                    "classFeature": "Subclass Feature|Necromancer|KyvumsNecromancer|3",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Necromancer|KyvumsNecromancer|4",
+                {
+                    "classFeature": "Subclass Feature|Necromancer|KyvumsNecromancer|6",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Necromancer|KyvumsNecromancer|8",
+                "Soul Link|Necromancer|KyvumsNecromancer|9",
+                {
+                    "classFeature": "Subclass Feature|Necromancer|KyvumsNecromancer|10",
+                    "gainSubclassFeature": true
+                },
+                "Essence Rip|Necromancer|KyvumsNecromancer|11",
+                "Ability Score Improvement|Necromancer|KyvumsNecromancer|12",
+                "Necromantic Knowledge|Necromancer|KyvumsNecromancer|13",
+                {
+                    "classFeature": "Subclass Feature|Necromancer|KyvumsNecromancer|14",
+                    "gainSubclassFeature": true
+                },
+                "Soul Recovery|Necromancer|KyvumsNecromancer|15",
+                "Ability Score Improvement|Necromancer|KyvumsNecromancer|16",
+                "Undeath's Discovery|Necromancer|KyvumsNecromancer|17",
+                "Epic Boon|Necromancer|KyvumsNecromancer|19",
+                "Master of Necromancy|Necromancer|KyvumsNecromancer|20"
+            ]
+        },
+        {
+            "name": "Shaman",
+            "source": "KyvumsShaman",
+            "hd": {
+                "number": 1,
+                "faces": 8
+            },
+            "proficiency": [
+                "wis",
+                "dex"
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium"
+                ],
+                "weapons": [
+                    "simple"
+                ],
+                "tools": [
+                    "{@item Herbalism Kit|PHB}"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcana",
+                                "perception",
+                                "insight",
+                                "survival",
+                                "nature",
+                                "religion",
+                                "medicine",
+                                "animal handling"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) a {@item wooden staff|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+                    "(a) a {@item shortbow|phb} and {@item arrows (20)|phb|20 arrows} or (b) 5 {@item javelin|phb|javelins}",
+                    "(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
+                    "(a) {@item leather armor|phb} or (b) {@item hide armor|phb}"
+                ],
+                "goldAlternative": "50 GP",
+                "defaultData": [
+                    {
+                        "a": [
+                            "quarterstaff|phb"
+                        ],
+                        "b": [
+                            {
+                                "equipmentType": "weaponSimple"
+                            }
+                        ]
+                    },
+                    {
+                        "a": [
+                            "shortbow|phb",
+                            "arrows (20)|phb"
+                        ],
+                        "b": [
+                            {
+                                "item": "javelin|phb",
+                                "quantity": 5
+                            }
+                        ]
+                    },
+                    {
+                        "a": [
+                            "priest's pack|phb"
+                        ],
+                        "b": [
+                            "explorer's pack|phb"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "Leather armor|phb"
+                        ],
+                        "b": [
+                            "Hide Armor|phb"
+                        ]
+                    }
+                ]
+            },
+            "multiclassing": {
+                "requirements": {
+                    "wis": 13
+                },
+                "proficienciesGained": {
+                    "armor": [
+                        "light",
+                        "medium"
+                    ],
+                    "weapons": [
+                        "simple"
+                    ],
+                    "tools": [
+                        "{@item Herbalism Kit|PHB}"
+                    ],
+                    "skills": [
+                        {
+                            "choose": {
+                                "from": [
+                                    "arcana",
+                                    "perception",
+                                    "insight",
+                                    "survival",
+                                    "nature",
+                                    "religion",
+                                    "medicine",
+                                    "animal handling"
+                                ],
+                                "count": 1
+                            }
+                        }
+                    ]
+                }
+            },
+            "classTableGroups": [
+                {
+                    "title": "The Call Progression",
+                    "colLabels": [
+                        "Calls"
+                    ],
+                    "rows": [
+                        [
+                            "1"
+                        ],
+                        [
+                            "2"
+                        ],
+                        [
+                            "2"
+                        ],
+                        [
+                            "2"
+                        ],
+                        [
+                            "3"
+                        ],
+                        [
+                            "3"
+                        ],
+                        [
+                            "3"
+                        ],
+                        [
+                            "3"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "7"
+                        ]
+                    ]
+                }
+            ],
+            "classFeatures": [
+                "Spellcasting|Shaman|KyvumsShaman|1",
+                "The Call|Shaman|KyvumsShaman|1",
+                "Call of the Tribe|Shaman|KyvumsShaman|1",
+                "Call of the Wind|Shaman|KyvumsShaman|1",
+                {
+                    "classFeature": "Subclass Feature|Shaman|KyvumsShaman|3",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Shaman|KyvumsShaman|4",
+                "Return of the Spirits|Shaman|KyvumsShaman|5",
+                {
+                    "classFeature": "Subclass Feature|Shaman|KyvumsShaman|6",
+                    "gainSubclassFeature": true
+                },
+                "Call of the Spirits|Shaman|KyvumsShaman|7",
+                "Ability Score Improvement|Shaman|KyvumsShaman|8",
+                {
+                    "classFeature": "Subclass Feature|Shaman|KyvumsShaman|10",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Shaman|KyvumsShaman|12",
+                "Empowered Calls|Shaman|KyvumsShaman|15",
+                "Ability Score Improvement|Shaman|KyvumsShaman|16",
+                {
+                    "classFeature": "Subclass Feature|Shaman|KyvumsShaman|18",
+                    "gainSubclassFeature": true
+                },
+                "Epic Boon|Shaman|KyvumsShaman|19",
+                {
+                    "classFeature": "Subclass Feature|Shaman|KyvumsShaman|20",
+                    "gainSubclassFeature": true
+                }
+            ],
+            "spellcastingAbility": "wis",
+            "classSpells": [
+                "Stormsurge|KyvumsShaman",
+                "Guidance",
+                "Mending",
+                "Message",
+                "Thunderclap",
+                "Shocking Grasp",
+                "True Strike",
+                "Animal Friendship",
+                "Bane",
+                "Bless",
+                "Cure Wounds",
+                "Detect Magic",
+                "Detect Poison and Disease",
+                "Find Familiar",
+                "Healing Word",
+                "Heroism",
+                "Hex",
+                "Identify",
+                "Longstrider",
+                "Speak With Animals",
+                "Thunderwave",
+                "Aid",
+                "Augury",
+                "Animal Messenger",
+                "Beast Sense",
+                "Darkvision",
+                "Detect Thoughts",
+                "Enlarge/Reduce",
+                "Gentle Repose",
+                "Gust of Wind",
+                "Lesser Restoration",
+                "Misty Step",
+                "Protection From Poison",
+                "See Invisibility",
+                "Spider Climb",
+                "Summon Beast",
+                "Warding Bond",
+                "Blink",
+                "Call Lightning",
+                "Clairvoyance",
+                "Conjure Animals",
+                "Create Food and Water",
+                "Gaseous Form",
+                "Lightning Arrow",
+                "Lightning Bolt",
+                "Mass Healing Word",
+                "Nondetection",
+                "Protection From Energy",
+                "Remove Curse",
+                "Revivify",
+                "Sending",
+                "Sleet Storm",
+                "Wind Wall",
+                "Water Walk",
+                "Aura of Life",
+                "Aura of Purity",
+                "Death Ward",
+                "Conjure Minor Elementals",
+                "Divination",
+                "Ice Storm",
+                "Freedom of Movement",
+                "Summon Elemental",
+                "Dimension Door",
+                "Conjure Elemental",
+                "Steel Wind Strike",
+                "Swift Quiver",
+                "Scrying",
+                "Mass Cure Wounds",
+                "Greater Restoration",
+                "Reincarnate",
+                "Contagion",
+                "Chain Lightning",
+                "Heal",
+                "Wind Walk",
+                "True Seeing",
+                "Otto’s Irresistible Dance",
+                "Find the Path",
+                "Contingency",
+                "Etherealness",
+                "Power Word Fortify",
+                "Regenerate",
+                "Resurrection",
+                "Fire Storm",
+                "Animal Shapes",
+                "Control Weather",
+                "Antipathy/Sympathy",
+                "Wish",
+                "True Resurrection",
+                "Storm of Vengeance",
+                "Mass Heal",
+                "Foresight",
+                "Astral Projection",
+                "Power Word Heal"
+            ],
+            "optionalfeatureProgression": [
+                {
+                    "name": "The Call",
+                    "featureType": [
+                        "KYVS"
+                    ],
+                    "progression": {
+                        "1": 1,
+                        "2": 2,
+                        "5": 3,
+                        "9": 4,
+                        "13": 5,
+                        "17": 6,
+                        "20": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Champion's Symbol",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level feature}",
+                "You bear the symbol of a cause for which you Champion, be it a Deity, your hometown or a monarch you wear the symbol with pride.",
+                "Perhaps you wish to destroy the evil that plagued your home, to spread the will of your God, or you are a valiant defender of those who rule or who you believe should.",
+                "You are able to cast the {@spell Compelled Duel} spell a number of times equal to your Proficiency Bonus per {@variantrule Long Rest|XPHB}. Your Spellcasting ability for this spell is Charisma.",
+                "At 1st level, you may choose your focus as a Champion: Deities, Townships, or Crowns. The subclass you choose grants you unique abilities at higher levels.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "Deities",
+                            "entries": [
+                                "You are the Champion of a powerful Deity whose power you can channel to aid your allies or harm your foes."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Townships",
+                            "entries": [
+                                "You are a Champion of the people, you bring great morale to your party and provide boons to your allies in battle "
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Crowns",
+                            "entries": [
+                                "You are a Champion of someone you deem a worthy leader, becoming their personal guard and assisting them with their cause."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Weapon Mastery",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level feature}",
+                "Your training with weapons allows you to use the {@variantrule weapon mastery properties|XPHB} of two kinds of {@filter Simple|items|type=simple weapon} or {@filter Martial|items|type=martial weapon} of your choice with which you have proficiency. You can change these on a {@variantrule Long Rest|XPHB}."
+            ]
+        },
+        {
+            "name": "Fighting Style",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 2,
+            "entries": [
+                "{@i 2nd-level feature}",
+                "You gain a {@filter Fighting Style|feats|category=FS} feat of your choice."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 4,
+            "entries": [
+                "{@i 4th-level feature}",
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Champion levels 8, 12, and 16."
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 5,
+            "entries": [
+                "You can attack twice instead of once whenever you take the {@action Attack} action on your turn."
+            ]
+        },
+        {
+            "name": "Challenger's Advantage",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 7,
+            "entries": [
+                "You have become an experienced duelist, always one step ahead of your enemies.",
+                "You are now able to cast {@spell Compelled Duel} three times per {@variantrule Long Rest|XPHB}.",
+                "You have {@variantrule Advantage|XPHB} with your first {@action Attack} against the dueled target."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 8,
+            "entries": [
+                "{@i 8th-level feature}",
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Champion levels 12 and 16."
+            ]
+        },
+        {
+            "name": "Glory and Honor",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 10,
+            "entries": [
+                "You demand the highest standard of honor in a duel.",
+                "Your {@spell Compelled Duel} spell no longer requires {@status Concentration}.",
+                "Creatures have {@variantrule Disadvantage|XPHB} against resisting your Compelled Duel spell.",
+                "You cannot target any other creature while in a duel."
+            ]
+        },
+        {
+            "name": "Heroic Strength",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 11,
+            "entries": [
+                "You are a hero of your cause, willing and ready to defend it at all times.",
+                "You can attack three times instead of once whenever you take the {@action Attack} action on your turn.",
+                "You are able to do this an amount of times equal to your Proficiency Bonus. This is restored upon a {@variantrule Long Rest|XPHB}, or an amount equal to half rounded down on a {@variantrule Short Rest|XPHB}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 12,
+            "entries": [
+                "{@i 12th-level feature}",
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Champion level 16."
+            ]
+        },
+        {
+            "name": "Will of the Champion",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 15,
+            "entries": [
+                "Your willpower to pursue and defend your beliefs is unmatched.",
+                "You are immune to {@condition Charmed} condition."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 16,
+            "entries": [
+                "{@i 16th-level feature}",
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+            ]
+        },
+        {
+            "name": "Epic Boon",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 19,
+            "entries": [
+                "{@i 19th-level feature}",
+                "You gain an Epic Boon feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level feature}",
+                "You gain features from your chosen Champion subclass."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level feature}",
+                "You gain features from your chosen Champion subclass."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 7,
+            "entries": [
+                "{@i 7th-level feature}",
+                "You gain additional features from your subclass."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 14,
+            "entries": [
+                "{@i 14th-level feature}",
+                "You gain additional features from your subclass."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "level": 20,
+            "entries": [
+                "{@i 20th-level feature}",
+                "You gain additional features from your subclass."
+            ]
+        },
+        {
+            "name": "Death's Companion",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level feature}",
+                "Even those who dabble in undeath need a companion.",
+                "You learn the {@spell Find Familiar|XPHB} spell which you are able to cast without Material requirements.",
+                "This does not count against your prepared spells.",
+                "The only familiar you can find however is a {@creature Crawling Claw|XMM}"
+            ]
+        },
+        {
+            "name": "Spellcasting",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level feature}",
+                "You have learned to channel the energy of your spiritual guides and embrace the power of storms.",
+                "{@i {@b Cantrips:}} You know two {@variantrule Cantrip|XPHB|Cantrips} at Level 1 selected from the {@filter Necromancer spell list|spells|level=0|class=Necromancer (KYVN)}.",
+                "{@i {@b Spell Slots:}} The leveling table above shows your spell slots for Level 1+ spells, you regain spell slots on a {@variantrule Long Rest|XPHB}.",
+                "{@i {@b Prepared Spells of Level 1+:}} You prepare the list of Level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 spells from the {@filter Necromancer spell list|spells|level=1|class=Necromancer (KYVN)}.",
+                "{@i {@b Changing Your Prepared Spells:}} When you finish a {@variantrule Long Rest|XPHB}, you can change your list of Prepared Spells, replacing any other Necromancer spells for which you have spell slots.",
+                "{@i {@b Spellcasting Ability:}} Intelligence is your spellcasting ability for your Necromancer spells.",
+                "{@i {@b Spellcasting Focus:}} You can use an {@item Arcane Focus|XPHB} for your Necromancer spells."
+            ]
+        },
+        {
+            "name": "Absorb Death",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 2,
+            "entries": [
+                "{@i 2nd-level feature}",
+                "{@i {@b Duration:}} 1 minute",
+                "{@i {@b Material:}} 1 {@item Bone|KyvumsNecromancer|Bone}",
+                "You can perform a dark ritual for 1 minute to absorb the remaining life force from a creature's remains.",
+                "The corpse must be from a creature that was living and thus cannot be a Construct or Undead.",
+                "At the end of it, you regain expended Necromancer spell slots but no more than a number equal to half your maximum (round up).",
+                "Once you use this feature, you can't do so again until you finish a Long Rest."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level feature}",
+                "You gain features from your chosen Necromancer subclass."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 4,
+            "entries": [
+                "{@i 4th-level feature}",
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Necromancer levels 8, 12, and 16."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level feature}",
+                "You gain features from your chosen Necromancer subclass."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 8,
+            "entries": [
+                "{@i 4th-level feature}",
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Necromancer levels 8, 12, and 16."
+            ]
+        },
+        {
+            "name": "Soul Link",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 9,
+            "entries": [
+                "{@i 9th-level feature}",
+                "You are able to use the remaining life force from a freshly deceased corpse to form a link of vitality with your {@creature Crawling Claw|XMM} from the {@spell Find Familiar|XPHB} spell.",
+                "The corpse must be from a creature that was living and thus cannot be a Construct or Undead.",
+                "Your {@creature Crawling Claw|XMM} Familiar's hit points are now linked with yours causing you to take hit point damage in place of it.",
+                "The {@creature Crawling Claw|XMM} can never take above it's maximum hit points in damage.",
+                "Additionally, your {@creature Crawling Claw|XMM} Familiar's damage is increased by an amount equal to your Intelligence modifier."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level feature}",
+                "You gain features from your chosen Necromancer subclass."
+            ]
+        },
+        {
+            "name": "Essence Rip",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 11,
+            "entries": [
+                "{@i 11th-level feature}",
+                "Necromantic spells that you cast drain the very essence of a living creature's being.",
+                "Your Necromancy spells that deal damage to the living deal additional damage equal to your Intelligence modifier."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 12,
+            "entries": [
+                "{@i 4th-level feature}",
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Necromancer levels 8, 12, and 16."
+            ]
+        },
+        {
+            "name": "Necromantic Knowledge",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 13,
+            "entries": [
+                "{@i 13th-level feature}",
+                "Your study of the Necromantic arts has led to a fruitful discovery.",
+                "You can learn two Necromancy spells of your choice from any spellbook of 7th Level or lower.",
+                "You are able to change the spell choice upon leveling up.",
+                "You are able to cast one of these spells once without expending a spell slot per {@variantrule Long Rest|XPHB}."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 14,
+            "entries": [
+                "{@i 14th-level feature}",
+                "You gain features from your chosen Necromancer subclass."
+            ]
+        },
+        {
+            "name": "Soul Recovery",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 15,
+            "entries": [
+                "{@i 14th-level feature}",
+                "Using the corpse of a recently living creature, you are able to restore one use of your spell from {@classFeature Necromantic Knowledge|Necromancer|KyvumsNecromancer|13|KyvumsNecromancer|Necromantic Knowledge}.",
+                "The corpse must be from a creature that was living and thus cannot be a Construct or Undead.",
+                "You are also only able to do this twice per {@variantrule Long Rest|XPHB}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 16,
+            "entries": [
+                "{@i 4th-level feature}",
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Necromancer levels 8, 12, and 16."
+            ]
+        },
+        {
+            "name": "Undeath's Discovery",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 17,
+            "entries": [
+                "{@i 17th-level feature}",
+                "You have further unraveled the mysteries of undeath.",
+                "The spells from your {@classFeature Necromantic Knowledge|Necromancer|KyvumsNecromancer|13|KyvumsNecromancer|Necromantic Knowledge} feature can now be of 9th Level or lower."
+            ]
+        },
+        {
+            "name": "Epic Boon",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 19,
+            "entries": [
+                "{@i 19th-level feature}",
+                "You gain an Epic Boon feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+            ]
+        },
+        {
+            "name": "Master of Necromancy",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "level": 20,
+            "entries": [
+                "{@i 20th-level feature}",
+                "You are now able to learn a third spell from the {@classFeature Necromantic Knowledge|Necromancer|KyvumsNecromancer|13|KyvumsNecromancer|Necromantic Knowledge} feature.",
+                "Additionally you can use the {@classFeature Soul Recovery|Necromancer|KyvumsNecromancer|15|KyvumsNecromancer|Soul Recovery} feature a third time before needing a {@variantrule Long Rest|XPHB}."
+            ]
+        },
+        {
+            "name": "Spellcasting",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level feature}",
+                "You have learned to channel the energy of your spiritual guides and embrace the power of storms.",
+                "{@i {@b Cantrips:}} You know one {@variantrule Cantrip|XPHB|Cantrip} at Level 1 selected from the {@filter Shaman spell list|spells|level=0|class=Shaman (KYVS)}.",
+                "{@i {@b Spell Slots:}} The leveling table above shows your spell slots for Level 1+ spells, you regain spell slots on a {@variantrule Long Rest|XPHB}.",
+                "{@i {@b Prepared Spells of Level 1+:}} You prepare the list of Level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 spells from the {@filter Shaman spell list|spells|level=1|class=Shaman (KYVS)}.",
+                "{@i {@b Changing Your Prepared Spells:}} When you finish a {@variantrule Long Rest|XPHB}, you can change your list of Prepared Spells, replacing any other Shaman spells for which you have spell slots.",
+                "{@i {@b The Call:}} Using a Call will require an {@variantrule Action|XPHB} unless specified otherwise,  as well as consume a Call slot. You regain all your Call slots on a {@variantrule Long Rest|XPHB} or half with a minimum of 1 on a {@variantrule Short Rest|XPHB}.",
+                "{@i {@b Spellcasting Ability:}} Wisdom is your spellcasting ability for your Shaman spells.",
+                "{@i {@b Spellcasting Focus:}} You can use a {@item Druidic Focus|XPHB} or Crafted {@item Totem|KyvumsShaman} as a Spellcasting Focus for your Shaman spells.",
+                {
+                    "type": "table",
+                    "caption": "Shaman Spellcasting Slots",
+                    "colLabels": [
+                        "Level",
+                        "Cantrips",
+                        "Prepared Spells",
+                        "1st"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "2",
+                            "2",
+                            "2"
+                        ],
+                        [
+                            "2",
+                            "2",
+                            "3",
+                            "3"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Call",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level feature}",
+                "You can Call upon the spirits to issue boons or hindrances. Each Call takes an {@variantrule Action|XPHB} unless specified otherwise.",
+                "You regain all expended uses of Calls when you finish a {@variantrule Long Rest|XPHB} or half as much rounded down on a {@variantrule Short Rest|XPHB}.",
+                                {
+                    "type": "table",
+                    "caption": "The Call",
+                    "colLabels": [
+                        "Level",
+                        "Name"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "{@classFeature Call of the Tribe|Shaman|KyvumsShaman|1|KyvumsShaman|Call of the Tribe}"
+                        ],
+                        [
+                            "1",
+                            "{@classFeature Call of the Wind|Shaman|KyvumsShaman|1|KyvumsShaman|Call of the Wind}"
+                        ],
+                        [
+                            "7",
+                            "{@classFeature Call of the Spirits|Shaman|KyvumsShaman|7|KyvumsShaman|Call of the Spirits}"
+                        ],
+                        [
+                            "15",
+                            "{@classFeature Empowered Calls|Shaman|KyvumsShaman|15|KyvumsShaman|Empowered Calls}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Call of the Tribe",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level feature}",
+                "Channel ancestral spirits to bolster your allies or hinder your enemies.",
+                "{@i {@b Radius:}} 30ft",
+                "{@i {@b Duration:}} 1 minute",
+                "{@b Choose one effect:}",
+                "You give up to 5 allies including yourself {@variantrule Temporary Hit Points|XPHB} equal to your proficiency bonus.",
+                "You force up to 3 enemies to roll a Wisdom {@variantrule Saving Throw|XPHB} against your Spellcaster DC, if they fail they will have their {@variantrule Armor Class|XPHB} reduced by half of your proficiency bonus rounded down."
+            ]
+        },
+        {
+            "name": "Call of the Wind",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 1,
+            "entries": [
+                "{@i 2nd-level feature}",
+                "Call forth the power of the wind to manifest itself on the battlefield.",
+                "{@i {@b Range:}} 30ft",
+                "{@i {@b Duration:}} 1 minute",
+                "{@i {@b Radius:}} 10ft Cube",
+                "{@b Choose a trajectory for powerful winds to beat down.}",
+                "All creatures Large or smaller facing against the wind will have their movement speed reduced by 5ft and will be unable to gain {@variantrule Advantage|XPHB} on their melee attacks.",
+                "All creatures Large or smaller facing the same direction as the wind will have their movement speed increased by 5ft and cannot have {@variantrule Disadvantage|XPHB} imposed on their melee attacks.",
+                "Non-magical projectiles will also have {@variantrule Disadvantage|XPHB} when fired into the wind regardless of direction. The wind also can push any objects weighing less than 70lbs."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level feature}",
+                "You gain features from your chosen Shaman subclass."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 4,
+            "entries": [
+                "{@i 4th-level feature}",
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 8, 12, and 16."
+            ]
+        },
+        {
+            "name": "Return of the Spirits",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 5,
+            "entries": [
+                "{@i 5th-level feature}",
+                "Once on each of your turns, if you have no uses of {@classFeature The Call|Shaman|KyvumsShaman|1|KyvumsShaman|The Call} left, you can give yourself one by expending a spell slot (no {@variantrule Action|XPHB} required).",
+                "In addition, you can expend one use of {@classFeature The Call|Shaman|KyvumsShaman|1|KyvumsShaman|The Call} (no {@variantrule Action|XPHB} required) to give yourself a level 1 spell slot, but you can’t do so again until you finish a {@variantrule Long Rest|XPHB}."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level feature}",
+                "You gain additional features from your subclass."
+            ]
+        },
+        {
+            "name": "Call of the Spirits",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 7,
+            "entries": [
+                "{@i 7th-level feature}",
+                "Call forth the power of powerful spirits to guide you and your allies or devastate your foes.",
+                "{@i {@b Range:}} 30ft",
+                "{@i {@b Duration:}} 1 minute",
+                "{@b Choose one:}",
+                "Up to 5 allies including yourself are granted the assistance of your spiritual guides, each ally will receive a bonus to their {@variantrule Attack Roll|XPHB} by {@dice 1d4}.",
+                "Up to 3 enemies to be hindered by the spirits, each enemy will have their {@variantrule Attack Roll|XPHB} reduced by {@dice 1d4}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 8,
+            "entries": [
+                "{@i 8th-level feature}",
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 12 and 16."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level feature}",
+                "You gain additional features from your subclass."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 12,
+            "entries": [
+                "{@i 12th-level feature}",
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman level 16."
+            ]
+        },
+        {
+            "name": "Empowered Calls",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 15,
+            "entries": [
+                "{@i 15th-level feature}",
+                "The spirits reverberate the power of your Calls",
+                "Your Calls last twice as long."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 16,
+            "entries": [
+                "{@i 16th-level feature}",
+                "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Shaman levels 8, 12, and 16."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 18,
+            "entries": [
+                "{@i 18th-level feature}",
+                "You gain additional features from your subclass."
+            ]
+        },
+        {
+            "name": "Epic Boon",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 19,
+            "entries": [
+                "{@i 19th-level feature}",
+                "You gain an Epic Boon feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsShaman",
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "level": 20,
+            "entries": [
+                "{@i 20th-level feature}",
+                "You gain additional features from your subclass."
+            ]
+        }
+    ],
+    "subclass": [
+        {
+            "name": "Champion of Deities",
+            "source": "KyvumsChampion",
+            "page": 2,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "shortName": "Deities",
+            "subclassTableGroups": [
+                {
+                    "title": "Champion of Deities Spellcasting",
+                    "colLabels": [
+                        "Level",
+                        "Cantrips",
+                        "1st",
+                        "2nd",
+                        "3rd",
+                        "4th",
+                        "5th"
+                    ],
+                    "rows": [
+                        [
+                            "1st",
+                            "2",
+                            "2",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "2nd",
+                            "2",
+                            "2",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "3rd",
+                            "2",
+                            "3",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "4th",
+                            "2",
+                            "3",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "5th",
+                            "2",
+                            "4",
+                            "2",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "6th",
+                            "2",
+                            "4",
+                            "2",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "7th",
+                            "2",
+                            "4",
+                            "3",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "8th",
+                            "2",
+                            "4",
+                            "3",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "9th",
+                            "2",
+                            "4",
+                            "3",
+                            "2",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "10th",
+                            "2",
+                            "4",
+                            "3",
+                            "2",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "11th",
+                            "3",
+                            "4",
+                            "3",
+                            "3",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "12th",
+                            "3",
+                            "4",
+                            "3",
+                            "3",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "13th",
+                            "3",
+                            "4",
+                            "3",
+                            "3",
+                            "1",
+                            "-"
+                        ],
+                        [
+                            "14th",
+                            "3",
+                            "4",
+                            "3",
+                            "3",
+                            "1",
+                            "-"
+                        ],
+                        [
+                            "15th",
+                            "3",
+                            "4",
+                            "3",
+                            "3",
+                            "2",
+                            "-"
+                        ],
+                        [
+                            "16th",
+                            "3",
+                            "4",
+                            "3",
+                            "3",
+                            "2",
+                            "-"
+                        ],
+                        [
+                            "17th",
+                            "3",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "1"
+                        ],
+                        [
+                            "18th",
+                            "3",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "1"
+                        ],
+                        [
+                            "19th",
+                            "3",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "2"
+                        ],
+                        [
+                            "20th",
+                            "3",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "2"
+                        ]
+                    ]
+                }
+            ],
+            "subclassFeatures": [
+                "Spellcasting|Champion|KyvumsChampion|Deities|KyvumsChampion|1",
+                "Holy Ward|Champion|KyvumsChampion|Deities|KyvumsChampion|3",
+                "Projected Touch|Champion|KyvumsChampion|Deities|KyvumsChampion|7",
+                "Divine Resurgence|Champion|KyvumsChampion|Deities|KyvumsChampion|14",
+                "Ascendant Vessel|Champion|KyvumsChampion|Deities|KyvumsChampion|20"
+            ],
+            "subclassSpells": [
+                "guidance",
+                "light",
+                "word of radiance",
+                "bless",
+                "sanctuary",
+                "inflict wounds",
+                "shield of faith",
+                "cure wounds",
+                "lesser restoration",
+                "protection from poison",
+                "aid",
+                "enhance ability",
+                "warding bond",
+                "beacon of hope",
+                "animate dead",
+                "glyph of warding",
+                "remove curse",
+                "revivify",
+                "bestow curse",
+                "aura of life",
+                "death ward",
+                "divination",
+                "aura of purity",
+                "commune",
+                "dispel evil and good",
+                "greater restoration"
+            ],
+            "additionalSpells": [
+                {
+                    "known": {
+                        "0": [
+                            "guidance",
+                            "light",
+                            "word of radiance"
+                        ],
+                        "1": [
+                            "bless",
+                            "sanctuary",
+                            "inflict wounds",
+                            "shield of faith",
+                            "cure wounds",
+                            "compelled duel",
+                            "heroism",
+                            "divine smite",
+                            "wrathful smite",
+                            "thunderous smite",
+                            "searing smite",
+                            "divine favor"
+                        ],
+                        "5": [
+                            "lesser restoration",
+                            "protection from poison",
+                            "aid",
+                            "enhance ability",
+                            "warding bond",
+                            "find steed",
+                            "shining smite"
+                        ],
+                        "9": [
+                            "beacon of hope",
+                            "glyph of warding",
+                            "remove curse",
+                            "revivify",
+                            "bestow curse",
+                            "blinding smite",
+                            "crusader's mantle"
+                        ],
+                        "13": [
+                            "aura of life",
+                            "death ward",
+                            "divination",
+                            "aura of purity",
+                            "staggering smite",
+                            "banishment"
+                        ],
+                        "17": [
+                            "commune",
+                            "dispel evil and good",
+                            "greater restoration",
+                            "banishing smite",
+                            "destructive wave"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Champion of Townships",
+            "source": "KyvumsChampion",
+            "page": 3,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "shortName": "Townships",
+            "subclassTableGroups": [
+                {
+                    "title": "Shouts",
+                    "colLabels": [
+                        "Level",
+                        "Shouts"
+                    ],
+                    "rows": [
+                        [
+                            "1st",
+                            "2"
+                        ],
+                        [
+                            "2nd",
+                            "2"
+                        ],
+                        [
+                            "3rd",
+                            "3"
+                        ],
+                        [
+                            "4th",
+                            "3"
+                        ],
+                        [
+                            "5th",
+                            "4"
+                        ],
+                        [
+                            "6th",
+                            "4"
+                        ],
+                        [
+                            "7th",
+                            "5"
+                        ],
+                        [
+                            "8th",
+                            "5"
+                        ],
+                        [
+                            "9th",
+                            "6"
+                        ],
+                        [
+                            "10th",
+                            "6"
+                        ],
+                        [
+                            "11th",
+                            "7"
+                        ],
+                        [
+                            "12th",
+                            "7"
+                        ],
+                        [
+                            "13th",
+                            "8"
+                        ],
+                        [
+                            "14th",
+                            "8"
+                        ],
+                        [
+                            "15th",
+                            "9"
+                        ],
+                        [
+                            "16th",
+                            "9"
+                        ],
+                        [
+                            "17th",
+                            "10"
+                        ],
+                        [
+                            "18th",
+                            "10"
+                        ],
+                        [
+                            "19th",
+                            "11"
+                        ],
+                        [
+                            "20th",
+                            "12"
+                        ]
+                    ]
+                }
+            ],
+            "subclassFeatures": [
+                "Guiding Voice|Champion|KyvumsChampion|Townships|KyvumsChampion|1",
+                "Bolster the Ranks|Champion|KyvumsChampion|Townships|KyvumsChampion|3",
+                "Rallying Cry|Champion|KyvumsChampion|Townships|KyvumsChampion|7",
+                "Unyielding Heart|Champion|KyvumsChampion|Townships|KyvumsChampion|14",
+                "Hero of the People|Champion|KyvumsChampion|Townships|KyvumsChampion|20"
+            ]
+        },
+        {
+            "name": "Champion of Crowns",
+            "source": "KyvumsChampion",
+            "page": 4,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "shortName": "Crowns",
+            "subclassFeatures": [
+                "Royal Guardian|Champion|KyvumsChampion|Crowns|KyvumsChampion|1",
+                "Shared Goal|Champion|KyvumsChampion|Crowns|KyvumsChampion|3",
+                "Critical Vengeance|Champion|KyvumsChampion|Crowns|KyvumsChampion|7",
+                "Stalwart Defender|Champion|KyvumsChampion|Crowns|KyvumsChampion|14",
+                "Crown’s Bulwark|Champion|KyvumsChampion|Crowns|KyvumsChampion|20"
+            ]
+        },
+        {
+            "name": "Reanimation",
+            "shortName": "Reanimation",
+            "source": "KyvumsNecromancer",
+            "page": 2,
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassTableGroups": [
+                {
+                    "title": "Active Bones",
+                    "colLabels": [
+                        "Limit"
+                    ],
+                    "rows": [
+                        [
+                            "-"
+                        ],
+                        [
+                            "-"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "10"
+                        ],
+                        [
+                            "10"
+                        ],
+                        [
+                            "12"
+                        ],
+                        [
+                            "12"
+                        ],
+                        [
+                            "12"
+                        ],
+                        [
+                            "14"
+                        ]
+                    ]
+                }
+            ],
+            "subclassFeatures": [
+                "Bodies and Bones|Necromancer|KyvumsNecromancer|Reanimation|KyvumsNecromancer|3",
+                "Flesh on Bone|Necromancer|KyvumsNecromancer|Reanimation|KyvumsNecromancer|6",
+                "Armor of Bone|Necromancer|KyvumsNecromancer|Reanimation|KyvumsNecromancer|10",
+                "Muscle and Mass|Necromancer|KyvumsNecromancer|Reanimation|KyvumsNecromancer|14"
+            ]
+        },
+        {
+            "name": "Cursing",
+            "shortName": "Cursing",
+            "source": "KyvumsNecromancer",
+            "page": 2,
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassTableGroups": [
+                {
+                    "title": "Curses & Hexes",
+                    "colLabels": [
+                        "Slots"
+                    ],
+                    "rows": [
+                        [
+                            "-"
+                        ],
+                        [
+                            "-"
+                        ],
+                        [
+                            "2"
+                        ],
+                        [
+                            "2"
+                        ],
+                        [
+                            "3"
+                        ],
+                        [
+                            "3"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "7"
+                        ],
+                        [
+                            "7"
+                        ],
+                        [
+                            "8"
+                        ],
+                        [
+                            "8"
+                        ]
+                    ]
+                }
+            ],
+            "subclassFeatures": [
+                "Hexmaster|Necromancer|KyvumsNecromancer|Cursing|KyvumsNecromancer|3",
+                "Cursemaster|Necromancer|KyvumsNecromancer|Cursing|KyvumsNecromancer|6",
+                "Plague Spreader|Necromancer|KyvumsNecromancer|Cursing|KyvumsNecromancer|10",
+                "Deathbringer|Necromancer|KyvumsNecromancer|Cursing|KyvumsNecromancer|14"
+            ]
+        },
+        {
+            "name": "Reaping",
+            "shortName": "Reaping",
+            "source": "KyvumsNecromancer",
+            "page": 2,
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassTableGroups": [
+                {
+                    "title": "Forbidden Magicks",
+                    "colLabels": [
+                        "Slots"
+                    ],
+                    "rows": [
+                        [
+                            "-"
+                        ],
+                        [
+                            "-"
+                        ],
+                        [
+                            "2"
+                        ],
+                        [
+                            "2"
+                        ],
+                        [
+                            "3"
+                        ],
+                        [
+                            "3"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "4"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "5"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "6"
+                        ],
+                        [
+                            "7"
+                        ],
+                        [
+                            "7"
+                        ],
+                        [
+                            "8"
+                        ],
+                        [
+                            "8"
+                        ]
+                    ]
+                }
+            ],
+            "subclassFeatures": [
+                "Soulrend|Necromancer|KyvumsNecromancer|Reaping|KyvumsNecromancer|3",
+                "Forbidden Wrath|Necromancer|KyvumsNecromancer|Reaping|KyvumsNecromancer|6",
+                "Drain and Wither|Necromancer|KyvumsNecromancer|Reaping|KyvumsNecromancer|10",
+                "Creeping Darkness|Necromancer|KyvumsNecromancer|Reaping|KyvumsNecromancer|14"
+            ]
+        },
+        {
+            "name": "Chieftain",
+            "source": "KyvumsShaman",
+            "page": 2,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "shortName": "Chieftain",
+            "subclassFeatures": [
+                "Totemcraft|Shaman|KyvumsShaman|Chieftain|KyvumsShaman|3",
+                "Totem of Consonance|Shaman|KyvumsShaman|Chieftain|KyvumsShaman|3",
+                "Call of the Ancestors|Shaman|KyvumsShaman|Chieftain|KyvumsShaman|6",
+                "Totem of Flow|Shaman|KyvumsShaman|Chieftain|KyvumsShaman|10",
+                "Totem of Cycles|Shaman|KyvumsShaman|Chieftain|KyvumsShaman|18",
+                "Chief’s Totem|Shaman|KyvumsShaman|Chieftain|KyvumsShaman|20"
+            ],
+            "subclassTableGroups": [
+                {
+                    "title": "Chieftain Spellcasting",
+                    "colLabels": [
+                        "Cantrips",
+                        "Prepared Spells",
+                        "1st",
+                        "2nd",
+                        "3rd",
+                        "4th",
+                        "5th"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "2",
+                            "2",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "1",
+                            "3",
+                            "3",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "1",
+                            "4",
+                            "3",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "1",
+                            "5",
+                            "4",
+                            "2",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "1",
+                            "6",
+                            "4",
+                            "2",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "1",
+                            "7",
+                            "4",
+                            "3",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "1",
+                            "7",
+                            "4",
+                            "3",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "1",
+                            "8",
+                            "4",
+                            "3",
+                            "2",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "9",
+                            "4",
+                            "3",
+                            "2",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "10",
+                            "4",
+                            "3",
+                            "2",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "11",
+                            "4",
+                            "3",
+                            "3",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "12",
+                            "4",
+                            "3",
+                            "3",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "12",
+                            "4",
+                            "3",
+                            "3",
+                            "1",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "13",
+                            "4",
+                            "3",
+                            "3",
+                            "1",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "14",
+                            "4",
+                            "3",
+                            "3",
+                            "2",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "14",
+                            "4",
+                            "3",
+                            "3",
+                            "2",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "15",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "1"
+                        ],
+                        [
+                            "2",
+                            "15",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "1"
+                        ],
+                        [
+                            "2",
+                            "15",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "2"
+                        ],
+                        [
+                            "2",
+                            "15",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "2"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Animist",
+            "source": "KyvumsShaman",
+            "page": 3,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "shortName": "Animist",
+            "subclassFeatures": [
+                "Spirit Guide|Shaman|KyvumsShaman|Animist|KyvumsShaman|3",
+                "Enhanced Guidance|Shaman|KyvumsShaman|Animist|KyvumsShaman|6",
+                "Call of the Wild|Shaman|KyvumsShaman|Animist|KyvumsShaman|10",
+                "Bestial Trance|Shaman|KyvumsShaman|Animist|KyvumsShaman|18",
+                "Spiritual Convergence|Shaman|KyvumsShaman|Animist|KyvumsShaman|20"
+            ],
+            "subclassTableGroups": [
+                {
+                    "title": "Animist Spellcasting",
+                    "colLabels": [
+                        "Cantrips",
+                        "Prepared Spells",
+                        "1st",
+                        "2nd",
+                        "3rd",
+                        "4th",
+                        "5th"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "2",
+                            "2",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "1",
+                            "3",
+                            "3",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "1",
+                            "4",
+                            "3",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "1",
+                            "5",
+                            "4",
+                            "2",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "1",
+                            "6",
+                            "4",
+                            "2",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "1",
+                            "7",
+                            "4",
+                            "3",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "1",
+                            "7",
+                            "4",
+                            "3",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "1",
+                            "8",
+                            "4",
+                            "3",
+                            "2",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "9",
+                            "4",
+                            "3",
+                            "2",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "10",
+                            "4",
+                            "3",
+                            "2",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "11",
+                            "4",
+                            "3",
+                            "3",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "12",
+                            "4",
+                            "3",
+                            "3",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "12",
+                            "4",
+                            "3",
+                            "3",
+                            "1",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "13",
+                            "4",
+                            "3",
+                            "3",
+                            "1",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "14",
+                            "4",
+                            "3",
+                            "3",
+                            "2",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "14",
+                            "4",
+                            "3",
+                            "3",
+                            "2",
+                            "-"
+                        ],
+                        [
+                            "2",
+                            "15",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "1"
+                        ],
+                        [
+                            "2",
+                            "15",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "1"
+                        ],
+                        [
+                            "2",
+                            "15",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "2"
+                        ],
+                        [
+                            "2",
+                            "15",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "2"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stormseer",
+            "source": "KyvumsShaman",
+            "page": 4,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "shortName": "Stormseer",
+            "subclassFeatures": [
+                "Stormsurge|Shaman|KyvumsShaman|Stormseer|KyvumsShaman|3",
+                "Power of Storms|Shaman|KyvumsShaman|Stormseer|KyvumsShaman|3",
+                "Call of the Storm|Shaman|KyvumsShaman|Stormseer|KyvumsShaman|6",
+                "Splinterstorm|Shaman|KyvumsShaman|Stormseer|KyvumsShaman|10",
+                "Eye of the Storm|Shaman|KyvumsShaman|Stormseer|KyvumsShaman|18",
+                "Windwalker|Shaman|KyvumsShaman|Stormseer|KyvumsShaman|20"
+            ],
+            "subclassTableGroups": [
+                {
+                    "title": "Stormseer Spellcasting",
+                    "colLabels": [
+                        "Cantrips",
+                        "Prepared Spells",
+                        "1st",
+                        "2nd",
+                        "3rd",
+                        "4th",
+                        "5th",
+                        "6th",
+                        "7th",
+                        "8th",
+                        "9th"
+                    ],
+                    "rows": [
+                        [
+                            "3",
+                            "4",
+                            "2",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "3",
+                            "5",
+                            "3",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "3",
+                            "6",
+                            "4",
+                            "2",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "4",
+                            "7",
+                            "4",
+                            "3",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "4",
+                            "9",
+                            "4",
+                            "3",
+                            "2",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "4",
+                            "10",
+                            "4",
+                            "3",
+                            "3",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "4",
+                            "11",
+                            "4",
+                            "3",
+                            "3",
+                            "1",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "4",
+                            "12",
+                            "4",
+                            "3",
+                            "3",
+                            "2",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "4",
+                            "14",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "1",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "5",
+                            "15",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "5",
+                            "16",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "1",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "5",
+                            "17",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "1",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "5",
+                            "18",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "1",
+                            "1",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "5",
+                            "19",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "1",
+                            "1",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "5",
+                            "20",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "1",
+                            "1",
+                            "1",
+                            "-"
+                        ],
+                        [
+                            "5",
+                            "20",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "1",
+                            "1",
+                            "1",
+                            "-"
+                        ],
+                        [
+                            "5",
+                            "21",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "1",
+                            "1",
+                            "1",
+                            "1"
+                        ],
+                        [
+                            "5",
+                            "21",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "3",
+                            "1",
+                            "1",
+                            "1",
+                            "1"
+                        ],
+                        [
+                            "5",
+                            "22",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "1",
+                            "1",
+                            "1"
+                        ],
+                        [
+                            "5",
+                            "22",
+                            "4",
+                            "3",
+                            "3",
+                            "3",
+                            "3",
+                            "2",
+                            "2",
+                            "1",
+                            "1"
+                        ]
+                    ]
+                }
+            ],
+            "additionalSpells": [
+                {
+                    "known": {
+                        "3": [
+                            "gust of wind",
+                            "thunderwave"
+                        ],
+                        "5": [
+                            "sleet storm",
+                            "call lightning",
+                            "wind wall"
+                        ],
+                        "9": [
+                            "ice storm"
+                        ],
+                        "12": [
+                            "wind walk",
+                            "chain lightning"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Spellcasting",
+            "source": "KyvumsChampion",
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "subclassShortName": "Deities",
+            "subclassSource": "KyvumsChampion",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level Deities feature}",
+                "You gain spellcasting. Select two {@filter Cantrips|spells|level=0|subclass=Champion: Deities (KYVC)} and {@filter 1st level spells|spells|level=1|subclass=Champion: Deities (KYVC)} from the {@filter Champion of Deities spell list.|spells|subclass=Champion: Deities (KYVC)}"
+            ]
+        },
+        {
+            "name": "Holy Ward",
+            "source": "KyvumsChampion",
+            "page": 2,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "subclassShortName": "Deities",
+            "subclassSource": "KyvumsChampion",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Deities feature}",
+                "{@i {@b Range:}} 60ft",
+                "You can project a protective ward channelled through the power of your deity on an ally.",
+                "The recipient of your Holy Ward gains +1 AC.",
+                "{@i {@b You can only have one Holy Ward active at a time.}}"
+            ]
+        },
+        {
+            "name": "Projected Touch",
+            "source": "KyvumsChampion",
+            "page": 2,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "subclassShortName": "Deities",
+            "subclassSource": "KyvumsChampion",
+            "level": 7,
+            "entries": [
+                "{@i 7th-level Deities feature}",
+                "Your {@subclassFeature Holy Ward|Champion|KyvumsChampion|Deities|KyvumsChampion|3|KyvumsChampion|Holy Ward} now is a capable extension of your power, echoing your reach to whom it is guarding.",
+                "You can deliver touch spells through your {@subclassFeature Holy Ward|Champion|KyvumsChampion|Deities|KyvumsChampion|3|KyvumsChampion|Holy Ward}. This can also be used to cast offensive touch spells to enemies within 5ft of your warded ally."
+            ]
+        },
+        {
+            "name": "Divine Resurgence",
+            "source": "KyvumsChampion",
+            "page": 2,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "subclassShortName": "Deities",
+            "subclassSource": "KyvumsChampion",
+            "level": 14,
+            "entries": [
+                "{@i 14th-level Deities feature}",
+                "The {@subclassFeature Holy Ward|Champion|KyvumsChampion|Deities|KyvumsChampion|3|KyvumsChampion|Holy Ward} now acts as a link between the vitality of you and the ally you are protecting.",
+                "Your warded ally receives a healing equal to half of the healing you give yourself, and you also receive healing equal to half of that which you give to your warded ally."
+            ]
+        },
+        {
+            "name": "Ascendant Vessel",
+            "source": "KyvumsChampion",
+            "page": 2,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "subclassShortName": "Deities",
+            "subclassSource": "KyvumsChampion",
+            "level": 20,
+            "entries": [
+                "{@i 20th-level Deities feature}",
+                "Your devotion to your Deity has earned you the special attention of them. Truly anointed the Champion of your deity it blesses you with a fraction of it's power permanently.",
+                "Depending on the alignment of your Deity you receive the following bonus:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "Good",
+                            "entries": [
+                                "You gain a permanent +4 to Constitution and have {@variantrule resistance|XPHB} to damage from Evil creatures.",
+                                "The {@variantrule resistance|XPHB} also applies to allies under the effects of your Ward, you also can now ward an additional ally."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Neutral",
+                            "entries": [
+                                "You gain a permanent +2 to Constitution and +2 to Strength and have {@variantrule resistance|XPHB} to damage from Neutral creatures.",
+                                "The {@variantrule resistance|XPHB} also applies to allies under the effects of your Ward, you also can now ward an additional ally."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Evil",
+                            "entries": [
+                                "You gain a permanent +4 to Strength and have {@variantrule resistance|XPHB} to damage from Good creatures.",
+                                "The {@variantrule resistance|XPHB} also applies to allies under the effects of your Ward, you also can now ward an additional ally."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Guiding Voice",
+            "source": "KyvumsChampion",
+            "page": 3,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "subclassShortName": "Townships",
+            "subclassSource": "KyvumsChampion",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level Townships feature}",
+                "Gain access to Shouts, commands that are used to assist your allies in combat.",
+                "You gain an amount of Shout uses per day as per the Class Progression table, these uses are restored fully on a {@variantrule Long Rest|XPHB} or half rounded down with a minimum of 1 on a {@variantrule Short Rest|XPHB}.",
+                "{@b Guiding Shout:} You can use the {@action Help|XPHB} action as a {@variantrule Bonus Action|XPHB} and can directly use it to assist an ally within 20ft of you on their next {@variantrule Attack Roll|XPHB}.",
+                                            {
+                    "type": "table",
+                    "caption": "Shouts",
+                    "colLabels": [
+                        "Level",
+                        "Name"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "{@subclassFeature Guiding Shout|Champion|KyvumsChampion|Townships|KyvumsChampion|1|KyvumsChampion|Guiding Voice}"
+                        ],
+                        [
+                            "3",
+                            "{@subclassFeature Bolster The Ranks|Champion|KyvumsChampion|Townships|KyvumsChampion|3|KyvumsChampion|Bolster The Ranks}"
+                        ],
+                        [
+                            "7",
+                            "{@subclassFeature Rallying Cry|Champion|KyvumsChampion|Townships|KyvumsChampion|7|KyvumsChampion|Rallying Cry}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bolster the Ranks",
+            "source": "KyvumsChampion",
+            "page": 3,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "subclassShortName": "Townships",
+            "subclassSource": "KyvumsChampion",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Townships feature}",
+                "{@i {@b Radius:}} 120ft",
+                "{@i {@b Duration:}} 1 minute",
+                "{@i {@b Allies must be able to hear you to receive these effects.}}",
+                "You shout inspirational words, perhaps meaningful to only your allies raising their morale.",
+                "Each ally who hears you gains {@variantrule Temporary Hit Points|XPHB} equal your Champion level multipled by your Charisma modifier."
+            ]
+        },
+        {
+            "name": "Rallying Cry",
+            "source": "KyvumsChampion",
+            "page": 3,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "subclassShortName": "Townships",
+            "subclassSource": "KyvumsChampion",
+            "level": 7,
+            "entries": [
+                "{@i 7th-level Townships feature}",
+                "{@i {@b Radius:}} 120ft",
+                "{@i {@b Allies must be able to hear you to receive these effects.}}",
+                "You shout a short tactical command at your allies, rallying them together to fight cohesively.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "Offensive Command",
+                            "entries": [
+                                "If you shout an offensive command, for example telling your allies to focus a target:",
+                                "All attacks against that target gain {@variantrule Advantage|XPHB} until your next turn."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Defensive Command",
+                            "entries": [
+                                "If you shout a defensive command, for example telling your allies to guard a target or hold a position:",
+                                "All allies receive +1 {@variantrule Armor Class|XPHB} until your next turn."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Movement Command",
+                            "entries": [
+                                "If you shout a movement command, for example telling your allies to rush to a target or retreat:",
+                                "All allies gain 5ft movement until your next turn."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Unyielding Heart",
+            "source": "KyvumsChampion",
+            "page": 3,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "subclassShortName": "Townships",
+            "subclassSource": "KyvumsChampion",
+            "level": 14,
+            "entries": [
+                "{@i 14th-level Townships feature}",
+                "You are hardened by battle and a will to protect your companions. You are able to put your fears aside to stay standing in the frontlines.",
+                "You are immune to the effects of the {@condition Frightened} condition.",
+                "Any ally who witnesses a creature attempt to {@condition Frightened|XPHB|Frighten} you will gain {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} against the {@condition Frightened|XPHB} condition as well as the effects of {@subclassFeature Bolster The Ranks|Champion|KyvumsChampion|Townships|KyvumsChampion|1|KyvumsChampion|Bolster The Ranks}."
+            ]
+        },
+        {
+            "name": "Hero of the People",
+            "source": "KyvumsChampion",
+            "page": 3,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "subclassShortName": "Townships",
+            "subclassSource": "KyvumsChampion",
+            "level": 20,
+            "entries": [
+                "{@i 20th-level Townships feature}",
+                "You are a renowned hero across the lands of commonfolk, a defender of all who need it.",
+                "Your very presence improves the morale of those around you, friendly creatures within 30ft of you receive half of the benefit of {@subclassFeature Bolster The Ranks|Champion|KyvumsChampion|Townships|KyvumsChampion|3|KyvumsChampion|Bolster The Ranks}.",
+                "This effect cannot be reapplied during combat without actively using {@subclassFeature Bolster The Ranks|Champion|KyvumsChampion|Townships|KyvumsChampion|3|KyvumsChampion|Bolster The Ranks}."
+            ]
+        },
+        {
+            "name": "Royal Guardian",
+            "source": "KyvumsChampion",
+            "page": 4,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "subclassShortName": "Crowns",
+            "subclassSource": "KyvumsChampion",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level Crowns feature}",
+                "You are able to designate one ally as your ward, devoting yourself to their cause and vowing to defend them at all costs.",
+                "You are only able to designate a new ward if; the previous one dies, there is a strong moral disagreement, upon leveling up.",
+                "Choose one of either the {@feat Protection|XPHB} Fighting Style or {@feat Interception|XPHB} Fighting Style to learn."
+            ]
+        },
+        {
+            "name": "Shared Goal",
+            "source": "KyvumsChampion",
+            "page": 4,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "subclassShortName": "Crowns",
+            "subclassSource": "KyvumsChampion",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Crowns feature}",
+                "You are able to use the {@action Help|XPHB} action as a {@variantrule Bonus Action|XPHB} when assisting your Ward."
+            ]
+        },
+        {
+            "name": "Critical Vengeance",
+            "source": "KyvumsChampion",
+            "page": 4,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "subclassShortName": "Crowns",
+            "subclassSource": "KyvumsChampion",
+            "level": 7,
+            "entries": [
+                "{@i 7th-level Crowns feature}",
+                "If your Ward is below maximum hitpoints and you are within 60ft of them, you gain 10ft of movement.",
+                "Additionally, you have {@variantrule Advantage|XPHB} on attacks against any creature that damaged your Ward in the last round."
+            ]
+        },
+        {
+            "name": "Stalwart Defender",
+            "source": "KyvumsChampion",
+            "page": 4,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "subclassShortName": "Crowns",
+            "subclassSource": "KyvumsChampion",
+            "level": 14,
+            "entries": [
+                "{@i 14th-level Crowns feature}",
+                "If your Ward is below half hitpoints and you are within 5ft of them, you are able to use your {@variantrule Reaction|XPHB} to defend them with your body.",
+                "Using your {@variantrule Reaction|XPHB}, you now occupy the same space as your Ward intercepting attacks made against them. You receive a -2 penalty to your {@variantrule Armor Class|XPHB} while doing this.",
+                "You also will take full damage from {@variantrule Area of Effect|XPHB} damage that would hit you, and half of which would affect your Ward - they receive the other half."
+            ]
+        },
+        {
+            "name": "Crown’s Bulwark",
+            "source": "KyvumsChampion",
+            "page": 4,
+            "className": "Champion",
+            "classSource": "KyvumsChampion",
+            "subclassShortName": "Crowns",
+            "subclassSource": "KyvumsChampion",
+            "level": 20,
+            "entries": [
+                "{@i 20th-level Crowns feature}",
+                "You become the ultimate bulwark, capable of shielding your Ward from all harm.",
+                "When you are within 5ft of your Ward they always have the benefit of your Fighting Style choice from {@subclassFeature Royal Guardian|Champion|KyvumsChampion|Crowns|KyvumsChampion|1|KyvumsChampion|Royal Guardian} so long as you meet the requirements to do so.",
+                "Additionally, when using the {@subclassFeature Stalwart Defender|Champion|KyvumsChampion|Crowns|KyvumsChampion|14|KyvumsChampion|Stalwart Defender} feature you no longer receive a penalty to your {@variantrule Armor Class|XPHB} and your ward no longer receives damage from {@variantrule Area of Effect|XPHB} effects."
+            ]
+        },
+        {
+            "name": "Bodies and Bones",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Reanimation",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Reanimation feature}",
+                "You learn the {@spell Reanimate Bones|KyvumsNecromancer} spell. You can cast this spell once per {@variantrule Long Rest} or use any Spell Slot.",
+                "Upon defeating an enemy that has bones, spend 10 minutes and roll {@dice 1d6} + your Intelligence modifier, you collect that many {@item Bone|KyvumsNecromancer|Bones} from the corpse.",
+                "You control an amount or size of creatures dependent on the amount of bones used as per the Class Progression Table."
+            ]
+        },
+        {
+            "name": "Flesh on Bone",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Reanimation",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level Reanimation feature}",
+                "You learn the art of moulding, binding and animating flesh to bone.",
+                "Using the corpse of a creature that has flesh, you are able to bind the flesh to one of your controlled Reanimated Bones.",
+                "This process will take you 10 minutes.",
+                "A Reanimated Bone that has this effect applied will receive an additional 1 hitpoint per size category per Necromancer Level."
+            ]
+        },
+        {
+            "name": "Armor of Bone",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Reanimation",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level Reanimation feature}",
+                "You learn to animate bone as if it were a moving carapace to protect yourself or one of your animated creatures.",
+                "Requires {@status Concentration}.",
+                "{@i {@b Range:}} 60ft.",
+                "{@i {@b Duration:}} 8 hours",
+                "You can have up to 8 Bones worth of Armor of Bone active at any time.",
+                "The Armor of Bone will be destroyed if the creature it's protecting dies, you lose {@status Concentration}, it's duration expires or move out of range of the Armor of Bone.",
+                "If destroyed, none of the bones are salvageable.",
+                "Depending on how many bones you animate you can create carapace of different strengths:",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@i {@b 2 Bones:}} Armor equivalent to {@item Ring Mail|XPHB}",
+                        "{@i {@b 4 Bones:}} Armor equivalent to {@item Chain Shirt|XPHB}",
+                        "{@i {@b 6 Bones:}} Armor equivalent to {@item Chain Mail|XPHB}",
+                        "{@i {@b 8 Bones:}} Armor equivalent to {@item Splint Armor|XPHB}"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Muscle and Mass",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Reanimation",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 14,
+            "entries": [
+                "{@i 14th-level Reanimation feature}",
+                "When binding Flesh to Bone as per the {@subclassFeature Flesh on Bone|Necromancer|KyvumsNecromancer|Reanimation|KyvumsNecromancer|6|KyvumsNecromancer|Flesh on Bone} feature you are now able to also bind muscle to one of your reanimations.",
+                "This grants the reanimation a bonus additional 5 feet of movement.",
+                "Additionally the creature now gains 2 hitpoints per size category per Necromancer level instead of 1."
+            ]
+        },
+        {
+            "name": "Hexmaster",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Cursing",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Curses feature}",
+                "You are able to cast the {@spell Hex|XPHB} spell once without expending a spell slot, this is recharged upon a {@variantrule Long Rest|XPHB}.",
+                "This does not count against your prepared spells.",
+                "At Higher Levels you are able to cast {@spell Hex|XPHB} multiple times before requiring a {@variantrule Long Rest|XPHB} as per the Hexes and Curses column in the Class Progression Table.",
+                "{@i {@b Harrowing:}} Additionally the {@spell Hex|XPHB} spell's damage die becomes a {@dice 1d8} and can be triggered by anyone attacking the target. However it can now only be triggered once per turn.",
+                "This damage increases by {@dice 1d8} for each spell slot above level 1."
+            ]
+        },
+        {
+            "name": "Cursemaster",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Cursing",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level Curses feature}",
+                "You are able to cast the {@spell Bestow Curse|XPHB} spell once without expending a spell slot, this is recharged upon a {@variantrule Long Rest|XPHB}.",
+                "This does not count against your prepared spells.",
+                "At Higher Levels you are able to cast {@spell Bestow Curse|XPHB} multiple times before requiring a {@variantrule Long Rest|XPHB} as per the Class Progression Table.",
+                "Your {@spell Bestow Curse|XPHB} spell always applies it's damage element as well as one of the other options of your choice.",
+                "Additionally {@spell Bestow Curse|XPHB} gains the benefits of {@i {@b Harrowing}} from your {@subclassFeature Hexmaster|Necromancer|KyvumsNecromancer|Cursing|KyvumsNecromancer|3|KyvumsNecromancer|Hexmaster} feature with a damage die of {@dice 1d10}."
+            ]
+        },
+        {
+            "name": "Plague Spreader",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Cursing",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level Curses feature}",
+                "Your hexes spread to enemies near the afflicted liked a plague.",
+                "If a creature afflicted by either of your {@spell Hex|XPHB} or {@spell Bestow Curse|XPHB} spells ends it's turn within 5ft of a creature it considers an ally, that creature is also afflicted by the spell.",
+                "A maximum of three creatures can be afflicted by either of your {@spell Hex|XPHB} or {@spell Bestow Curse|XPHB} spell at any time."
+            ]
+        },
+        {
+            "name": "Deathbringer",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Cursing",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 14,
+            "entries": [
+                "{@i 14th-level Curses feature}",
+                "Creatures afflicted by your {@spell Hex|XPHB} or {@spell Bestow Curse|XPHB} spells are with intense pain as their bodies begin to erode.",
+                "At the beginning of each of their turns, any creature affected by one of these spells must make a Constitution {@variantrule Saving Throw|XPHB} or take damage equal to that of the Hex or Curse."
+            ]
+        },
+        {
+            "name": "Soulrend",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Reaping",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Reaper feature}",
+                "Your attacks siphon the soul of your enemies when charged with Necromantic energies.",
+                "You know the {@spell Chill Touch|XPHB} cantrip, this does not count against your known cantrips.",
+                "You can now channel {@spell Chill Touch|XPHB} through your weapon, when you successfully hit a target with {@spell Chill Touch|XPHB} you additionally deal your weapon's damage.",
+                "If your {@spell Chill Touch|XPHB} slays an enemy, gain {@variantrule Temporary Hit Points|XPHB} equal to the amount of damage dealt by the {@spell Chill Touch|XPHB}. The {@variantrule Temporary Hit Points|XPHB} last permanently until lost through damage.",
+                "You gain proficiency with {@filter Medium Armor|items|type=Medium Armor} and all {@filter Reach Weapons|items|property=Reach} and do not incur disadvantage when using {@spell Chill Touch|XPHB} with Heavy weapons that also have the Reach property."
+            ]
+        },
+        {
+            "name": "Forbidden Wrath",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Reaping",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level Reaper feature}",
+                "You are able to cast the {@spell Wrathful Smite|XPHB} spell once without expending a spell slot, this is recharged upon a {@variantrule Long Rest|XPHB}.",
+                "This does not count against your prepared spells.",
+                "At Higher Levels you are able to cast {@spell Wrathful Smite|XPHB} multiple times before requiring a {@variantrule Long Rest|XPHB} as per the Forbidden Magicks on the Class Progression Table.",
+                "If you cast {@spell Wrathful Smite|XPHB} after hitting an enemy with your {@subclassFeature Soulrend|Necromancer|KyvumsNecromancer|Reaping|KyvumsNecromancer|3|KyvumsNecromancer|Soulrend} and it dies, you still gain the {@variantrule Temporary Hit Points|XPHB}."
+            ]
+        },
+        {
+            "name": "Drain and Wither",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Reaping",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level Reaper feature}",
+                "You are able to cast the {@spell Vampiric Touch|XPHB} spell once without expending a spell slot, this is recharged upon a {@variantrule Long Rest|XPHB}.",
+                "This does not count against your prepared spells.",
+                "At Higher Levels you are able to cast {@spell Vampiric Touch|XPHB} multiple times before requiring a {@variantrule Long Rest|XPHB} as per the Forbidden Magicks on the Class Progression Table.",
+                "Enemies slain by your {@spell Vampiric Touch|XPHB} can be used in place of {@spell Chill Touch|XPHB} for your {@subclassFeature Soulrend|Necromancer|KyvumsNecromancer|Reaping|KyvumsNecromancer|3|KyvumsNecromancer|Soulrend} feature."
+            ]
+        },
+        {
+            "name": "Creeping Darkness",
+            "source": "KyvumsNecromancer",
+            "className": "Necromancer",
+            "classSource": "KyvumsNecromancer",
+            "subclassShortName": "Reaping",
+            "subclassSource": "KyvumsNecromancer",
+            "level": 14,
+            "entries": [
+                "{@i 14th-level Reaper feature}",
+                "You gain 60 feet of {@sense Darkvision|XPHB}.",
+                "In Darkness you have {@variantrule Advantage|XPHB} on your melee attacks."
+            ]
+        },
+        {
+            "name": "Totemcraft",
+            "source": "KyvumsShaman",
+            "page": 1,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Chieftain",
+            "subclassSource": "KyvumsShaman",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Chieftain feature}",
+                "You learn to craft {@item Totem|KyvumsShaman|Totems} capable of channeling magic from powerful spirits",
+                "You can craft up to 2 {@item Totem|KyvumsShaman|Totems} during a {@variantrule Long Rest|XPHB} as you enter a meditative trance, or 1 during a {@variantrule Short Rest|XPHB}. Outside of rests, crafting takes 1 hour per {@item Totem|KyvumsShaman}.",
+                "Each {@item Totem|KyvumsShaman} weighs 6 lbs and costs 5 cp in materials to craft.",
+                "At 3rd Level you can maintain charge on one Totem at a time, this increases to two at 12th Level and three at 18th Level. Maintaining charge requires a {@action Magic|XPHB} Action each turn and {@status Concentration}. If concentration breaks, you must use both {@action Magic|XPHB} Action and {@variantrule Bonus Action|XPHB} next turn to regain it or your Totem is destroyed.",
+                "Totems can be deployed to occupy a 5ft space or wielded, deployed {@item Totem|KyvumsShaman|Totems} automatically fail Dexterity {@variantrule Saving Throw|XPHB|Saving Throws}",
+                "Deployed Totems that are charged have their hit points linked to yours and have the same {@variantrule Armor Class|XPHB} as you; if {@variantrule Area of Effect|XPHB} damage hits both, you take damage for both. A Totem is destroyed if you take more than half your hit points in damage in one turn, if the linked damage would drop you to or below 0 HP, you drop to 1 instead and the Totem is destroyed. This can only occur once per {@variantrule Long Rest|XPHB}.",
+                "When wielded, a {@item Totem|KyvumsShaman} can be used as a two-handed weapon you are proficient with and can be used as a spellcasting focus. A wielded {@item Totem|KyvumsShaman} also does not take damage."
+            ]
+        },
+        {
+            "name": "Totem of Consonance",
+            "source": "KyvumsShaman",
+            "page": 1,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Chieftain",
+            "subclassSource": "KyvumsShaman",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Chieftain feature}",
+                "{@i {@b Totem Range:}} 60ft",
+                "Charge a Totem of Consonance: Your Calls provide both their boon to allies and hindrance to enemies simultaneously."
+            ]
+        },
+        {
+            "name": "Call of the Ancestors",
+            "source": "KyvumsShaman",
+            "page": 1,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Chieftain",
+            "subclassSource": "KyvumsShaman",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level Chieftain feature}",
+                "{@i {@b Range:}} 30ft",
+                "{@i {@b Duration:}} 1 minute",
+                "{@b Choose one:}",
+                "Confer a boon to an ally, enemies have {@variantrule Disadvantage|XPHB} attacking them.",
+                "Hinder a foe, allies have {@variantrule Advantage|XPHB} on attacks against them."
+            ]
+        },
+        {
+            "name": "Totem of Flow",
+            "source": "KyvumsShaman",
+            "page": 1,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Chieftain",
+            "subclassSource": "KyvumsShaman",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level Chieftain feature}",
+                "{@i {@b Totem Radius:}} 60ft",
+                "{@i {@b Duration:}} 1 minute",
+                "Charge a Totem of Flow: Enemies within the totem's radius must make a Constitution save against your Shaman Spellcaster DC. each turn or take damage equal to your Wisdom modifier + proficiency bonus.",
+                "You can then grant that amount as {@variantrule Temporary Hit Points|XPHB} to an ally, you can do this an amount of times equal to your Proficiency Bonus per turn."
+            ]
+        },
+        {
+            "name": "Totem of Cycles",
+            "source": "KyvumsShaman",
+            "page": 1,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Chieftain",
+            "subclassSource": "KyvumsShaman",
+            "level": 18,
+            "entries": [
+                "{@i 18th-level Chieftain feature}",
+                "{@i {@b Totem Radius:}} 30ft",
+                "Charge a Totem of Cycles: Each turn, choose a boon for an ally or a hindrance for a foe lasting until your next turn. Each effect can be used once every 3 turns.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "Boons",
+                            "entries": [
+                                "Bonus to all {@variantrule Attack Roll|XPHB} equal to Shaman’s wisdom modifier.",
+                                "Bonus to Damage rolls equal to Shaman’s wisdom modifier.",
+                                "Bonus to {@variantrule Armor Class|XPHB} equal to Shaman’s wisdom modifier.",
+                                "Bonus to one {@variantrule Saving Throw|XPHB} of choice equal to half of Shaman’s proficiency bonus.",
+                                "{@variantrule Temporary Hit Points|XPHB} equal to Shaman’s wisdom modifier plus proficiency bonus."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Hindrances",
+                            "entries": [
+                                "Reduction to all {@variantrule Attack Roll|XPHB} equal to Shaman’s wisdom modifier.",
+                                "Reduction to all Damage rolls equal to Shaman’s wisdom modifier.",
+                                "Reduction to {@variantrule Armor Class|XPHB} equal to Shaman’s wisdom modifier.",
+                                "Reduction to one {@variantrule Saving Throw|XPHB} of choice equal to half of Shaman’s proficiency bonus.",
+                                "Damage equal to Shaman’s wisdom modifier plus proficiency bonus."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chief’s Totem",
+            "source": "KyvumsShaman",
+            "page": 1,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Chieftain",
+            "subclassSource": "KyvumsShaman",
+            "level": 20,
+            "entries": [
+                "{@i 20th-level Chieftain feature}",
+                "{@i {@b Totem Radius:}} 60ft",
+                "Charge the Chief’s Totem, you cannot have any other charged totems while the Chief's Totem is charged.",
+                "Allies within the radius of the totem gain a bonus to attack and damage rolls equal to your Wisdom modifier + proficiency bonus.",
+                "Once per turn, choose an ally to gain {@variantrule Temporary Hit Points|XPHB} equal to 10 + your Wisdom modifier + proficiency bonus; enemies adjacent to that ally must make a Wisdom save or become {@condition frightened} of them."
+            ]
+        },
+        {
+            "name": "Spirit Guide",
+            "source": "KyvumsShaman",
+            "page": 2,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Animist",
+            "subclassSource": "KyvumsShaman",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Animist feature}",
+                "Choose a {@b permanent Spirit Animal Guide} when you gain this feature: Bear, Puma, Eagle, Wolf, or Owl. Each grants unique benefits and a skill in which you gain proficiency, if you already have proficiency in that skill choose another from the Shaman proficiency list:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "Bear",
+                            "entries": [
+                                "The Bear's spirit grants you a thickened hide and improved stamina. Your hit die becomes a d10 and you add 4 to your maximum hit points; at future levels, you receive 6 + your Constitution modifier for determining hit points.",
+                                "Proficiency: Intimidation"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Puma",
+                            "entries": [
+                                "The guidance of the Puma enhances your agility and martial ability in close combat. You gain proficiency with melee martial weapons and can learn one of the {@variantrule weapon mastery properties|XPHB} with a melee weapon, which you can change upon leveling up.",
+                                "Proficiency: Stealth"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Eagle",
+                            "entries": [
+                                "The Eagle's spirit improves your vision and ability with ranged weaponry. You gain proficiency with ranged martial weapons and can learn one of the {@variantrule weapon mastery properties|XPHB} with a ranged weapon, which you can change upon leveling up.",
+                                "Proficiency: Perception"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Wolf",
+                            "entries": [
+                                "The Wolf guide improves your groupthink, working tactically with your allies to win battles. When within 5 feet of an ally, you both gain +1 to your {@variantrule Attack Roll|XPHB}. You can confer this bonus to multiple allies but do not gain multiple instances of the bonus.",
+                                "Proficiency: Athletics"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Owl",
+                            "entries": [
+                                "The wisdom of the Owl provides you with great foresight and improved ability in darkness. You gain 60 feet of {@sense Darkvision|XPHB}.",
+                                "Proficiency: Insight"
+                            ]
+                        }
+                    ]
+                },
+                "These benefits reflect your bond with your chosen spirit, cannot be changed and remain with you {@b permanently}."
+            ]
+        },
+        {
+            "name": "Enhanced Guidance",
+            "source": "KyvumsShaman",
+            "page": 2,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Animist",
+            "subclassSource": "KyvumsShaman",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level Animist feature}",
+                "Your connection to your spirit deepens, enhancing its power and allowing you to use your Calls as a {@variantrule Bonus Action|XPHB}. Additionally, your spirit grants the following upgrades:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "Bear",
+                            "entries": [
+                                "Gain an amount of {@variantrule Temporary Hit Points|XPHB} equal to two times your Shaman level while you have an active Call.",
+                                "These {@variantrule Temporary Hit Points|XPHB} are restored at the start of each of your turns.",
+                                "At 12th level, you also gain +1 {@variantrule Armor Class|XPHB}."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Puma",
+                            "entries": [
+                                "Gain the Extra Attack feature: you can attack twice instead of once whenever you take the {@action Attack|XPHB} Action on your turn.",
+                                "At 12th level, your climb speed becomes equal to your walking speed."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Eagle",
+                            "entries": [
+                                "Gain the Extra Attack feature: you can attack twice instead of once whenever you take the {@action Attack|XPHB} Action on your turn.",
+                                "At 12th level, your ranged attacks ignore up to half cover."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Wolf",
+                            "entries": [
+                                "If an ally within 5 feet of you attacks a foe also within 5 feet of you, you can use your {@variantrule Reaction|XPHB} to attack that target.",
+                                "At 12th level, you gain {@variantrule Advantage|XPHB} on this {@variantrule Reaction|XPHB} attack and confer {@variantrule Advantage|XPHB} to the ally who made the attack on their next attack."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Owl",
+                            "entries": [
+                                "Each turn you successfully hit an enemy or they fail a {@variantrule Saving Throw|XPHB} from one of your spells, you gain a stacking +1 bonus damage with your next spell or attack. This resets upon missing and stacks up to your Wisdom modifier.",
+                                "At 12th level, the bonus becomes +2 per stack and can stack up to double your Wisdom modifier."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Call of the Wild",
+            "source": "KyvumsShaman",
+            "page": 2,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Animist",
+            "subclassSource": "KyvumsShaman",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level Animist feature}",
+                "Your spirit animal fills you and your party with power.",
+                "{@i {@b Range:}} 30ft",
+                "{@i {@b Duration:}} 1 minute",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "Bear",
+                            "entries": [
+                                "Receive +1 {@variantrule Armor Class|XPHB}."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Puma",
+                            "entries": [
+                                "Gain a bonus to Dexterity skill checks and {@variantrule Saving Throw|XPHB|Saving Throws} equal to your Wisdom modifier."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Eagle",
+                            "entries": [
+                                "Your next attack deals {@damage 1d8} bonus weapon damage to the last target you struck with a ranged weapon attack."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Wolf",
+                            "entries": [
+                                "You have {@variantrule Advantage|XPHB} on weapon attacks."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Owl",
+                            "entries": [
+                                "Gain 60 feet of {@sense Darkvision|XPHB}. This is cumulative for you with the {@sense Darkvision|XPHB} gained from the Spirit Guide feature."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bestial Trance",
+            "source": "KyvumsShaman",
+            "page": 2,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Animist",
+            "subclassSource": "KyvumsShaman",
+            "level": 18,
+            "entries": [
+                "{@i 18th-level Animist feature}",
+                "Battle has become a trancelike state where your mind and body are supplemented by the guidance of your spirit animal.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "Bear",
+                            "entries": [
+                                "As a {@variantrule Bonus Action|XPHB}, you let loose a bestial roar. Make an {@skill Intimidation|XPHB} check; all enemies engaged with you who can hear must make a Wisdom {@variantrule Saving Throw|XPHB} against your roll or become {@condition frightened} of you."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Puma",
+                            "entries": [
+                                "You can Disengage or Dash as a {@variantrule Bonus Action|XPHB}."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Eagle",
+                            "entries": [
+                                "Gain {@variantrule Advantage|XPHB} on ranged attacks made while you are at least 10 feet above your target."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Wolf",
+                            "entries": [
+                                "When you use your {@variantrule Reaction|XPHB} from {@subclassFeature Enhanced Guidance|Shaman|KyvumsShaman|Animist|KyvumsShaman|6|KyvumsShaman|Enhanced Guidance} to attack and hit, the ally you assisted gains {@variantrule Advantage|XPHB} on their next attack."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Owl",
+                            "entries": [
+                                "Gain 30 feet of {@sense Truesight|XPHB}. When you use {@subclassFeature Call of the Wild|Shaman|KyvumsShaman|Animist|KyvumsShaman|10|KyvumsShaman|Call of the Wild}, allies affected also gain this {@sense Truesight|XPHB}."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Spiritual Convergence",
+            "source": "KyvumsShaman",
+            "page": 2,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Animist",
+            "subclassSource": "KyvumsShaman",
+            "level": 20,
+            "entries": [
+                "{@i 20th-level Animist feature}",
+                "Your spirit animal has become entwined with your spirit. You now embody the full extent of its power.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "Bear",
+                            "entries": [
+                                "Your maximum hit points increase by 21, your hit die becomes d12, and your {@variantrule Armor Class|XPHB} bonus from {@subclassFeature Enhanced Guidance|Shaman|KyvumsShaman|Animist|KyvumsShaman|6|KyvumsShaman|Enhanced Guidance} becomes +2."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Puma",
+                            "entries": [
+                                "You deal an extra {@damage 1d10} weapon damage on the first attack you hit with each round. Your run speed increases by 10 feet."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Eagle",
+                            "entries": [
+                                "Your long jump distance is tripled, your jump height is doubled."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Wolf",
+                            "entries": [
+                                "The {@variantrule Attack Roll|XPHB} bonus from your Spirit Guide feature increases to +3."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Owl",
+                            "entries": [
+                                "You learn a foe’s weaknesses, resistances, and immunities when using the Spirit Guide feature. You can also cast {@spell detect thoughts} without expending a spell slot."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stormsurge",
+            "source": "KyvumsShaman",
+            "page": 3,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Stormseer",
+            "subclassSource": "KyvumsShaman",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Stormseer feature}",
+                "You learn the {@spell Stormsurge|KyvumsShaman|Stormsurge Cantrip}, which does not count against your known {@variantrule Cantrip|XPHB|Cantrips}."
+            ]
+        },
+        {
+            "name": "Power of Storms",
+            "source": "KyvumsShaman",
+            "page": 3,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Stormseer",
+            "subclassSource": "KyvumsShaman",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Stormseer feature}",
+                "You gain additional spells at certain levels, which are always prepared and don’t count against your prepared spells:",
+                {
+                    "type": "table",
+                    "caption": "Stormseer Bonus Spells",
+                    "colLabels": [
+                        "Shaman Level",
+                        "Spells"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "{@spell gust of wind}, {@spell thunderwave}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell sleet storm}, {@spell call lightning}, {@spell wind wall}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell ice storm}"
+                        ],
+                        [
+                            "12th",
+                            "{@spell wind walk}, {@spell chain lightning}"
+                        ]
+                    ]
+                },
+                "Additionally, you gain proficiency in the Survival skill, if you already have proficiency in Survival choose a different proficiency from the Shaman proficiency list."
+            ]
+        },
+        {
+            "name": "Call of the Storm",
+            "source": "KyvumsShaman",
+            "page": 3,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Stormseer",
+            "subclassSource": "KyvumsShaman",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level Stormseer feature}",
+                "As an action, you create a storm of wind, thunder or lightning on a space you can see.",
+                "Requires {@status Concentration}",
+                "{@i {@b Range:}} 60ft",
+                "{@i {@b Radius:}} 10ft sphere",
+                "{@i {@b Duration:}} 1 minute",
+                {
+                    "type": "list",
+                    "items": [
+                        "Hurricane: Push enemies 5ft counterclockwise each turn, if they collide with anything both take {@damage 1d8} bludgeoning damage. The Hurricane is difficult terrain. Increases to {@damage 2d8} at Level 12.",
+                        "Thunder: Deafening blasts echo throughout the storm dealing {@damage 1d6} thunder damage to all who begin their turn in the storm. Any who take damage must roll a Constitution save vs. your spellcaster DC or be {@condition deafened} for 1 minute. Increases to  {@damage 2d6} at Level 12.",
+                        "Lightning: Powerful blasts of lightning explode each turn in the storm. Anyone caught in the storm must make a Dexterity save vs. your spellcaster DC or take 2d6 damage. Increases to {@damage 4d6} at Level 12."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Splinterstorm",
+            "source": "KyvumsShaman",
+            "page": 3,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Stormseer",
+            "subclassSource": "KyvumsShaman",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level Stormseer feature}",
+                "When you hit a creature with {@spell Stormsurge|KyvumsShaman}, you can use a {@variantrule Bonus Action|XPHB} to target a second creature within 20 feet of the first, making another spell attack against them with Stormsurge.",
+                "Additionally, when you cast a spell that deals lightning, thunder, or wind damage, you can cast {@spell Stormsurge|KyvumsShaman} as a {@variantrule Bonus Action|XPHB} on the same turn."
+            ]
+        },
+        {
+            "name": "Eye of the Storm",
+            "source": "KyvumsShaman",
+            "page": 3,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Stormseer",
+            "subclassSource": "KyvumsShaman",
+            "level": 18,
+            "entries": [
+                "{@i 18th-level Stormseer feature}",
+                "You gain immunity to damage from your own lightning, thunder, and wind spells.",
+                "While you are inside a natural Storm or magical Storm of a spell that you have casted, you can redirect the damage or effect to a creature of your choice within the area instead of yourself, also your Splinterstorm can now splinter an additional time."
+            ]
+        },
+        {
+            "name": "Windwalker",
+            "source": "KyvumsShaman",
+            "page": 3,
+            "className": "Shaman",
+            "classSource": "KyvumsShaman",
+            "subclassShortName": "Stormseer",
+            "subclassSource": "KyvumsShaman",
+            "level": 20,
+            "entries": [
+                "{@i 20th-level Stormseer feature}",
+                "You gain a flying speed of 60 feet, and you become immune to lightning and thunder damage.",
+                "Additionally, while you are inside a natural Storm or magical Storm of a spell that you have casted, the damage die for your {@spell Stormsurge|KyvumsShaman} increases from a d10 to a d12."
+            ]
+        }
+    ],
+    "item": [
+        {
+            "name": "Bone",
+            "source": "KyvumsNecromancer",
+            "page": 1,
+            "type": "TG|XPHB",
+            "rarity": "none",
+            "weight": 1,
+            "value": 1,
+            "entries": [
+                "A bone harvested from a corpse."
+            ]
+        },
+        {
+            "name": "Totem",
+            "source": "KyvumsShaman",
+            "page": 1,
+            "type": "M|XPHB",
+            "rarity": "none",
+            "weight": 6,
+            "value": 5,
+            "weaponCategory": "simple",
+            "dmgType": "B",
+            "dmg1": "1d8",
+            "property": [
+                "2H|XPHB"
+            ],
+            "entries": [
+                "If a wielded Totem is not charged it's damage die becomes a {@damage 1d4} and it also has the {@footnote Heavy|You have {@variantrule Disadvantage|XPHB} on {@variantrule Attack Roll|XPHB} with a Heavy weapon if it's a Melee weapon and your Strength score isn't at least 13 or if it's a Ranged weapon and your Dexterity score isn't at least 13.} property."
+            ]
+        }
+    ],
+    "spell": [
+        {
+            "name": "Reanimate Bones",
+            "source": "KyvumsNecromancer",
+            "page": 4,
+            "level": 1,
+            "school": "N",
+            "time": [
+                {
+                    "number": 10,
+                    "unit": "minute",
+                    "condition": "ritual"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "duration": [
+                {
+                    "type": "permanent"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Necromancer",
+                        "source": "KyvumsNecromancer"
+                    }
+                ]
+            },
+            "entries": [
+                "You reanimate the bones of the dead to do your bidding as per the Reanimated Bones stat blocks.",
+                "The reanimated bones take the form of a creature of your choice depending on how many bones were used in the ritual.",
+                "If two bones are used, the creature must be {@creature Reanimated Bones: Small|KyvumsNecromancer|small} in size.",
+                "If four bones are used, the creature must be {@creature Reanimated Bones: Medium|KyvumsNecromancer|medium} in size.",
+                "If six bones are used, the creature must be {@creature Reanimated Bones: Large|KyvumsNecromancer|large} in size.",
+                "If eight bones are used, the creature must be {@creature Reanimated Bones: Huge|KyvumsNecromancer|huge} in size."
+            ],
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "Bones"
+            }
+        },
+        {
+            "name": "Stormsurge",
+            "source": "KyvumsShaman",
+            "page": 4,
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Shaman",
+                        "source": "KyvumsShaman"
+                    }
+                ]
+            },
+            "entries": [
+                "Make a ranged spell attack; on a hit, the target takes {@damage 1d10} lightning, thunder, or bludgeoning damage of your choice. Choose the damage type before the {@variantrule Attack Roll|XPHB} ."
+            ],
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "damageInflict": [
+                "bludgeoning",
+                "lightning",
+                "thunder"
+            ],
+            "spellAttack": [
+                "R"
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cantrip Upgrade",
+                    "entries": [
+                        "The damage increases by {@dice 1d10} when you reach levels 5 ({@dice 2d10}), 11 ({@dice 3d10}), and 17 ({@dice 4d10})."
+                    ]
+                }
+            ]
+        }        
+    ],
+    "monster": [
+        {
+            "name": "Reanimated Bones: Small",
+            "source": "KyvumsNecromancer",
+            "size": [
+                "S"
+            ],
+            "type": "undead",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 10,
+                    "from": [
+                        "natural"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "3 + 2 times your Necromancer level.",
+                "average": 3
+            },
+            "speed": {
+                "walk": 20
+            },
+            "str": 12,
+            "dex": 10,
+            "con": 0,
+            "int": 6,
+            "wis": 8,
+            "cha": 0,
+            "cr": "0",
+            "immune": [
+                "necrotic",
+                "poison"
+            ],
+            "languages": [
+                "—"
+            ],
+            "trait": [
+                {
+                    "name": "Opposable Thumbs",
+                    "entries": [
+                        "All creatures you create have Opposable Thumbs and are able to wield Simple Weapons."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Unarmed Attack",
+                    "entries": [
+                        "Melee Weapon Attack: Bonus equals your Spell Attack Modifier, reach 5 ft.",
+                        "On Hit Damage: {@damage 1d4 + 2} plus your Intelligence modifier Bludgeoning, Piercing, or Slashing damage (your choice, depending on the form of the bones)."
+                    ]
+                },
+                {
+                    "name": "Armed Attack",
+                    "entries": [
+                        "Weapon Attack: Bonus equals your Spell Attack Modifier.",
+                        "On Hit Damage: Equal to the Weapon's Damage plus your Intelligence modifier, damage type depends on weapon."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Reanimated Bones: Medium",
+            "source": "KyvumsNecromancer",
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 11,
+                    "from": [
+                        "natural"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "8 + 2 times your Necromancer level.",
+                "average": 8
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 14,
+            "dex": 12,
+            "con": 0,
+            "int": 6,
+            "wis": 10,
+            "cha": 0,
+            "cr": "0",
+            "immune": [
+                "necrotic",
+                "poison"
+            ],
+            "languages": [
+                "—"
+            ],
+            "trait": [
+                {
+                    "name": "Opposable Thumbs",
+                    "entries": [
+                        "All creatures you create have Opposable Thumbs and are able to wield Simple Weapons."
+                    ]
+                },
+                {
+                    "name": "Structured Body",
+                    "entries": [
+                        "All of your medium reanimated creations are created with a structured body, they are capable of wearing light armor."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Unarmed Attack",
+                    "entries": [
+                        "Melee Weapon Attack: Bonus equals your Spell Attack Modifier, reach 5 ft.",
+                        "On Hit Damage: {@damage 1d6 + 2} plus your Intelligence modifier Bludgeoning, Piercing, or Slashing damage (your choice, depending on the form of the bones)."
+                    ]
+                },
+                {
+                    "name": "Armed Attack",
+                    "entries": [
+                        "Weapon Attack: Bonus equals your Spell Attack Modifier.",
+                        "On Hit Damage: Equal to the Weapon's Damage plus your Intelligence modifier, damage type depends on weapon."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Reanimated Bones: Large",
+            "source": "KyvumsNecromancer",
+            "size": [
+                "L"
+            ],
+            "type": "undead",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "natural"
+                    ],
+                    "condition": "plus your Intelligence modifier"
+                }
+            ],
+            "hp": {
+                "formula": "10  + 4 times your Necromancer level.",
+                "average": 10
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 14,
+            "con": 0,
+            "int": 6,
+            "wis": 12,
+            "cha": 0,
+            "cr": "0",
+            "immune": [
+                "necrotic",
+                "poison"
+            ],
+            "languages": [
+                "—"
+            ],
+            "trait": [
+                {
+                    "name": "Opposable Thumbs",
+                    "entries": [
+                        "All creatures you create have Opposable Thumbs and are able to wield Simple Weapons."
+                    ]
+                },
+                {
+                    "name": "Structured and Solid Body",
+                    "entries": [
+                        "Your large reanimated creations are not only structured but solid also, they are capable of wearing medium armor."
+                    ]
+                },
+                {
+                    "name": "Unarmed Attack",
+                    "entries": [
+                        "Melee Weapon Attack: Bonus equals your Spell Attack Modifier, reach 5 ft.",
+                        "On Hit Damage: {@damage 1d8 + 2} plus your Intelligence modifier Bludgeoning, Piercing, or Slashing damage (your choice, depending on the form of the bones)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Armed Attack",
+                    "entries": [
+                        "Weapon Attack: Bonus equals your Spell Attack Modifier.",
+                        "On Hit Damage: Equal to the Weapon's Damage plus your Intelligence modifier, damage type depends on weapon."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Reanimated Bones: Huge",
+            "source": "KyvumsNecromancer",
+            "size": [
+                "H"
+            ],
+            "type": "undead",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "natural"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "12 + 6 times your Necromancer level.",
+                "average": 12
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 18,
+            "dex": 14,
+            "con": 0,
+            "int": 6,
+            "wis": 14,
+            "cha": 0,
+            "cr": "0",
+            "immune": [
+                "necrotic",
+                "poison"
+            ],
+            "languages": [
+                "—"
+            ],
+            "trait": [
+                {
+                    "name": "Opposable Thumbs",
+                    "entries": [
+                        "All of your reanimated creations have Opposable Thumbs and are able to wield Simple Weapons."
+                    ]
+                },
+                {
+                    "name": "Structured and Sturdy Body",
+                    "entries": [
+                        "Your huge reanimated creations are not only structured but sturdy also, they are capable of wearing heavy armor.",
+                        "Due to it's size, the armor must be custom ordered and the cost is four times the normal cost, and it weighs twice as much."
+                    ]
+                },
+                {
+                    "name": "Unarmed Attack",
+                    "entries": [
+                        "Melee Weapon Attack: Bonus equals your Spell Attack Modifier, reach 5 ft.",
+                        "On Hit Damage: {@damage 1d10 + 2} plus your Intelligence modifier Bludgeoning, Piercing, or Slashing damage (your choice, depending on the form of the bones)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Armed Attack",
+                    "entries": [
+                        "Weapon Attack: Bonus equals your Spell Attack Modifier.",
+                        "On Hit Damage: Equal to the Weapon's Damage plus your Intelligence modifier, damage type depends on weapon."
+                    ]
+                }
+            ]
+        }
+    ]
+}
