@@ -1001,7 +1001,11 @@
                     "rows": [
                         [
                             "1",
-                            "{@subclassFeature Bolster The Ranks|Champion|KyvumsChampion|Townships|KyvumsChampion|1|KyvumsChampion|Bolster The Ranks}"
+                            "{@subclassFeature Guiding Shout|Champion|KyvumsChampion|Townships|KyvumsChampion|1|KyvumsChampion|Guiding Voice}"
+                        ],
+                        [
+                            "3",
+                            "{@subclassFeature Bolster The Ranks|Champion|KyvumsChampion|Townships|KyvumsChampion|3|KyvumsChampion|Bolster The Ranks}"
                         ],
                         [
                             "7",

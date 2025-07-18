@@ -1,0 +1,410 @@
+{
+    "_meta": {
+        "dateAdded": 1757000000,
+        "dateLastModified": 1757000000,
+        "_dateLastModifiedHash": "placeholde",
+        "edition": "classic",
+        "sources": [
+            {
+                "json": "KyvumsWarmaster",
+                "abbreviation": "KYVW",
+                "full": "Warmaster",
+                "authors": [
+                    "Kyvum"
+                ],
+                "convertedBy": [
+                    "Kyvum"
+                ],
+                "version": "v1",
+                "color": "FFD700",
+                "url": "none",
+                "dateReleased": "2025-07-13"
+            }
+        ]
+    },
+    "class": [
+        {
+            "name": "Warmaster",
+            "source": "KyvumsWarmaster",
+            "hd": {
+                "number": 1,
+                "faces": 10
+            },
+            "proficiency": [
+                "str",
+                "dex"
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium",
+                    "heavy",
+                    "shield"
+                ],
+                "weapons": [
+                    "simple",
+                    "martial"
+                ],
+                "tools": [],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "athletics",
+                                "acrobatics",
+                                "intimidation",
+                                "perception",
+                                "survival",
+                                "insight"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) {@item chain mail|phb} or (b) {@item studded leather armor|phb}, {@item longbow|phb}, and 20 {@item arrow|phb|arrows}",
+                    "(a) a {@item martial weapon|phb} and a {@item shield|phb} or (b) two {@item martial weapon|phb|martial weapons}",
+                    "(a) a {@item light crossbow|phb} and 20 {@item bolt|phb|bolts} or (b) two {@item handaxe|phb|handaxes}",
+                    "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
+                ],
+                "goldAlternative": "150 GP"
+            },
+            "multiclassing": {
+                "requirements": {
+                    "str": 13
+                },
+                "proficienciesGained": {
+                    "armor": [
+                        "light",
+                        "medium",
+                        "shield"
+                    ],
+                    "weapons": [
+                        "simple",
+                        "martial"
+                    ]
+                }
+            },
+            "classFeatures": [
+                "Martial Discipline|Warmaster|KyvumsWarmaster|1",
+                "Fighting Style|Warmaster|KyvumsWarmaster|1",
+                "Weapon Mastery|Warmaster|KyvumsWarmaster|1",
+                {
+                    "classFeature": "Subclass Feature|Warmaster|KyvumsWarmaster|3",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Warmaster|KyvumsWarmaster|4",
+                "Extra Attack|Warmaster|KyvumsWarmaster|5",
+                {
+                    "classFeature": "Subclass Feature|Warmaster|KyvumsWarmaster|6",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Warmaster|KyvumsWarmaster|8",
+                "Ability Score Improvement|Warmaster|KyvumsWarmaster|12",
+                "Ability Score Improvement|Warmaster|KyvumsWarmaster|16",
+                "Epic Boon|Warmaster|KyvumsWarmaster|19"
+            ],
+            "classTableGroups": [
+                {
+                    "title": "Warmaster Progression",
+                    "colLabels": [
+                        "Features"
+                    ],
+                    "rows": [
+                        [
+                            "Martial Discipline, Fighting Style, Second Wind"
+                        ],
+                        [
+                            "Action Surge (1/rest)"
+                        ],
+                        [
+                            "Warmaster Archetype"
+                        ],
+                        [
+                            "Ability Score Improvement"
+                        ],
+                        [
+                            "Extra Attack"
+                        ],
+                        [
+                            "—"
+                        ],
+                        [
+                            "—"
+                        ],
+                        [
+                            "Ability Score Improvement"
+                        ],
+                        [
+                            "—"
+                        ],
+                        [
+                            "—"
+                        ],
+                        [
+                            "Extra Attack (2)"
+                        ],
+                        [
+                            "Ability Score Improvement"
+                        ],
+                        [
+                            "—"
+                        ],
+                        [
+                            "—"
+                        ],
+                        [
+                            "—"
+                        ],
+                        [
+                            "Ability Score Improvement"
+                        ],
+                        [
+                            "—"
+                        ],
+                        [
+                            "—"
+                        ],
+                        [
+                            "Epic Boon"
+                        ],
+                        [
+                            "—"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Martial Discipline",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level feature}",
+                "You gain a number of special actions and maneuvers unique to the Warmaster class. (Placeholder)"
+            ]
+        },
+        {
+            "name": "Fighting Style",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level feature}",
+                "You gain a {@filter Fighting Style|feats|category=FS} feat of your choice."
+            ]
+        },
+        {
+            "name": "Weapon Mastery",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "level": 1,
+            "entries": [
+                "{@i 1st-level feature}",
+                "Your training with weapons allows you to use the {@variantrule weapon mastery properties|XPHB} of two kinds of {@filter Simple|items|type=simple weapon} or {@filter Martial|items|type=martial weapon} of your choice with which you have proficiency. You can change these on a {@variantrule Long Rest|XPHB}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "level": 4,
+            "entries": [
+                "{@i 4th-level feature}",
+                "Increase one ability score by 2, or two ability scores by 1. (Placeholder)"
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "level": 8,
+            "entries": [
+                "{@i 8th-level feature}",
+                "Increase one ability score by 2, or two ability scores by 1. (Placeholder)"
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "level": 12,
+            "entries": [
+                "{@i 12th-level feature}",
+                "Increase one ability score by 2, or two ability scores by 1. (Placeholder)"
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "level": 16,
+            "entries": [
+                "{@i 16th-level feature}",
+                "Increase one ability score by 2, or two ability scores by 1. (Placeholder)"
+            ]
+        },
+        {
+            "name": "Epic Boon",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "level": 19,
+            "entries": [
+                "{@i 19th-level feature}",
+                "You gain an Epic Boon. (Placeholder)"
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "level": 5,
+            "entries": [
+                "{@i 5th-level feature}",
+                "You can Attack twice, instead of once, whenever you take the Attack action on your turn. (Placeholder)"
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level feature}",
+                "You gain features from your chosen Warmaster subclass. (Placeholder)"
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "level": 6,
+            "entries": [
+                "{@i 6th-level feature}",
+                "You gain additional features from your chosen Warmaster subclass. (Placeholder)"
+            ]
+        }
+    ],
+    "subclass": [
+        {
+            "name": "Commander",
+            "shortName": "Commander",
+            "source": "KyvumsWarmaster",
+            "page": 2,
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "subclassFeatures": [
+                "Issue Command|Warmaster|KyvumsWarmaster|Commander|KyvumsWarmaster|3",
+                "Command: Assist|Warmaster|KyvumsWarmaster|Commander|KyvumsWarmaster|3",
+                "Command: Detain|Warmaster|KyvumsWarmaster|Commander|KyvumsWarmaster|3",
+                "Command: Reposition|Warmaster|KyvumsWarmaster|Commander|KyvumsWarmaster|7",
+                "-|Warmaster|KyvumsWarmaster|Commander|KyvumsWarmaster|10",
+                "-|Warmaster|KyvumsWarmaster|Commander|KyvumsWarmaster|15"
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Issue Command",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "subclassShortName": "Commander",
+            "subclassSource": "KyvumsWarmaster",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Commander feature}",
+                "You gain the ability to issue commands to your allies in the midst of battle, you gain a select number of commands which you can use multiple times per {@variantrule Long Rest|XPHB} as seen in the Class Progression Table.",
+                "You issue Commands using your Bonus Action.",
+                "Commands often are a spoken code or hand signal, to avoid enemies reacting to your words.",
+                "When making a Command you are also able to verbalize a short phrase related to your intent of the Command. For example, 'We need to question him' for a Command: Detain."
+            ]
+        },
+        {
+            "name": "Command: Assist",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "subclassShortName": "Commander",
+            "subclassSource": "KyvumsWarmaster",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Commander feature}",
+                "You issue a command that assists an ally in their next action.",
+                "They gain advantage on the next d20 they roll."
+            ]
+        },
+        {
+            "name": "Command: Detain",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "subclassShortName": "Commander",
+            "subclassSource": "KyvumsWarmaster",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-level Commander feature}",
+                "You issue a command to detain a target.",
+                "One of your allies within 5ft of the target are able to use their {@variantrule Reaction|XPHB} to attempt to grapple that target."
+            ]
+        },
+        {
+            "name": "Command: Reposition",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "subclassShortName": "Commander",
+            "subclassSource": "KyvumsWarmaster",
+            "level": 7,
+            "entries": [
+                "{@i 7th-level Commander feature}",
+                "You issue a command that for your allies to reposition themselves.",
+                "All allies within 30ft of you are able to take their {@variantrule Reaction|XPHB} to move 5ft or swap positions with another willing ally within 5ft of them.",
+                "If an ally swaps positions with another, only the ally making the request uses their {@variantrule Reaction|XPHB}."
+            ]
+        },
+        {
+            "name": "-",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "subclassShortName": "Commander",
+            "subclassSource": "KyvumsWarmaster",
+            "level": 10,
+            "entries": [
+                "{@i 10th-level Commander feature}",
+                "PLACEHOLDER."
+            ]
+        },
+        {
+            "name": "-",
+            "source": "KyvumsWarmaster",
+            "className": "Warmaster",
+            "classSource": "KyvumsWarmaster",
+            "subclassShortName": "Commander",
+            "subclassSource": "KyvumsWarmaster",
+            "level": 15,
+            "entries": [
+                "{@i 15th-level Commander feature}",
+                "PLACEHOLDER."
+            ]
+        }
+    ]
+}
