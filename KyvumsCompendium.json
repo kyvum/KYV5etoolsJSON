@@ -1404,24 +1404,39 @@
                     "caption": "The Call",
                     "colLabels": [
                         "Level",
-                        "Name"
+                        "Name",
+                        "Subclass Source"
                     ],
                     "rows": [
                         [
                             "1",
-                            "{@classFeature Call of the Tribe|Shaman|KyvumsShaman|1|KyvumsShaman|Call of the Tribe}"
+                            "{@classFeature Call of the Tribe|Shaman|KyvumsShaman|1|KyvumsShaman|Call of the Tribe}",
+                            ""
                         ],
                         [
                             "1",
-                            "{@classFeature Call of the Wind|Shaman|KyvumsShaman|1|KyvumsShaman|Call of the Wind}"
+                            "{@classFeature Call of the Wind|Shaman|KyvumsShaman|1|KyvumsShaman|Call of the Wind}",
+                            ""
+                        ],
+                        [
+                            "6",
+                            "{@subclassFeature Call of the Storm|Shaman|KyvumsShaman|Stormseer|KyvumsShaman|6|KyvumsShaman|Call of the Storm}",
+                            "Stormseer"
+                        ],
+                        [
+                            "6",
+                            "{@subclassFeature Call of the Ancestors|Shaman|KyvumsShaman|Chieftain|KyvumsShaman|6|KyvumsShaman|Call of the Ancestors}",
+                            "Chieftain"
                         ],
                         [
                             "7",
-                            "{@classFeature Call of the Spirits|Shaman|KyvumsShaman|7|KyvumsShaman|Call of the Spirits}"
+                            "{@classFeature Call of the Spirits|Shaman|KyvumsShaman|7|KyvumsShaman|Call of the Spirits}",
+                            ""
                         ],
                         [
-                            "15",
-                            "{@classFeature Empowered Calls|Shaman|KyvumsShaman|15|KyvumsShaman|Empowered Calls}"
+                            "10",
+                            "{@subclassFeature Call of the Wild|Shaman|KyvumsShaman|Animist|KyvumsShaman|10|KyvumsShaman|Call of the Wild}",
+                            "Animist"
                         ]
                     ]
                 }
@@ -3751,7 +3766,7 @@
                             "entries": [
                                 "Gain an amount of {@variantrule Temporary Hit Points|XPHB} equal to two times your Shaman level while you have an active Call.",
                                 "These {@variantrule Temporary Hit Points|XPHB} are restored at the start of each of your turns.",
-                                "At 12th level, you also gain +1 {@variantrule Armor Class|XPHB}."
+                                "At 12th level, you also gain +1 {@variantrule Armor Class|XPHB} as long as you are wearing Light, Medium or no armor."
                             ]
                         },
                         {
@@ -3774,15 +3789,15 @@
                             "type": "entries",
                             "name": "Wolf",
                             "entries": [
-                                "If an ally within 5 feet of you attacks a foe also within 5 feet of you, you can use your {@variantrule Reaction|XPHB} to attack that target.",
-                                "At 12th level, you gain {@variantrule Advantage|XPHB} on this {@variantrule Reaction|XPHB} attack and confer {@variantrule Advantage|XPHB} to the ally who made the attack on their next attack."
+                                "If an ally within 5 feet of you attacks a foe, you can use your {@variantrule Reaction|XPHB} to attack that target so long as you are within range to do so.",
+                                "At 12th level, you gain {@variantrule Advantage|XPHB} on this {@variantrule Reaction|XPHB}."
                             ]
                         },
                         {
                             "type": "entries",
                             "name": "Owl",
                             "entries": [
-                                "Each turn you successfully hit an enemy or they fail a {@variantrule Saving Throw|XPHB} from one of your spells, you gain a stacking +1 bonus damage with your next spell or attack. This resets upon missing and stacks up to your Wisdom modifier.",
+                                "Each turn you successfully hit an enemy or they fail a {@variantrule Saving Throw|XPHB} from one of your spells, you gain a stacking +1 bonus damage with your next spell or attack. This resets upon missing an attack, or on an enemy succeeding a Saving Throw against one of your spells or abilities. The bonus damage stacks to an amount equal to your Wisdom modifier.",
                                 "At 12th level, the bonus becomes +2 per stack and can stack up to double your Wisdom modifier."
                             ]
                         }
@@ -3811,7 +3826,7 @@
                             "type": "entries",
                             "name": "Bear",
                             "entries": [
-                                "Receive +1 {@variantrule Armor Class|XPHB}."
+                                "Receive +1 {@variantrule Armor Class|XPHB} so long as you are wearing Light, Medium or no armor."
                             ]
                         },
                         {
@@ -3832,14 +3847,15 @@
                             "type": "entries",
                             "name": "Wolf",
                             "entries": [
-                                "You have {@variantrule Advantage|XPHB} on weapon attacks."
+                                "When you make a weapon attack against a foe, one ally within 5 feet of you are able to use their {@variantrule Reaction|XPHB} to also attack that target.", 
+                                "Only one ally of your choice can do this per turn."
                             ]
                         },
                         {
                             "type": "entries",
                             "name": "Owl",
                             "entries": [
-                                "Gain 60 feet of {@sense Darkvision|XPHB}. This is cumulative for you with the {@sense Darkvision|XPHB} gained from the Spirit Guide feature."
+                                "Gain 60 feet of {@sense Darkvision|XPHB}. This is cumulative for you with the {@sense Darkvision|XPHB} gained from the {@subclassFeature Spirit Guide|Shaman|KyvumsShaman|Animist|KyvumsShaman|3|KyvumsShaman|Spirit Guide} feature."
                             ]
                         }
                     ]
@@ -3879,14 +3895,14 @@
                             "type": "entries",
                             "name": "Eagle",
                             "entries": [
-                                "Gain {@variantrule Advantage|XPHB} on ranged attacks made while you are at least 10 feet above your target."
+                                "Gain {@variantrule Advantage|XPHB} on ranged attacks made while you are elevated at least 10 feet above your target."
                             ]
                         },
                         {
                             "type": "entries",
                             "name": "Wolf",
                             "entries": [
-                                "When you use your {@variantrule Reaction|XPHB} from {@subclassFeature Enhanced Guidance|Shaman|KyvumsShaman|Animist|KyvumsShaman|6|KyvumsShaman|Enhanced Guidance} to attack and hit, the ally you assisted gains {@variantrule Advantage|XPHB} on their next attack."
+                                "When you use your {@variantrule Reaction|XPHB} from {@subclassFeature Enhanced Guidance|Shaman|KyvumsShaman|Animist|KyvumsShaman|6|KyvumsShaman|Enhanced Guidance} to attack and successfully hit a foe, the ally you assisted gains {@variantrule Advantage|XPHB} on their next attack."
                             ]
                         },
                         {
@@ -3926,7 +3942,8 @@
                             "type": "entries",
                             "name": "Puma",
                             "entries": [
-                                "You deal an extra {@damage 1d10} weapon damage on the first attack you hit with each round. Your run speed increases by 10 feet."
+                                "You deal an extra {@damage 1d8} weapon damage on the first attack you hit on each turn.", 
+                                "Your run speed increases by 10 feet."
                             ]
                         },
                         {
@@ -3940,14 +3957,15 @@
                             "type": "entries",
                             "name": "Wolf",
                             "entries": [
-                                "The {@variantrule Attack Roll|XPHB} bonus from your Spirit Guide feature increases to +3."
+                                "The {@variantrule Attack Roll|XPHB} bonus from your {@subclassFeature Spirit Guide|Shaman|KyvumsShaman|Animist|KyvumsShaman|3|KyvumsShaman|Spirit Guide} feature increases to +3."
                             ]
                         },
                         {
                             "type": "entries",
                             "name": "Owl",
                             "entries": [
-                                "You learn a foe’s weaknesses, resistances, and immunities when using the Spirit Guide feature. You can also cast {@spell detect thoughts} without expending a spell slot."
+                                "You learn a foe’s weaknesses, resistances, and immunities when using the {@subclassFeature Spirit Guide|Shaman|KyvumsShaman|Animist|KyvumsShaman|3|KyvumsShaman|Spirit Guide} feature.",
+                                "You can also cast {@spell detect thoughts} without expending a spell slot a number of times a day equal to your Wisdom modifier."
                             ]
                         }
                     ]
